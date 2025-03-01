@@ -2,12 +2,10 @@
     <div class="quiz-app">
         <h2 class="section-title">Most Popular Quizes</h2>
 
-        <!-- Featured Quiz Card -->
         <div class="quiz-card">
             <img class="quiz-img" src="../assets/quizcard.png" alt="Take Quiz">
         </div>
 
-        <!-- Subjects Section -->
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
             <button class="subject-button">Science</button>
@@ -19,7 +17,6 @@
             <button class="subject-button">Tamil</button>
         </div>
         <h2 class="section-title">Chapter</h2>
-        <!-- Chapters Section -->
         <div class="chapters-list">
             <div class="chapter-item" v-for="(chapter, index) in chapters" :key="index">
                 {{ chapter }}
@@ -64,14 +61,12 @@ export default {
     margin-bottom: 1rem;
 }
 
-/* Quiz Card Styles */
 .quiz-img {
     height: auto;
     width: 100%;
     margin-bottom: 1rem;
 }
 
-/* Subjects Styles */
 .subjects-container {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +89,6 @@ export default {
     font-weight: 600;
 }
 
-/* Chapters Styles */
 .chapters-list {
     display: flex;
     flex-direction: column;
