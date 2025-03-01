@@ -1,11 +1,12 @@
 <script setup>
 import QuizScreen from "./components/QuizScreen.vue";
-import IntroScreen from "./components/IntroScreen.vue"
+import IntroScreen from "./components/IntroScreen.vue";
+import HomeScreen from "./components/HomeScreen.vue"
 </script>
 
 <template>
   <div class="main">
-    <QuizScreen/>
+    <HomeScreen/>
   </div>
 </template>
 
