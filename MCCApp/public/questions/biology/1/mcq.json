@@ -1,0 +1,52 @@
+[
+    {
+      "id": "1",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        {"option": "Liver", "isCorrect": false},
+        {"option": "Skin", "isCorrect": true},
+        {"option": "Heart", "isCorrect": false},
+        {"option": "Lungs", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Which part of the human brain controls balance and coordination?",
+      "options": [
+        {"option": "Cerebrum", "isCorrect": false},
+        {"option": "Cerebellum", "isCorrect": true},
+        {"option": "Medulla Oblongata", "isCorrect": false},
+        {"option": "Hypothalamus", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "3",
+      "question": "What is the primary function of red blood cells?",
+      "options": [
+        {"option": "Fight infections", "isCorrect": false},
+        {"option": "Transport oxygen", "isCorrect": true},
+        {"option": "Produce hormones", "isCorrect": false},
+        {"option": "Digest food", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Which type of joint is found in the human knee?",
+      "options": [
+        {"option": "Ball and socket", "isCorrect": false},
+        {"option": "Hinge joint", "isCorrect": true},
+        {"option": "Pivot joint", "isCorrect": false},
+        {"option": "Gliding joint", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "5",
+      "question": "What is the smallest bone in the human body?",
+      "options": [
+        {"option": "Femur", "isCorrect": false},
+        {"option": "Stapes", "isCorrect": true},
+        {"option": "Radius", "isCorrect": false},
+        {"option": "Clavicle", "isCorrect": false}
+      ]
+    }
+]

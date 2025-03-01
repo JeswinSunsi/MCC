@@ -1,0 +1,52 @@
+[
+    {
+      "id": "1",
+      "question": "Who was the leader of the Bolshevik Revolution in 1917?",
+      "options": [
+        {"option": "Vladimir Lenin", "isCorrect": true},
+        {"option": "Joseph Stalin", "isCorrect": false},
+        {"option": "Leon Trotsky", "isCorrect": false},
+        {"option": "Nicholas II", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Which event marked the beginning of Bolshevik rule in Russia?",
+      "options": [
+        {"option": "February Revolution", "isCorrect": false},
+        {"option": "October Revolution", "isCorrect": true},
+        {"option": "Russian Civil War", "isCorrect": false},
+        {"option": "Treaty of Brest-Litovsk", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "3",
+      "question": "What was the key slogan of the Bolsheviks during the Russian Revolution?",
+      "options": [
+        {"option": "Liberty, Equality, Fraternity", "isCorrect": false},
+        {"option": "Workers of the World, Unite!", "isCorrect": false},
+        {"option": "Peace, Land, and Bread", "isCorrect": true},
+        {"option": "Power to the Soviets", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "4",
+      "question": "What was the name of the secret police established by the Bolsheviks?",
+      "options": [
+        {"option": "KGB", "isCorrect": false},
+        {"option": "NKVD", "isCorrect": false},
+        {"option": "Cheka", "isCorrect": true},
+        {"option": "Red Guards", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Which treaty did the Bolsheviks sign to withdraw Russia from World War I?",
+      "options": [
+        {"option": "Treaty of Versailles", "isCorrect": false},
+        {"option": "Treaty of Brest-Litovsk", "isCorrect": true},
+        {"option": "Treaty of Trianon", "isCorrect": false},
+        {"option": "Treaty of Saint-Germain", "isCorrect": false}
+      ]
+    }
+]
