@@ -8,7 +8,7 @@ import ResultScreen from '../components/ResultScreen.vue'
 const routes = [
   { path: '/', component: HomeScreen },
   { path: '/intro', component: IntroScreen },
-  { path: '/quiz', component: QuizScreen },
+  { path: '/quiz/:subject/:chaptername/:chapternum', component: QuizScreen },
   { path: '/result/:figure/:stars', component: ResultScreen },
 ]
 
