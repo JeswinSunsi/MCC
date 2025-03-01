@@ -20,7 +20,7 @@
           correct: showResult && option.isCorrect,
           incorrect: showResult && !option.isCorrect && selectedOption === index
         }" 
-        @click="selectOption(index)">
+        @click="selectOption(index, option.isCorrect)">
         <div class="option-text">{{ option.option }}</div>
         <div class="option-circle" :class="{correct: showResult && option.isCorrect, 
           incorrect: showResult && !option.isCorrect && selectedOption === index}"></div>
@@ -48,20 +48,21 @@ import { useRouter } from "vue-router"
 
 const router = useRouter();
  
-const progress = ref(40);
-const options = ref([
-  { option: 'The Chola Empire did not build any temples', isCorrectAnswer: false },
-  { option: 'Meenakshi Temple', isCorrectAnswer: false },
-  { option: 'Shore Temple', isCorrectAnswer: false },
-  { option: 'Brihadeshwara Temple', isCorrectAnswer: true }
-]);
+const progress = ref(0);
+let oneBarProgress = 0;
 
 const selectedOption = ref(null);
 const showResult = ref(false);
 
-function selectOption(index) {
+function selectOption(index, correctness) {
   selectedOption.value = index;
   showResult.value = true;
+  if (correctness){
+    answerData.correct = answerData.correct + 1
+  }
+  else {
+    answerData.incorrect = answerData.incorrect + 1
+  }
 }
 
 const qnNow = ref(0)
@@ -69,11 +70,14 @@ const quizData = ref(null)
 const loading = ref(true)
 const totalQns = ref(0)
 
+let answerData = {"correct": 0, "incorrect": 0}
+
 const loadSubjectData = async () => {
       try {
         const response = await fetch(`/public/questions/history/1/mcq.json`)
         quizData.value = await response.json()
         totalQns.value = quizData.value.length
+        oneBarProgress = 100 / totalQns.value
       } catch (error) {
         console.error(`Error loading quiz data:`, error)
         quizData.value = []
@@ -85,10 +89,24 @@ loadSubjectData();
 
 function continueToNextQn(){
   if (qnNow.value == (totalQns.value - 1)){
-    router.push("/result")
+    let stars = 0;
+    const finalAnswerData = (answerData.correct / totalQns.value) * 100
+    if (finalAnswerData < 40){
+      stars = 1
+    }
+    else if (finalAnswerData < 80){
+      stars = 2
+    }
+    else {
+      stars = 3
+    }
+    router.push(`/result/${finalAnswerData}/${stars}`)
   }
-  qnNow.value++;
-  showResult.value = false;
+  else {
+    qnNow.value++;
+    progress.value = progress.value + oneBarProgress
+    showResult.value = false;
+  }
 }
 </script>
 
