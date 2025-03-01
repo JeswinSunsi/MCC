@@ -6,7 +6,7 @@ import HomeScreen from "./components/HomeScreen.vue"
 
 <template>
   <div class="main">
-    <HomeScreen/>
+    <RouterView />
   </div>
 </template>
 
