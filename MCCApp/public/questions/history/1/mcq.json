@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "question": "Which famous temple was built by Rajaraja Chola I?",
+      "options": [
+        {"option": "Brihadeeswarar Temple", "isCorrect": true},
+        {"option": "Shore Temple", "isCorrect": false},
+        {"option": "Meenakshi Temple", "isCorrect": false},
+        {"option": "Sun Temple", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Who was the first Mughal emperor of India?",
+      "options": [
+        {"option": "Akbar", "isCorrect": false},
+        {"option": "Babur", "isCorrect": true},
+        {"option": "Shah Jahan", "isCorrect": false},
+        {"option": "Aurangzeb", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Which battle marked the beginning of British rule in India?",
+      "options": [
+        {"option": "Battle of Plassey", "isCorrect": true},
+        {"option": "Battle of Panipat", "isCorrect": false},
+        {"option": "Battle of Buxar", "isCorrect": false},
+        {"option": "Battle of Haldighati", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Who was the founder of the Maurya Empire?",
+      "options": [
+        {"option": "Chandragupta Maurya", "isCorrect": true},
+        {"option": "Ashoka", "isCorrect": false},
+        {"option": "Bindusara", "isCorrect": false},
+        {"option": "Harsha", "isCorrect": false}
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Which movement was launched by Mahatma Gandhi in 1942?",
+      "options": [
+        {"option": "Non-Cooperation Movement", "isCorrect": false},
+        {"option": "Civil Disobedience Movement", "isCorrect": false},
+        {"option": "Quit India Movement", "isCorrect": true},
+        {"option": "Swadeshi Movement", "isCorrect": false}
+      ]
+    }
+  ]
+  
