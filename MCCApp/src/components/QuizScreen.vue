@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz-container">
+  <div class="quiz-container" v-if="loading == false">
     <div class="header">
       <div class="chapter-label">CHAPTER 2</div>
       <div class="chapter-title">The Chola Kingdoms</div>
@@ -11,19 +11,19 @@
 
     <div class="question-card">
       <div class="question">
-        <h2>Which famous temple was built by Rajaraja Chola I?</h2>
+        <h2>{{quizData[qnNow].question}}</h2>
       </div>
 
       <div class="options">
-      <div v-for="(item, index) in options" :key="index" class="option"
+      <div v-for="(option, index) in quizData[qnNow].options" :key="index" class="option"
         :class="{ 
-          correct: showResult && item.isCorrectAnswer,
-          incorrect: showResult && !item.isCorrectAnswer && selectedOption === index
+          correct: showResult && option.isCorrect,
+          incorrect: showResult && !option.isCorrect && selectedOption === index
         }" 
         @click="selectOption(index)">
-        <div class="option-text">{{ item.option }}</div>
-        <div class="option-circle" :class="{correct: showResult && item.isCorrectAnswer,
-          incorrect: showResult && !item.isCorrectAnswer && selectedOption === index}"></div>
+        <div class="option-text">{{ option.option }}</div>
+        <div class="option-circle" :class="{correct: showResult && option.isCorrect, 
+          incorrect: showResult && !option.isCorrect && selectedOption === index}"></div>
       </div>
     </div>
     </div>
@@ -36,12 +36,18 @@
         <span class="bookmark-icon">🔖</span> Bookmark
       </button>
     </div>
+    <Transition name="slide-up">
+      <div class="next-btn" v-if="showResult" @click="continueToNextQn">Continue</div>
+    </Transition>
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue"
+import { useRouter } from "vue-router"
 
+const router = useRouter();
+ 
 const progress = ref(40);
 const options = ref([
   { option: 'The Chola Empire did not build any temples', isCorrectAnswer: false },
@@ -56,6 +62,33 @@ const showResult = ref(false);
 function selectOption(index) {
   selectedOption.value = index;
   showResult.value = true;
+}
+
+const qnNow = ref(0)
+const quizData = ref(null)
+const loading = ref(true)
+const totalQns = ref(0)
+
+const loadSubjectData = async () => {
+      try {
+        const response = await fetch(`/public/questions/history/1/mcq.json`)
+        quizData.value = await response.json()
+        totalQns.value = quizData.value.length
+      } catch (error) {
+        console.error(`Error loading quiz data:`, error)
+        quizData.value = []
+      } finally {
+        loading.value = false
+      }
+}
+loadSubjectData();
+
+function continueToNextQn(){
+  if (qnNow.value == (totalQns.value - 1)){
+    router.push("/result")
+  }
+  qnNow.value++;
+  showResult.value = false;
 }
 </script>
 
@@ -206,40 +239,31 @@ function selectOption(index) {
   font-size: 16px;
 }
 
-.moving-border {
-  position: relative;
-  width: 250px;
-  height: 150px;
-  border-radius: 15px;
-  background: white;
-  padding: 20px;
-  --border-width: 4px;
+.next-btn {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  background-color: #FE6591;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
-.moving-border::before {
-  content: "";
-  position: absolute;
-  top: calc(-1 * var(--border-width));
-  left: calc(-1 * var(--border-width));
-  right: calc(-1 * var(--border-width));
-  bottom: calc(-1 * var(--border-width));
-  border-radius: inherit;
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00fff2, #4b00ff, #ff00ff, #ff0000);
-  background-size: 300% 300%;
-  animation: moveGradient 4s linear infinite;
-  z-index: -1;
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: transform 0.3s ease;
 }
 
-@keyframes moveGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.slide-up-enter-from,
+.slide-up-leave-to {
+  transform: translateY(100%);
 }
 
+.slide-up-enter-to,
+.slide-up-leave-from {
+  transform: translateY(0);
+}
 </style>
