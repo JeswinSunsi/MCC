@@ -8,17 +8,17 @@
 
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
-            <button class="subject-button" @click="changeSubject('Science')" :class="{active: selectedSubject === 'Science'}">Science</button>
+            <button class="subject-button" @click="changeSubject('Biology')" :class="{active: selectedSubject === 'Biology'}">Biology</button>
             <button class="subject-button" @click="changeSubject('Math')" :class="{active: selectedSubject === 'Math'}">Math</button>
             <button class="subject-button" @click="changeSubject('Civics')" :class="{active: selectedSubject === 'Civics'}">Civics</button>
             <button class="subject-button" @click="changeSubject('History')" :class="{active: selectedSubject === 'History'}">History</button>
             <button class="subject-button" @click="changeSubject('Geography')" :class="{active: selectedSubject === 'Geography'}">Geography</button>
-            <button class="subject-button" @click="changeSubject('English')" :class="{active: selectedSubject === 'English'}">English</button>
-            <button class="subject-button" @click="changeSubject('Tamil')" :class="{active: selectedSubject === 'Tamil'}">Tamil</button>
+            <button class="subject-button" @click="changeSubject('Chemistry')" :class="{active: selectedSubject === 'Chemistry'}">Chemistry</button>
+            <button class="subject-button" @click="changeSubject('Physics')" :class="{active: selectedSubject === 'Physics'}">Physics</button>
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" v-for="(chapter, index) in scienceChapters" :key="index" v-if="selectedSubject==='Science'">
+            <div class="chapter-item" v-for="(chapter, index) in BiologyChapters" :key="index" v-if="selectedSubject==='Biology'">
                 {{ chapter }}
             </div>
             <div class="chapter-item" v-for="(chapter, index) in mathChapters" :key="index" v-if="selectedSubject==='Math'">
@@ -34,7 +34,7 @@
 <script setup>
 import { ref } from "vue"
 
-const selectedSubject = ref("Science")
+const selectedSubject = ref("Biology")
 
 const mathChapters = ref([
     'Relations and Functions',
@@ -45,7 +45,7 @@ const mathChapters = ref([
     'Application of Derivatives'
 ])
 
-const scienceChapters = ref([
+const BiologyChapters = ref([
     'Atoms & Nuclei',
     'Magnetism & Induction',
     'Wave Optics',
