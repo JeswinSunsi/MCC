@@ -8,26 +8,33 @@
 
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
-            <button class="subject-button" @click="changeSubject('Biology')" :class="{active: selectedSubject === 'Biology'}">Biology</button>
-            <button class="subject-button" @click="changeSubject('Math')" :class="{active: selectedSubject === 'Math'}">Math</button>
-            <button class="subject-button" @click="changeSubject('Civics')" :class="{active: selectedSubject === 'Civics'}">Civics</button>
-            <button class="subject-button" @click="changeSubject('History')" :class="{active: selectedSubject === 'History'}">History</button>
-            <button class="subject-button" @click="changeSubject('Geography')" :class="{active: selectedSubject === 'Geography'}">Geography</button>
-            <button class="subject-button" @click="changeSubject('Chemistry')" :class="{active: selectedSubject === 'Chemistry'}">Chemistry</button>
-            <button class="subject-button" @click="changeSubject('Physics')" :class="{active: selectedSubject === 'Physics'}">Physics</button>
+            <button class="subject-button" @click="changeSubject('Biology')"
+                :class="{ active: selectedSubject === 'Biology' }">Biology</button>
+            <button class="subject-button" @click="changeSubject('Math')"
+                :class="{ active: selectedSubject === 'Math' }">Math</button>
+            <button class="subject-button" @click="changeSubject('Civics')"
+                :class="{ active: selectedSubject === 'Civics' }">Civics</button>
+            <button class="subject-button" @click="changeSubject('History')"
+                :class="{ active: selectedSubject === 'History' }">History</button>
+            <button class="subject-button" @click="changeSubject('Geography')"
+                :class="{ active: selectedSubject === 'Geography' }">Geography</button>
+            <button class="subject-button" @click="changeSubject('Chemistry')"
+                :class="{ active: selectedSubject === 'Chemistry' }">Chemistry</button>
+            <button class="subject-button" @click="changeSubject('Physics')"
+                :class="{ active: selectedSubject === 'Physics' }">Physics</button>
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" v-for="(chapter, index) in BiologyChapters" :key="index" v-if="selectedSubject==='Biology'">
-                {{ chapter }}
-            </div>
-            <div class="chapter-item" v-for="(chapter, index) in mathChapters" :key="index" v-if="selectedSubject==='Math'">
-                {{ chapter }}
-            </div>
-            <div class="chapter-item" v-for="(chapter, index) in socialChapters" :key="index" v-if="selectedSubject==='Civics'">
+            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index" @click="$router.push(`/quiz/${selectedSubject.toLowerCase()}/${chapter}/${index+1}`)">
                 {{ chapter }}
             </div>
         </div>
+
+        <div class="footer">
+            <h1>Developed with 💖 & ☕ by <span style="font-weight: 600;"> Tactile Studios</span></h1>
+            <h2>2025 | Copyright MIT License</h2>
+        </div>
+        <div style="height: 1rem;"></div>
     </div>
 </template>
 
@@ -36,34 +43,32 @@ import { ref } from "vue"
 
 const selectedSubject = ref("Biology")
 
-const mathChapters = ref([
-    'Relations and Functions',
-    'Inverse Trigonometry',
-    'Matrices',
-    'Determinants',
-    'Continuity and Differentiability',
-    'Application of Derivatives'
-])
+const Chapters = ref({
+    "Math": ['Relations and Functions',
+        'Inverse Trigonometry',
+        'Matrices',
+        'Determinants',
+        'Continuity and Differentiability',
+        'Application of Derivatives']
+,
+    "Biology": [
+        'Atoms & Nuclei',
+        'Magnetism & Induction',
+        'Wave Optics',
+        'The D Block',
+        'Solutions & Electrochemistry',
+        'Current Electricity'
+    ],
+    "History": ['The French Reneissance',
+        'Bolshevism in Imperial Russia',
+        'Subcontinental Empires',
+        'Introduction to Democratic Politics',
+        'Policy Development',
+        'World War II']
+})
 
-const BiologyChapters = ref([
-    'Atoms & Nuclei',
-    'Magnetism & Induction',
-    'Wave Optics',
-    'The D Block',
-    'Solutions & Electrochemistry',
-    'Current Electricity'
-])
 
-const socialChapters = ref([
-    'The French Reneissance',
-    'Bolshevism in Imperial Russia',
-    'Subcontinental Empires',
-    'Introduction to Democratic Politics',
-    'Policy Development',
-    'World War II'
-])
-
-function changeSubject(subject){
+function changeSubject(subject) {
     selectedSubject.value = subject;
 }
 </script>
@@ -74,6 +79,7 @@ function changeSubject(subject){
     max-width: 400px;
     margin: 0 auto;
     padding: 0.5rem;
+    padding-bottom: 0;
     background-color: white;
     color: #333;
 }
@@ -90,6 +96,9 @@ function changeSubject(subject){
     height: auto;
     width: 100%;
     margin-bottom: 1rem;
+}
+.quiz-card {
+    min-height: 5rem;
 }
 
 .subjects-container {
@@ -118,6 +127,7 @@ function changeSubject(subject){
 .chapters-list {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 .chapter-item {
@@ -126,5 +136,29 @@ function changeSubject(subject){
     border-bottom: 1px solid #ADADAD;
     font-size: 0.8rem;
     font-weight: 400;
+}
+
+.footer {
+    height: max-content;
+    padding: 1rem 0.7rem;
+    border-radius: 0.6rem;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3F4EA4;
+}
+
+.footer h1 {
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.footer h2 {
+    font-size: 0.6rem;
 }
 </style>
