@@ -205,4 +205,41 @@ function selectOption(index) {
 .bookmark-icon {
   font-size: 16px;
 }
+
+.moving-border {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  background: white;
+  padding: 20px;
+  --border-width: 4px;
+}
+
+.moving-border::before {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  right: calc(-1 * var(--border-width));
+  bottom: calc(-1 * var(--border-width));
+  border-radius: inherit;
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00fff2, #4b00ff, #ff00ff, #ff0000);
+  background-size: 300% 300%;
+  animation: moveGradient 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 </style>
