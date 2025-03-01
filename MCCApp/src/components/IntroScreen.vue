@@ -4,7 +4,7 @@
     <div class="content">
         <h1>Ace your exams the smart way</h1>
         <h3>Access MCQs, learning material, and more in the click of a finger</h3>
-        <div class="button">
+        <div class="button" @click="$router.push('/')">
             Start <span style="font-weight: 600;">Learning</span>
         </div>
     </div>
