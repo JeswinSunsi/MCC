@@ -23,7 +23,7 @@
         <img src="../assets/1star.png" alt="3 Stars" class="stars" v-if="stars == 1">
     </div>
       
-      <div class="complete-button" @click="$router.push('/')">
+      <div class="complete-button" @click="$router.push('/home')">
         Complete
       </div>
     </div>
