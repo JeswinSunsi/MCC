@@ -1,6 +1,5 @@
 <template>
   <div class="quiz-container" v-if="loading == false">
-    <div class="quiz-container" v-if="loading == false">
     <div class="header">
       <div class="chapter-label">CHAPTER {{ chapter }}</div>
       <div class="chapter-title">{{ chapterName }}</div>
@@ -50,7 +49,6 @@
         Continue
       </div>
     </Transition>
-  </div>
   </div>
 </template>
 
@@ -328,12 +326,12 @@ loadSubjectData()
 
 .slide-up-enter-active,
 .slide-up-leave-active {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .slide-up-enter-from,
 .slide-up-leave-to {
-  transform: translateY(100%);
+  transform: translateY(200%);
 }
 
 .slide-up-enter-to,
@@ -345,7 +343,8 @@ loadSubjectData()
   width: 100%;
   padding: 1.5rem;
   padding-top: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 20%;
+  background-color: #3f51b5;
 }
 
 .explanation {
