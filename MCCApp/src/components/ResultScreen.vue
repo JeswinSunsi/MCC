@@ -23,7 +23,7 @@
         <img src="../assets/1star.png" alt="3 Stars" class="stars" v-if="stars == 1">
     </div>
       
-      <div class="complete-button" @click="$router.push('/')">
+      <div class="complete-button" @click="$router.push('/home')">
         Complete
       </div>
     </div>
@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #4a4ca0;
+    background-color: #3f51b5;
     position: relative;
     font-family: sans-serif;
     height: 100%;

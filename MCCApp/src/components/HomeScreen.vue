@@ -2,9 +2,12 @@
     <div class="quiz-app">
         <h2 class="section-title">Most Popular Quizes</h2>
 
-        <div class="quiz-card">
-            <img class="quiz-img" src="../assets/quizcard.png" alt="Take Quiz">
-        </div>
+        <Carousel v-bind="config">
+    <Slide v-for="image in images" :key="image.id">
+      <div class="autoscroll-container" :style='`background-image: url(${image.url}); background-size: cover; padding: 1rem; height: 100%; width: 100%;`'>
+      </div>
+    </Slide>
+  </Carousel>
 
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
@@ -40,6 +43,23 @@
 
 <script setup>
 import { ref } from "vue"
+import 'vue3-carousel/dist/carousel.css';
+import { Carousel, Slide, Navigation } from 'vue3-carousel';
+
+import quizCardImage from "../assets/quizcard.png"
+import quizCardImage2 from "../assets/quizcard2.png"
+import quizCardImage3 from "../assets/quizcard3.png"
+
+const images = [{"id": 1, "url": quizCardImage}, {"id": 1, "url": quizCardImage2}, {"id": 3, "url": quizCardImage3}]
+
+const config = {
+  height: 196,
+  itemsToShow: 1,
+  gap: 5,
+  autoplay: 4000,
+  wrapAround: true,
+  pauseAutoplayOnHover: true,
+};
 
 const selectedSubject = ref("Biology")
 

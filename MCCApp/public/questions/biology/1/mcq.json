@@ -1,52 +1,232 @@
 [
     {
-      "id": "1",
-      "question": "What is the largest organ in the human body?",
+      "id": 1,
+      "question": "Inertia of a body depends on",
       "options": [
-        {"option": "Liver", "isCorrect": false},
-        {"option": "Skin", "isCorrect": true},
-        {"option": "Heart", "isCorrect": false},
-        {"option": "Lungs", "isCorrect": false}
-      ]
+        {
+          "option": "weight of the object",
+          "isCorrect": false
+        },
+        {
+          "option": "acceleration due to gravity of the planet ($g$)",
+          "isCorrect": false
+        },
+        {
+          "option": "mass of the object",
+          "isCorrect": true
+        },
+        {
+          "option": "Both $a$ & $b$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Inertia is a property that depends solely on the mass of an object, not its weight or the gravitational field it's in."
     },
     {
-      "id": "2",
-      "question": "Which part of the human brain controls balance and coordination?",
+      "id": 2,
+      "question": "Impulse is equals to",
       "options": [
-        {"option": "Cerebrum", "isCorrect": false},
-        {"option": "Cerebellum", "isCorrect": true},
-        {"option": "Medulla Oblongata", "isCorrect": false},
-        {"option": "Hypothalamus", "isCorrect": false}
-      ]
+        {
+          "option": "rate of change of momentum",
+          "isCorrect": false
+        },
+        {
+          "option": "rate of force and time",
+          "isCorrect": false
+        },
+        {
+          "option": "change of momentum",
+          "isCorrect": true
+        },
+        {
+          "option": "rate of change of mass",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Impulse ($J$) equals change in momentum ($\\Delta p$) and can be calculated as $J = F\\Delta t = \\Delta p$"
     },
     {
-      "id": "3",
-      "question": "What is the primary function of red blood cells?",
+      "id": 3,
+      "question": "Newton's III law is applicable",
       "options": [
-        {"option": "Fight infections", "isCorrect": false},
-        {"option": "Transport oxygen", "isCorrect": true},
-        {"option": "Produce hormones", "isCorrect": false},
-        {"option": "Digest food", "isCorrect": false}
-      ]
+        {
+          "option": "for a body is at rest",
+          "isCorrect": false
+        },
+        {
+          "option": "for a body in motion",
+          "isCorrect": false
+        },
+        {
+          "option": "both $a$ & $b$",
+          "isCorrect": true
+        },
+        {
+          "option": "only for bodies with equal masses",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Newton's Third Law ($F_{action} = -F_{reaction}$) applies universally, regardless of whether objects are moving or stationary."
     },
     {
-      "id": "4",
-      "question": "Which type of joint is found in the human knee?",
+      "id": 4,
+      "question": "Plotting a graph for momentum on the Y-axis and time on X-axis, slope of momentum-time graph gives",
       "options": [
-        {"option": "Ball and socket", "isCorrect": false},
-        {"option": "Hinge joint", "isCorrect": true},
-        {"option": "Pivot joint", "isCorrect": false},
-        {"option": "Gliding joint", "isCorrect": false}
-      ]
+        {
+          "option": "Impulsive force",
+          "isCorrect": false
+        },
+        {
+          "option": "Acceleration",
+          "isCorrect": false
+        },
+        {
+          "option": "Force",
+          "isCorrect": true
+        },
+        {
+          "option": "Rate of force",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The slope of momentum-time graph ($\\frac{dp}{dt}$) equals force ($F$) according to Newton's Second Law."
     },
     {
-      "id": "5",
-      "question": "What is the smallest bone in the human body?",
+      "id": 5,
+      "question": "In which of the following sport the turning effect of force used",
       "options": [
-        {"option": "Femur", "isCorrect": false},
-        {"option": "Stapes", "isCorrect": true},
-        {"option": "Radius", "isCorrect": false},
-        {"option": "Clavicle", "isCorrect": false}
-      ]
+        {
+          "option": "swimming",
+          "isCorrect": false
+        },
+        {
+          "option": "tennis",
+          "isCorrect": true
+        },
+        {
+          "option": "cycling",
+          "isCorrect": false
+        },
+        {
+          "option": "hockey",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In tennis, the turning effect of force (torque) is crucial for generating spin and controlling the ball's trajectory."
+    },
+    {
+      "id": 6,
+      "question": "The unit of '$g$' is $ms^{-2}$. It can be also expressed as",
+      "options": [
+        {
+          "option": "$cms^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$Nkg^{-1}$",
+          "isCorrect": true
+        },
+        {
+          "option": "$Nm^2kg^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$cm^2s^{-2}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Acceleration due to gravity ($g$) can be expressed as $Nkg^{-1}$ since $F = mg$ implies $g = F/m = N/kg$."
+    },
+    {
+      "id": 7,
+      "question": "One kilogram force equals to",
+      "options": [
+        {
+          "option": "9.8 dyne",
+          "isCorrect": false
+        },
+        {
+          "option": "$9.8 \\times 10^4$ N",
+          "isCorrect": false
+        },
+        {
+          "option": "$98 \\times 10^4$ dyne",
+          "isCorrect": false
+        },
+        {
+          "option": "980 dyne",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "1 kgf = 9.8 N = 980 dyne (where 1 N = 100,000 dyne)"
+    },
+    {
+      "id": 8,
+      "question": "The mass of a body is measured on planet Earth as $M$ kg. When it is taken to a planet of radius half that of the Earth then its value will be ____kg",
+      "options": [
+        {
+          "option": "4$M$",
+          "isCorrect": false
+        },
+        {
+          "option": "2$M$",
+          "isCorrect": false
+        },
+        {
+          "option": "$M/4$",
+          "isCorrect": false
+        },
+        {
+          "option": "$M$",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Mass is an intrinsic property of matter and remains constant regardless of location or gravitational field."
+    },
+    {
+      "id": 9,
+      "question": "If the Earth shrinks to 50% of its real radius its mass remaining the same, the weight of a body on the Earth will",
+      "options": [
+        {
+          "option": "decrease by 50%",
+          "isCorrect": false
+        },
+        {
+          "option": "increase by 50%",
+          "isCorrect": false
+        },
+        {
+          "option": "decrease by 25%",
+          "isCorrect": false
+        },
+        {
+          "option": "increase by 300%",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "According to $F = G\\frac{Mm}{r^2}$, if radius halves, gravitational force (weight) increases by factor of 4 (300% increase)."
+    },
+    {
+      "id": 10,
+      "question": "To project the rockets which of the following principle(s) is /(are) required?",
+      "options": [
+        {
+          "option": "Newton's third law of motion",
+          "isCorrect": false
+        },
+        {
+          "option": "Newton's law of gravitation",
+          "isCorrect": false
+        },
+        {
+          "option": "law of conservation of linear momentum",
+          "isCorrect": false
+        },
+        {
+          "option": "both $a$ and $c$",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Rocket propulsion relies on Newton's Third Law (action-reaction) and conservation of linear momentum as exhaust gases are expelled."
     }
 ]

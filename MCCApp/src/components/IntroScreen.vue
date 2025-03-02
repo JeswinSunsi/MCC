@@ -4,7 +4,7 @@
     <div class="content">
         <h1>Ace your exams the smart way</h1>
         <h3>Access MCQs, learning material, and more in the click of a finger</h3>
-        <div class="button" @click="$router.push('/')">
+        <div class="button" @click="$router.push('/home')">
             Start <span style="font-weight: 600;">Learning</span>
         </div>
     </div>
@@ -15,10 +15,10 @@
 
 <style scoped>
 .container {
-    background-color: #3F4EA4;
+    background-color: #FFF;
     height: 100%;
     width: 100%;
-    color: #FFF;
+    color: #3F4EA4;
     font-family: Poppins;
 }
 
@@ -38,10 +38,10 @@
 }
 
 .content h1 {
-    font-size: 1.4rem;
-    padding: 0rem 4rem;
-    line-height: 2rem;
-    font-weight: 600;
+    font-size: 1.7rem;
+    padding: 0rem 3rem;
+    line-height: 2.5rem;
+    font-weight: 700;
     margin-bottom: 1.6rem;
 }
 
@@ -55,10 +55,10 @@
 
 .button {
     width: 100%;
-    background-color: #fff;
+    background-color: #3F4EA4;
     padding: 1.4rem;
     font-size: 1.1rem;
-    color: #3F4EA4;
+    color: #FFF;
     border-radius: 0.5rem;
 }
 </style>
