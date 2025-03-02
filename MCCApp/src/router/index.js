@@ -1,10 +1,10 @@
 import { createWebHistory, createRouter } from 'vue-router'
 
-import HomeScreen from '../components/HomeScreen.vue'
-import IntroScreen from '../components/IntroScreen.vue'
-import McqScreen from '../components/McqScreen.vue'
-import ResultScreen from '../components/ResultScreen.vue'
-import FibScreen from '../components/FibScreen.vue'
+import HomeScreen from '../views/HomeScreen.vue'
+import IntroScreen from '../views/IntroScreen.vue'
+import McqScreen from '../views/McqScreen.vue'
+import ResultScreen from '../views/ResultScreen.vue'
+import FibScreen from '../views/FibScreen.vue'
 
 const routes = [
   { path: '/home', component: HomeScreen },
