@@ -28,7 +28,7 @@
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index" @click="$router.push(`/quiz/${selectedSubject.toLowerCase()}/${chapter}/${index+1}`)">
+            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index" @click="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index+1}`)">
                 {{ chapter }}
             </div>
         </div>
