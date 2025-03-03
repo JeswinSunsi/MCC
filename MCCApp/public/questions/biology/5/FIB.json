@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "question": "_________ causes cell elongation, apical dominance and prevents abscission.",
+      "answer": "Auxin",
+      "explanation": "Auxin is a plant hormone that promotes cell elongation, maintains apical dominance by suppressing lateral bud growth, and prevents premature leaf and fruit drop."
+    },
+    {
+      "id": 2,
+      "question": "_________ is a gaseous hormone involved in abscission of organs and acceleration of fruit ripening.",
+      "answer": "Ethylene",
+      "explanation": "Ethylene is the only gaseous plant hormone, which promotes fruit ripening, leaf senescence, and abscission of plant organs."
+    },
+    {
+      "id": 3,
+      "question": "_________ causes stomatal closure.",
+      "answer": "Abscisic acid",
+      "explanation": "Abscisic acid (ABA) triggers stomatal closure in response to water stress, helping plants conserve water during drought conditions."
+    },
+    {
+      "id": 4,
+      "question": "Gibberellins induce stem elongation in _________ plants.",
+      "answer": "dwarf",
+      "explanation": "Gibberellins specifically promote stem elongation in dwarf plants by stimulating cell division and elongation, helping them achieve normal height."
+    },
+    {
+      "id": 5,
+      "question": "The hormone which has negative effect on apical dominance is _________.",
+      "answer": "Cytokinin",
+      "explanation": "Cytokinin counteracts apical dominance by promoting lateral bud growth, working in opposition to auxin's effects."
+    },
+    {
+      "id": 6,
+      "question": "Calcium metabolism of the body is controlled by _________.",
+      "answer": "Parathyroid hormone",
+      "explanation": "Parathyroid hormone (PTH) regulates calcium homeostasis by controlling calcium absorption, excretion, and bone metabolism."
+    },
+    {
+      "id": 7,
+      "question": "In the islets of Langerhans, beta cells secrete _________.",
+      "answer": "Insulin",
+      "explanation": "Beta cells in the pancreatic islets of Langerhans produce insulin, which regulates blood glucose levels by promoting glucose uptake and storage."
+    },
+    {
+      "id": 8,
+      "question": "The growth and functions of thyroid gland is controlled by _________.",
+      "answer": "Thyroid Stimulating Hormone (TSH)",
+      "explanation": "TSH, secreted by the anterior pituitary, controls the growth and function of the thyroid gland, regulating the production of thyroid hormones."
+    },
+    {
+      "id": 9,
+      "question": "Decreased secretion of thyroid hormones in the children leads to _________.",
+      "answer": "Cretinism",
+      "explanation": "Cretinism is a condition caused by thyroid hormone deficiency in children, characterized by stunted physical and mental development."
+    }
+]

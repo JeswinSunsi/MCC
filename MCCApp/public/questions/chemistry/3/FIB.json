@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "The component present in lesser amount, in a solution is called _______",
+      "answer": "solute",
+      "explanation": "Solute is the component that is present in smaller quantity and is dissolved in the solvent."
+    },
+    {
+      "id": 2,
+      "question": "Example for liquid in solid type solution is _____",
+      "answer": "amalgam",
+      "explanation": "Amalgam (mercury in solid metals) is an example of liquid in solid solution, where liquid mercury is dissolved in solid metals like silver or gold."
+    },
+    {
+      "id": 3,
+      "question": "Solubility is the amount of solute dissolved in _____ g of solvent",
+      "answer": "100",
+      "explanation": "Solubility is defined as the maximum amount of solute that can dissolve in 100g of solvent at a specific temperature."
+    },
+    {
+      "id": 4,
+      "question": "Polar compounds are soluble in _____ solvents",
+      "answer": "polar",
+      "explanation": "Like dissolves like - polar compounds dissolve in polar solvents due to similar intermolecular forces."
+    },
+    {
+      "id": 5,
+      "question": "Volume percentage decreases with increases in temperature because _____",
+      "answer": "thermal expansion",
+      "explanation": "As temperature increases, liquids expand, increasing their volume, which leads to a decrease in volume percentage of solute."
+    }
+]

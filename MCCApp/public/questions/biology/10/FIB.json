@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "Cirrhosis is caused in liver due to excessive use of __________________",
+      "answer": "alcohol",
+      "explanation": "Chronic alcohol consumption damages liver cells, leading to scarring and cirrhosis, where healthy liver tissue is replaced by non-functioning scar tissue."
+    },
+    {
+      "id": 2,
+      "question": "A highly poisonous chemicals derived from tobacco is _________________",
+      "answer": "nicotine",
+      "explanation": "Nicotine is a highly addictive and toxic alkaloid found in tobacco that affects the nervous system and can cause various health problems."
+    },
+    {
+      "id": 3,
+      "question": "Blood cancer is called ___________.",
+      "answer": "leukemia",
+      "explanation": "Leukemia is a cancer of blood-forming tissues, usually bone marrow, resulting in abnormal white blood cell production."
+    },
+    {
+      "id": 4,
+      "question": "Less response of a drug to a specific dose with repeated use is called ________",
+      "answer": "drug tolerance",
+      "explanation": "Drug tolerance occurs when the body adapts to a drug, requiring higher doses to achieve the same effect that was once achieved with lower doses."
+    },
+    {
+      "id": 5,
+      "question": "Insulin resistance is a condition in _____________diabetes mellitus",
+      "answer": "Type 2",
+      "explanation": "Type 2 diabetes is characterized by insulin resistance, where body cells don't respond properly to insulin, leading to high blood glucose levels."
+    }
+]

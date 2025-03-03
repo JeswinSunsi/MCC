@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Agriculture of Tamil Nadu constitutes ____________ % of its economy.",
+    "answer": "13%",
+    "explanation": "Agriculture contributes around 13% to Tamil Nadu's economy, providing employment to a large portion of the population."
+  },
+  {
+    "id": 2,
+    "question": "Sathanur dam is constructed across the river ____________.",
+    "answer": "Pennaiyar",
+    "explanation": "Sathanur Dam is built across the Pennaiyar River in Tamil Nadu, serving as an important irrigation and hydroelectric source."
+  },
+  {
+    "id": 3,
+    "question": "___________ is the third largest airport in India after Mumbai and Delhi.",
+    "answer": "Chennai International Airport",
+    "explanation": "Chennai International Airport is the third largest in India, serving as a major hub for both domestic and international flights."
+  },
+  {
+    "id": 4,
+    "question": "The difference between the value of exports and imports is called ___________.",
+    "answer": "Balance of Trade",
+    "explanation": "The balance of trade is the difference between a country's exports and imports, indicating trade surplus or deficit."
+  }
+]

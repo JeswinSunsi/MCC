@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "The concept of constitution first originated in ________.",
+    "answer": "England",
+    "explanation": "The concept of a constitution, as a framework for governance, first originated in England with the Magna Carta in 1215."
+  },
+  {
+    "id": 2,
+    "question": "________ was elected as the temporary President of the Constituent Assembly.",
+    "answer": "Dr. Sachchidananda Sinha",
+    "explanation": "Dr. Sachchidananda Sinha was the temporary President of the Constituent Assembly before Dr. Rajendra Prasad was elected as the permanent President."
+  },
+  {
+    "id": 3,
+    "question": "The Constitution of India was adopted on ________.",
+    "answer": "26th November 1949",
+    "explanation": "The Constitution of India was adopted on 26th November 1949 and came into effect on 26th January 1950."
+  },
+  {
+    "id": 4,
+    "question": "________ writs are mentioned in Article 32.",
+    "answer": "Five",
+    "explanation": "Article 32 of the Indian Constitution provides for five types of writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo Warranto."
+  },
+  {
+    "id": 5,
+    "question": "Fundamental duties have been given to the citizens of India under Article ________.",
+    "answer": "Article 51A",
+    "explanation": "The Fundamental Duties of Indian citizens were added by the 42nd Amendment in 1976 under Article 51A."
+  }
+]

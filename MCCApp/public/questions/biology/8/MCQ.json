@@ -1,0 +1,117 @@
+[
+    {
+      "id": 1,
+      "question": "Biogenetic law states that ______________",
+      "options": [
+        {
+          "option": "Ontogeny recapitulates phylogeny",
+          "isCorrect": true
+        },
+        {
+          "option": "Ontogeny and phylogeny go together",
+          "isCorrect": false
+        },
+        {
+          "option": "Phylogeny recapitulates ontogeny",
+          "isCorrect": false
+        },
+        {
+          "option": "There is no relationship between phylogeny and ontogeny",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Biogenetic Law, proposed by Ernst Haeckel, states that an organism's embryonic development (ontogeny) repeats its evolutionary history (phylogeny)."
+    },
+    {
+      "id": 2,
+      "question": "The 'use and disuse theory' was proposed by ______________.",
+      "options": [
+        {
+          "option": "Jean Baptiste Lamarck",
+          "isCorrect": true
+        },
+        {
+          "option": "Charles Darwin",
+          "isCorrect": false
+        },
+        {
+          "option": "Ernst Haeckel",
+          "isCorrect": false
+        },
+        {
+          "option": "Gregor Mendel",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Lamarck proposed that organs or features that are used frequently become stronger and larger, while those that aren't used deteriorate, and these acquired characteristics can be inherited."
+    },
+    {
+      "id": 3,
+      "question": "Paleontologists deal with",
+      "options": [
+        {
+          "option": "Fossil evidences",
+          "isCorrect": true
+        },
+        {
+          "option": "Embryological evidences",
+          "isCorrect": false
+        },
+        {
+          "option": "Vestigial organ evidences",
+          "isCorrect": false
+        },
+        {
+          "option": "All the above",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Paleontologists specifically study fossils to understand extinct life forms and their evolution through geological time."
+    },
+    {
+      "id": 4,
+      "question": "The best way of direct dating fossils of recent origin is by",
+      "options": [
+        {
+          "option": "Radio-carbon method",
+          "isCorrect": true
+        },
+        {
+          "option": "Uranium lead method",
+          "isCorrect": false
+        },
+        {
+          "option": "Potassium-argon method",
+          "isCorrect": false
+        },
+        {
+          "option": "Both (a) and (c)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Radio-carbon dating is most effective for dating relatively recent fossils (up to 50,000 years old) as it measures the decay of carbon-14 isotopes."
+    },
+    {
+      "id": 5,
+      "question": "The term Ethnobotany was coined by",
+      "options": [
+        {
+          "option": "J.W. Harsbberger",
+          "isCorrect": true
+        },
+        {
+          "option": "Khorana",
+          "isCorrect": false
+        },
+        {
+          "option": "Ronald Ross",
+          "isCorrect": false
+        },
+        {
+          "option": "Hugo de Vries",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "J.W. Harshberger coined the term 'ethnobotany' in 1895 to describe studies of plants used by primitive and aboriginal people."
+    }
+]

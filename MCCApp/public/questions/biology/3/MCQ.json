@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "question": "Active transport involves",
+    "options": [
+      {
+        "option": "all of the above",
+        "isCorrect": true
+      },
+      {
+        "option": "movement of molecules from lower to higher concentration",
+        "isCorrect": false
+      },
+      {
+        "option": "expenditure of energy",
+        "isCorrect": false
+      },
+      {
+        "option": "it is an uphill task",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Active transport involves all these characteristics: it requires energy (ATP), moves molecules against their concentration gradient, and is considered an uphill task because it works against the natural flow."
+  },
+  {
+    "id": 2,
+    "question": "Water which is absorbed by roots is transported to aerial parts of the plant through",
+    "options": [
+      {
+        "option": "xylem",
+        "isCorrect": true
+      },
+      {
+        "option": "cortex",
+        "isCorrect": false
+      },
+      {
+        "option": "epidermis",
+        "isCorrect": false
+      },
+      {
+        "option": "phloem",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xylem tissue is specifically adapted for water transport in plants, moving water and dissolved minerals from roots to all other parts of the plant through specialized vessels and tracheids."
+  },
+  {
+    "id": 3,
+    "question": "During transpiration there is loss of",
+    "options": [
+      {
+        "option": "water",
+        "isCorrect": true
+      },
+      {
+        "option": "carbon dioxide",
+        "isCorrect": false
+      },
+      {
+        "option": "oxygen",
+        "isCorrect": false
+      },
+      {
+        "option": "none of the above",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Transpiration is the process of water loss from plant surfaces, primarily through stomata in leaves, in the form of water vapor."
+  },
+  {
+    "id": 4,
+    "question": "Root hairs are",
+    "options": [
+      {
+        "option": "both b and c",
+        "isCorrect": true
+      },
+      {
+        "option": "cortical cell",
+        "isCorrect": false
+      },
+      {
+        "option": "projection of epidermal cell",
+        "isCorrect": false
+      },
+      {
+        "option": "unicellular",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Root hairs are microscopic projections of epidermal cells that are unicellular in nature, increasing the surface area for water and mineral absorption."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following process requires energy?",
+    "options": [
+      {
+        "option": "active transport",
+        "isCorrect": true
+      },
+      {
+        "option": "diffusion",
+        "isCorrect": false
+      },
+      {
+        "option": "osmosis",
+        "isCorrect": false
+      },
+      {
+        "option": "all of them",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Only active transport requires energy (ATP) as it moves substances against their concentration gradient, while diffusion and osmosis are passive processes."
+  },
+  {
+    "id": 6,
+    "question": "The wall of human heart is made of",
+    "options": [
+      {
+        "option": "All of the above",
+        "isCorrect": true
+      },
+      {
+        "option": "Endocardium",
+        "isCorrect": false
+      },
+      {
+        "option": "Epicardium",
+        "isCorrect": false
+      },
+      {
+        "option": "Myocardium",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The heart wall consists of three layers: the inner endocardium, middle myocardium (muscle layer), and outer epicardium, each serving specific functions."
+  },
+  {
+    "id": 7,
+    "question": "Which is the correct sequence of blood flow",
+    "options": [
+      {
+        "option": "atrium ventricle arteries vein",
+        "isCorrect": true
+      },
+      {
+        "option": "ventricle atrium vein arteries",
+        "isCorrect": false
+      },
+      {
+        "option": "atrium ventricle veins arteries",
+        "isCorrect": false
+      },
+      {
+        "option": "ventricles vein atrium arteries",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Blood flows from atrium to ventricle, then to arteries and finally through veins, maintaining a unidirectional flow through the circulatory system."
+  },
+  {
+    "id": 8,
+    "question": "A patient with blood group O was injured in an accident and has blood loss. Which group of blood should be used by doctor for transfusion?",
+    "options": [
+      {
+        "option": "O group",
+        "isCorrect": true
+      },
+      {
+        "option": "AB group",
+        "isCorrect": false
+      },
+      {
+        "option": "A or B group",
+        "isCorrect": false
+      },
+      {
+        "option": "all blood group",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "People with blood group O can only receive O blood type because they have anti-A and anti-B antibodies in their plasma, making them universal recipients of only O type blood."
+  },
+  {
+    "id": 9,
+    "question": "'Heart of heart' is called",
+    "options": [
+      {
+        "option": "SA node",
+        "isCorrect": true
+      },
+      {
+        "option": "AV node",
+        "isCorrect": false
+      },
+      {
+        "option": "Purkinje fibres",
+        "isCorrect": false
+      },
+      {
+        "option": "Bundle of His",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The SA (Sinoatrial) node is called the 'heart of heart' because it acts as the natural pacemaker, initiating each heartbeat by generating electrical impulses."
+  },
+  {
+    "id": 10,
+    "question": "Which one of the following shows correct composition of blood",
+    "options": [
+      {
+        "option": "Blood - Plasma + RBC+ WBC +Platelets",
+        "isCorrect": true
+      },
+      {
+        "option": "Plasma - Blood + Lymphocyte",
+        "isCorrect": false
+      },
+      {
+        "option": "Serum - Blood + Fibrinogen",
+        "isCorrect": false
+      },
+      {
+        "option": "Lymph - Plasma + RBC + WBC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Blood is composed of plasma (liquid component) and formed elements including red blood cells (RBCs), white blood cells (WBCs), and platelets."
+  }
+]

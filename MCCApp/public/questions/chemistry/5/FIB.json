@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "question": "An atom or a group of atoms which is responsible for chemical characteristics of an organic compound is called ____________",
+      "answer": "functional group",
+      "explanation": "Functional groups determine the chemical properties and reactivity of organic compounds."
+    },
+    {
+      "id": 2,
+      "question": "The general molecular formula of alkynes is _____________",
+      "answer": "$C_nH_{2n-2}$",
+      "explanation": "Alkynes have a triple bond and follow the general formula $C_nH_{2n-2}$, where n is the number of carbon atoms."
+    },
+    {
+      "id": 3,
+      "question": "In IUPAC name, the carbon skeleton of a compound is represented by _________ (root word / prefix / suffix)",
+      "answer": "root word",
+      "explanation": "The root word indicates the number of carbon atoms in the longest continuous chain (e.g., meth-, eth-, prop-)."
+    },
+    {
+      "id": 4,
+      "question": "(Saturated / Unsaturated) ___________ compounds decolourize bromine water",
+      "answer": "Unsaturated",
+      "explanation": "Unsaturated compounds containing double or triple bonds can decolorize bromine water through addition reactions."
+    },
+    {
+      "id": 5,
+      "question": "Dehydration of ethanol by conc. Sulphuric acid forms _______ (ethene/ ethane)",
+      "answer": "ethene",
+      "explanation": "Dehydration of ethanol removes $H_2O$ to form ethene: $CH_3CH_2OH \\xrightarrow{H_2SO_4} CH_2=CH_2 + H_2O$"
+    },
+    {
+      "id": 6,
+      "question": "100 % pure ethanol is called ____________",
+      "answer": "absolute alcohol",
+      "explanation": "Absolute alcohol refers to pure ethanol with no water content (100% ethanol)."
+    },
+    {
+      "id": 7,
+      "question": "Ethanoic acid turns _______ litmus to _________",
+      "answer": "blue, red",
+      "explanation": "Being an acid, ethanoic acid (CH₃COOH) turns blue litmus to red due to its acidic nature."
+    },
+    {
+      "id": 8,
+      "question": "The alkaline hydrolysis of fatty acids is termed as _____________",
+      "answer": "saponification",
+      "explanation": "Saponification is the process of converting fats/oils into soap using an alkali (base)."
+    },
+    {
+      "id": 9,
+      "question": "Biodegradable detergents are made of _________(branched / straight) chain hydrocarbons",
+      "answer": "straight",
+      "explanation": "Straight chain hydrocarbons are more easily broken down by microorganisms, making detergents biodegradable."
+    }
+]

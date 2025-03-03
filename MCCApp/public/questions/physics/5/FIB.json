@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "question": "Rapid back and forth motion of a particle about its mean position is called _____",
+      "answer": "vibration",
+      "explanation": "Vibration refers to the periodic oscillatory motion of a particle about its equilibrium or mean position."
+    },
+    {
+      "id": 2,
+      "question": "If the energy in a longitudinal wave travels from south to north, the particles of the medium would be vibrating in _____",
+      "answer": "north-south direction",
+      "explanation": "In longitudinal waves, particles vibrate parallel to the direction of wave propagation, so if wave travels north-south, particles also vibrate north-south."
+    },
+    {
+      "id": 3,
+      "question": "A whistle giving out a sound of frequency 450 Hz, approaches a stationary observer at a speed of 33 ms$^{-1}$. The frequency heard by the observer is (speed of sound = 330 ms$^{-1}$) ______",
+      "answer": "500 Hz",
+      "explanation": "Using Doppler effect formula: $f' = f(\\frac{v}{v-v_s})$ where $f'$ = apparent frequency, $f$ = 450 Hz, $v$ = 330 ms$^{-1}$, $v_s$ = 33 ms$^{-1}$. This gives 500 Hz."
+    },
+    {
+      "id": 4,
+      "question": "A source of sound is travelling with a velocity 40 km/h towards an observer and emits a sound of frequency 2000 Hz. If the velocity of sound is 1220 km/h, then the apparent frequency heard by the observer is ___________",
+      "answer": "2066 Hz",
+      "explanation": "Using Doppler effect formula: $f' = f(\\frac{v}{v-v_s})$ where $f$ = 2000 Hz, $v$ = 1220 km/h, $v_s$ = 40 km/h. This gives 2066 Hz."
+    }
+]

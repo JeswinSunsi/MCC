@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "__________ involves evaporative loss of water from aerial parts.",
+    "answer": "transpiration",
+    "explanation": "Transpiration is the process by which plants lose water vapor through their stomata, helping in water and mineral transport and cooling the plant."
+  },
+  {
+    "id": 2,
+    "question": "Water enters into the root hair cell through __________ membrane.",
+    "answer": "cell membrane",
+    "explanation": "The cell membrane of root hair cells is selectively permeable and controls water uptake through osmosis, making it crucial for the plant's water absorption process."
+  },
+  {
+    "id": 3,
+    "question": "Part of the root that absorbs water from the soil is __________.",
+    "answer": "root hair",
+    "explanation": "Root hairs are microscopic extensions of root epidermal cells that greatly increase the surface area for water and mineral absorption from the soil."
+  },
+  {
+    "id": 4,
+    "question": "Normal blood pressure is __________.",
+    "answer": "120/80 mm Hg",
+    "explanation": "120/80 mm Hg represents optimal blood pressure, where 120 is the systolic pressure (heart contracting) and 80 is the diastolic pressure (heart relaxing)."
+  },
+  {
+    "id": 5,
+    "question": "The normal human heartbeat rate is about ____________ time per minute.",
+    "answer": "72",
+    "explanation": "A resting heart rate of 72 beats per minute is considered normal for adults, though the healthy range can vary between 60-100 beats per minute."
+  }
+]

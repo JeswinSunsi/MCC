@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "question": "The characters developed by the animals during their life time, in response to the environmental changes are called ______________.",
+      "answer": "acquired characters",
+      "explanation": "Acquired characters are modifications that organisms develop during their lifetime in response to environmental conditions, but these changes are not inherited according to modern evolutionary theory."
+    },
+    {
+      "id": 2,
+      "question": "The degenerated and non-functional organs found in an organism are called ______________.",
+      "answer": "vestigial organs",
+      "explanation": "Vestigial organs are reduced or functionless remnants of structures that were fully developed and functional in ancestral species, providing evidence for evolution."
+    },
+    {
+      "id": 3,
+      "question": "The forelimbs of bat and human are examples of ______________ organs.",
+      "answer": "homologous",
+      "explanation": "Homologous organs have similar basic structure and embryonic origin but different functions, indicating common ancestry despite adaptations for different purposes."
+    },
+    {
+      "id": 4,
+      "question": "The theory of natural selection for evolution was proposed by ____________.",
+      "answer": "Charles Darwin",
+      "explanation": "Charles Darwin proposed the theory of evolution by natural selection in his book 'On the Origin of Species' (1859), explaining how species change over time through selective pressures."
+    }
+]

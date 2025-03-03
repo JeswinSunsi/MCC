@@ -1,0 +1,94 @@
+[
+    {
+      "id": 1,
+      "question": "The value of universal gas constant",
+      "options": [
+        {
+          "option": "3.81 $\\text{J mol}^{-1} \\text{K}^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "8.03 $\\text{J mol}^{-1} \\text{K}^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "1.38 $\\text{J mol}^{-1} \\text{K}^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "8.31 $\\text{J mol}^{-1} \\text{K}^{-1}$",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The universal gas constant (R) has a fixed value of 8.31 $\\text{J mol}^{-1} \\text{K}^{-1}$, which is used in the ideal gas equation PV = nRT."
+    },
+    {
+      "id": 2,
+      "question": "If a substance is heated or cooled, the change in mass of that substance is",
+      "options": [
+        {
+          "option": "positive",
+          "isCorrect": false
+        },
+        {
+          "option": "negative",
+          "isCorrect": false
+        },
+        {
+          "option": "zero",
+          "isCorrect": true
+        },
+        {
+          "option": "none of the above",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mass of a substance remains constant during heating or cooling as thermal expansion only affects the volume, not the mass of the substance."
+    },
+    {
+      "id": 3,
+      "question": "If a substance is heated or cooled, the linear expansion occurs along the axis of",
+      "options": [
+        {
+          "option": "X or –X",
+          "isCorrect": false
+        },
+        {
+          "option": "Y or –Y",
+          "isCorrect": false
+        },
+        {
+          "option": "both (a) and (b)",
+          "isCorrect": true
+        },
+        {
+          "option": "(a) or (b)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Linear expansion occurs along all dimensions (X, Y, and Z axes) when a substance is heated or cooled uniformly."
+    },
+    {
+      "id": 4,
+      "question": "Temperature is the average ___________ of the molecules of a substance",
+      "options": [
+        {
+          "option": "difference in K.E and P.E",
+          "isCorrect": false
+        },
+        {
+          "option": "sum of P.E and K.E",
+          "isCorrect": false
+        },
+        {
+          "option": "difference in T.E and P.E",
+          "isCorrect": false
+        },
+        {
+          "option": "difference in K.E and T.E",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Temperature is a measure of the average kinetic energy of the molecules in a substance, representing their random motion."
+    }
+]

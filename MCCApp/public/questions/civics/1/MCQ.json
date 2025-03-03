@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following sequences is correct regarding the Preamble?",
+    "options": [
+      { "option": "Sovereign, Socialist, Secular, Democratic, Republic", "isCorrect": true },
+      { "option": "Republic, Democratic, Secular, Socialist, Sovereign", "isCorrect": false },
+      { "option": "Sovereign, Republic, Secular, Socialist, Democratic", "isCorrect": false },
+      { "option": "Sovereign, Socialist, Secular, Republic, Democratic", "isCorrect": false }
+    ],
+    "explanation": "The correct order in the Preamble of the Indian Constitution is 'Sovereign, Socialist, Secular, Democratic, Republic.'"
+  },
+  {
+    "id": 2,
+    "question": "How many times has the Preamble to the Constitution of India been amended?",
+    "options": [
+      { "option": "Once", "isCorrect": true },
+      { "option": "Twice", "isCorrect": false },
+      { "option": "Thrice", "isCorrect": false },
+      { "option": "Never", "isCorrect": false }
+    ],
+    "explanation": "The Preamble has been amended only once by the 42nd Amendment Act of 1976, adding the words 'Socialist,' 'Secular,' and 'Integrity.'"
+  },
+  {
+    "id": 3,
+    "question": "A foreigner can acquire Indian citizenship through:",
+    "options": [
+      { "option": "All of the above", "isCorrect": true },
+      { "option": "Descent", "isCorrect": false },
+      { "option": "Registration", "isCorrect": false },
+      { "option": "Naturalisation", "isCorrect": false }
+    ],
+    "explanation": "Indian citizenship can be acquired through birth, descent, registration, and naturalization as per the Citizenship Act of 1955."
+  },
+  {
+    "id": 4,
+    "question": "Find the odd one out.",
+    "options": [
+      { "option": "Right to Property", "isCorrect": true },
+      { "option": "Right to Equality", "isCorrect": false },
+      { "option": "Right against Exploitation", "isCorrect": false },
+      { "option": "Cultural and Educational Rights", "isCorrect": false }
+    ],
+    "explanation": "The Right to Property was removed from Fundamental Rights by the 44th Amendment Act, 1978, and is now a legal right under Article 300A."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not an instance of an exercise of a fundamental right?",
+    "options": [
+      { "option": "Parents' property is inherited by their children", "isCorrect": true },
+      { "option": "Workers from Karnataka go to Kerala to work on the farms", "isCorrect": false },
+      { "option": "Christian missions set up a chain of missionary schools", "isCorrect": false },
+      { "option": "Men and Women government employees got the same salary.", "isCorrect": false }
+    ],
+    "explanation": "Inheritance of property is governed by personal laws and not a fundamental right."
+  },
+  {
+    "id": 6,
+    "question": "Which one of the following rights was described by Dr. B.R. Ambedkar as the heart and soul of the Constitution?",
+    "options": [
+      { "option": "Right to Constitutional Remedies", "isCorrect": true },
+      { "option": "Right to Freedom of Religion", "isCorrect": false },
+      { "option": "Right to Equality", "isCorrect": false },
+      { "option": "Right to Property", "isCorrect": false }
+    ],
+    "explanation": "Dr. B.R. Ambedkar referred to the Right to Constitutional Remedies (Article 32) as the 'heart and soul' of the Constitution."
+  },
+  {
+    "id": 7,
+    "question": "How can the Fundamental Rights be suspended?",
+    "options": [
+      { "option": "If the President orders it during the national emergency", "isCorrect": true },
+      { "option": "If the Supreme Court so desires", "isCorrect": false },
+      { "option": "If the Prime Minister orders to this effect", "isCorrect": false },
+      { "option": "All of the above", "isCorrect": false }
+    ],
+    "explanation": "Fundamental Rights can be suspended only by the President during a National Emergency under Article 359."
+  },
+  {
+    "id": 8,
+    "question": "We borrowed the Fundamental Duties from the:",
+    "options": [
+      { "option": "Russian Constitution", "isCorrect": true },
+      { "option": "American Constitution", "isCorrect": false },
+      { "option": "Canadian Constitution", "isCorrect": false },
+      { "option": "Irish Constitution", "isCorrect": false }
+    ],
+    "explanation": "India adopted Fundamental Duties from the Russian (Soviet) Constitution, added by the 42nd Amendment in 1976."
+  },
+  {
+    "id": 9,
+    "question": "Under which Article can a financial emergency be proclaimed?",
+    "options": [
+      { "option": "Article 360", "isCorrect": true },
+      { "option": "Article 352", "isCorrect": false },
+      { "option": "Article 356", "isCorrect": false },
+      { "option": "Article 368", "isCorrect": false }
+    ],
+    "explanation": "Financial Emergency can be proclaimed under Article 360 in case of a financial crisis in the country."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following committees/commissions made recommendations about the Centre-State Relations?",
+    "options": [
+      { "option": "Sarkaria Commission, Rajamannar Committee, M.N. Venkatachaliah Commission", "isCorrect": true },
+      { "option": "Sarkaria Commission, Rajamannar Committee", "isCorrect": false },
+      { "option": "Sarkaria Commission, M.N. Venkatachaliah Commission", "isCorrect": false },
+      { "option": "Rajamannar Committee, M.N. Venkatachaliah Commission", "isCorrect": false }
+    ],
+    "explanation": "The Sarkaria Commission, Rajamannar Committee, and M.N. Venkatachaliah Commission all studied and recommended changes to Centre-State relations in India."
+  }
+]

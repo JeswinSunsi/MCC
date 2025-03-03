@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "Who was the first Palayakkarar to resist the East India Company’s policy of territorial aggrandizement?",
+    "options": [
+      { "option": "Puli Thevar", "isCorrect": true },
+      { "option": "Marudhu brothers", "isCorrect": false },
+      { "option": "Velunachiyar", "isCorrect": false },
+      { "option": "Veerapandya Kattabomman", "isCorrect": false }
+    ],
+    "explanation": "Puli Thevar was the first Palayakkarar to openly resist British expansion in Tamil Nadu during the 18th century."
+  },
+  {
+    "id": 2,
+    "question": "Who had established a close relationship with the three agents of Chanda Sahib?",
+    "options": [
+      { "option": "Puli Thevar", "isCorrect": true },
+      { "option": "Velunachiyar", "isCorrect": false },
+      { "option": "Kattabomman", "isCorrect": false },
+      { "option": "Oomai Thurai", "isCorrect": false }
+    ],
+    "explanation": "Puli Thevar maintained ties with Chanda Sahib’s agents to strengthen his fight against the British and the Nawab of Arcot."
+  },
+  {
+    "id": 3,
+    "question": "Where was Sivasubramanianar executed?",
+    "options": [
+      { "option": "Kayathar", "isCorrect": true },
+      { "option": "Nagalapuram", "isCorrect": false },
+      { "option": "Virupachi", "isCorrect": false },
+      { "option": "Panchalamkurichi", "isCorrect": false }
+    ],
+    "explanation": "Sivasubramanianar, a key supporter of Veerapandya Kattabomman, was executed by the British at Kayathar."
+  },
+  {
+    "id": 4,
+    "question": "Who issued the Tiruchirappalli Proclamation of Independence?",
+    "options": [
+      { "option": "Marudhu brothers", "isCorrect": true },
+      { "option": "Puli Thevar", "isCorrect": false },
+      { "option": "Veerapandya Kattabomman", "isCorrect": false },
+      { "option": "Gopala Nayak", "isCorrect": false }
+    ],
+    "explanation": "The Marudhu brothers issued the Tiruchirappalli proclamation in 1801, calling for resistance against British rule."
+  },
+  {
+    "id": 5,
+    "question": "When did the Vellore Revolt break out?",
+    "options": [
+      { "option": "10 July 1806", "isCorrect": true },
+      { "option": "24 May 1805", "isCorrect": false },
+      { "option": "10 July 1805", "isCorrect": false },
+      { "option": "10 September 1806", "isCorrect": false }
+    ],
+    "explanation": "The Vellore Revolt, one of the earliest uprisings against British rule, took place on 10 July 1806."
+  },
+  {
+    "id": 6,
+    "question": "Who was the Commander-in-Chief responsible for the new military regulations in Vellore Fort?",
+    "options": [
+      { "option": "Sir John Cradock", "isCorrect": true },
+      { "option": "Col. Fancourt", "isCorrect": false },
+      { "option": "Major Armstrong", "isCorrect": false },
+      { "option": "Colonel Agnew", "isCorrect": false }
+    ],
+    "explanation": "Sir John Cradock introduced new military dress codes that angered Indian soldiers and contributed to the Vellore Revolt."
+  },
+  {
+    "id": 7,
+    "question": "Where were the sons of Tipu Sultan sent after the Vellore Revolt?",
+    "options": [
+      { "option": "Calcutta", "isCorrect": true },
+      { "option": "Mumbai", "isCorrect": false },
+      { "option": "Delhi", "isCorrect": false },
+      { "option": "Mysore", "isCorrect": false }
+    ],
+    "explanation": "After the Vellore Revolt, the British sent Tipu Sultan’s sons to Calcutta to prevent any future threats to their rule."
+  }
+]

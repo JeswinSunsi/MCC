@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "The Panchsheel Treaty has been signed between",
+    "options": [
+      { "option": "India and China", "isCorrect": true },
+      { "option": "India and Nepal", "isCorrect": false },
+      { "option": "India and Pakistan", "isCorrect": false },
+      { "option": "India and Sri Lanka", "isCorrect": false }
+    ],
+    "explanation": "The Panchsheel Treaty was signed between India and China in 1954. It emphasized the Five Principles of Peaceful Coexistence, including mutual respect for sovereignty and non-aggression."
+  },
+  {
+    "id": 2,
+    "question": "Which article of the Indian Constitution directs to adopt foreign policy?",
+    "options": [
+      { "option": "Article 51", "isCorrect": true },
+      { "option": "Article 50", "isCorrect": false },
+      { "option": "Article 52", "isCorrect": false },
+      { "option": "Article 53", "isCorrect": false }
+    ],
+    "explanation": "Article 51 of the Indian Constitution directs the state to promote international peace and security and maintain just and honorable relations between nations."
+  },
+  {
+    "id": 3,
+    "question": "The Agreement signed by India and China in 1954 related to",
+    "options": [
+      { "option": "The Five Principles of Coexistence", "isCorrect": true },
+      { "option": "Trade and Commerce", "isCorrect": false },
+      { "option": "Restoration of normal relations", "isCorrect": false },
+      { "option": "Cultural exchange programmes", "isCorrect": false }
+    ],
+    "explanation": "India and China signed an agreement in 1954 that established the Five Principles of Coexistence, which formed the basis of their diplomatic relations."
+  },
+  {
+    "id": 4,
+    "question": "Which is not related to our foreign policy?",
+    "options": [
+      { "option": "Colonialism", "isCorrect": true },
+      { "option": "World cooperation", "isCorrect": false },
+      { "option": "World peace", "isCorrect": false },
+      { "option": "Racial equality", "isCorrect": false }
+    ],
+    "explanation": "India’s foreign policy is based on principles such as world peace, cooperation, and racial equality, but it strongly opposes colonialism."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following countries is not a founding member of NAM?",
+    "options": [
+      { "option": "Pakistan", "isCorrect": true },
+      { "option": "Yugoslavia", "isCorrect": false },
+      { "option": "Indonesia", "isCorrect": false },
+      { "option": "Egypt", "isCorrect": false }
+    ],
+    "explanation": "The Non-Aligned Movement (NAM) was founded in 1961 by Yugoslavia, India, Egypt, Indonesia, and Ghana. Pakistan was not a founding member."
+  },
+  {
+    "id": 6,
+    "question": "Non-Alliance means",
+    "options": [
+      { "option": "Freedom to decide on issues independently", "isCorrect": true },
+      { "option": "Being neutral", "isCorrect": false },
+      { "option": "Demilitarisation", "isCorrect": false },
+      { "option": "None of the above", "isCorrect": false }
+    ],
+    "explanation": "Non-Alignment does not mean neutrality but rather the ability to make independent decisions in international affairs without aligning with any major power bloc."
+  },
+  {
+    "id": 7,
+    "question": "Non-military issues are",
+    "options": [
+      { "option": "All the above", "isCorrect": true },
+      { "option": "Energy security", "isCorrect": false },
+      { "option": "Water security", "isCorrect": false },
+      { "option": "Pandemics", "isCorrect": false }
+    ],
+    "explanation": "Non-military issues include energy security, water security, and pandemics, which are crucial for global stability and human well-being."
+  }
+]

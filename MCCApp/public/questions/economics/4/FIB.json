@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "__________ is levied by the government for the development of the state’s economy.",
+    "answer": "Tax",
+    "explanation": "Taxes collected by the government are used for infrastructure, public welfare, and economic development."
+  },
+  {
+    "id": 2,
+    "question": "The origin of the word ‘tax’ is from the word __________.",
+    "answer": "Taxare",
+    "explanation": "The word 'tax' is derived from the Latin word 'Taxare,' which means to estimate or assess."
+  },
+  {
+    "id": 3,
+    "question": "The burden of the __________ tax cannot be shifted to others.",
+    "answer": "Direct",
+    "explanation": "Direct taxes, such as income tax, are paid directly by individuals or organizations and cannot be transferred to others."
+  },
+  {
+    "id": 4,
+    "question": "The Goods and Service Tax Act came into effect on __________.",
+    "answer": "1st July 2017",
+    "explanation": "GST was introduced in India on 1st July 2017 to simplify the tax system and create a unified market."
+  },
+  {
+    "id": 5,
+    "question": "The unaccounted money that is concealed from the tax administrator is called __________.",
+    "answer": "Black money",
+    "explanation": "Black money refers to income that is not reported to the tax authorities and is generated through illegal means or tax evasion."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "Which American President followed the policy of containment of Communism?",
+    "options": [
+      { "option": "Truman", "isCorrect": true },
+      { "option": "Woodrow Wilson", "isCorrect": false },
+      { "option": "Theodore Roosevelt", "isCorrect": false },
+      { "option": "Franklin Roosevelt", "isCorrect": false }
+    ],
+    "explanation": "President Harry S. Truman introduced the 'Truman Doctrine' in 1947, aiming to contain the spread of communism worldwide."
+  },
+  {
+    "id": 2,
+    "question": "When was People’s Political Consultative Conference held in China?",
+    "options": [
+      { "option": "September 1949", "isCorrect": true },
+      { "option": "September 1959", "isCorrect": false },
+      { "option": "September 1948", "isCorrect": false },
+      { "option": "September 1954", "isCorrect": false }
+    ],
+    "explanation": "The People’s Political Consultative Conference was held in September 1949, laying the groundwork for the establishment of the People's Republic of China."
+  },
+  {
+    "id": 3,
+    "question": "The United States and European allies formed ______ to resist any Soviet aggression in Europe.",
+    "options": [
+      { "option": "NATO", "isCorrect": true },
+      { "option": "SEATO", "isCorrect": false },
+      { "option": "SENTO", "isCorrect": false },
+      { "option": "Warsaw Pact", "isCorrect": false }
+    ],
+    "explanation": "NATO (North Atlantic Treaty Organization) was formed in 1949 as a military alliance to counter Soviet expansion in Europe."
+  },
+  {
+    "id": 4,
+    "question": "Who became the Chairman of the PLO’s Executive Committee in 1969?",
+    "options": [
+      { "option": "Yasser Arafat", "isCorrect": true },
+      { "option": "Hafez al-Assad", "isCorrect": false },
+      { "option": "Nasser", "isCorrect": false },
+      { "option": "Saddam Hussein", "isCorrect": false }
+    ],
+    "explanation": "Yasser Arafat became Chairman of the Palestine Liberation Organization (PLO) in 1969, leading the Palestinian national movement."
+  },
+  {
+    "id": 5,
+    "question": "When was North and South Vietnam united?",
+    "options": [
+      { "option": "1976", "isCorrect": true },
+      { "option": "1975", "isCorrect": false },
+      { "option": "1973", "isCorrect": false },
+      { "option": "1974", "isCorrect": false }
+    ],
+    "explanation": "North and South Vietnam were officially reunified in 1976 after the Vietnam War, forming the Socialist Republic of Vietnam."
+  },
+  {
+    "id": 6,
+    "question": "When was the Warsaw Pact dissolved?",
+    "options": [
+      { "option": "1991", "isCorrect": true },
+      { "option": "1979", "isCorrect": false },
+      { "option": "1989", "isCorrect": false },
+      { "option": "1990", "isCorrect": false }
+    ],
+    "explanation": "The Warsaw Pact, a military alliance of communist states led by the USSR, was dissolved in 1991 following the collapse of the Soviet Union."
+  }
+]

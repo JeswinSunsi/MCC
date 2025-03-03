@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "India conducted its first nuclear test at ___________.",
+    "answer": "Pokhran",
+    "explanation": "India conducted its first nuclear test in 1974 at Pokhran, Rajasthan. It was codenamed 'Smiling Buddha' and marked India's entry into the group of nuclear-capable nations."
+  },
+  {
+    "id": 2,
+    "question": "____________ is the instrument for implementing foreign policy of a state.",
+    "answer": "Diplomacy",
+    "explanation": "Diplomacy is the primary instrument for implementing a state's foreign policy. It involves negotiations, international relations, and strategic decision-making to protect national interests."
+  },
+  {
+    "id": 3,
+    "question": "_____________ was India’s policy in the Cold War era.",
+    "answer": "Non-Alignment",
+    "explanation": "Non-Alignment was India's policy during the Cold War, allowing it to stay independent from both the USA-led Western bloc and the USSR-led Eastern bloc while promoting global peace and cooperation."
+  }
+]

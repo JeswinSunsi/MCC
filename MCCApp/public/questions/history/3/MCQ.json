@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "When did the Japanese formally sign their surrender?",
+    "options": [
+      { "option": "2 September, 1945", "isCorrect": true },
+      { "option": "2 October, 1945", "isCorrect": false },
+      { "option": "15 August, 1945", "isCorrect": false },
+      { "option": "12 October, 1945", "isCorrect": false }
+    ],
+    "explanation": "Japan formally surrendered on 2 September 1945 aboard the USS Missouri, marking the official end of World War II."
+  },
+  {
+    "id": 2,
+    "question": "Who initiated the formation of League of Nations?",
+    "options": [
+      { "option": "Woodrow Wilson", "isCorrect": true },
+      { "option": "Roosevelt", "isCorrect": false },
+      { "option": "Chamberlain", "isCorrect": false },
+      { "option": "Baldwin", "isCorrect": false }
+    ],
+    "explanation": "U.S. President Woodrow Wilson proposed the League of Nations in his Fourteen Points to maintain world peace after World War I."
+  },
+  {
+    "id": 3,
+    "question": "Where was the Japanese Navy defeated by the US Navy?",
+    "options": [
+      { "option": "Battle of Midway", "isCorrect": true },
+      { "option": "Battle of Guadalcanal", "isCorrect": false },
+      { "option": "Battle of Leningrad", "isCorrect": false },
+      { "option": "Battle of El Alamein", "isCorrect": false }
+    ],
+    "explanation": "The Battle of Midway (June 1942) was a decisive U.S. victory that weakened the Japanese Navy and shifted the war in the Pacific."
+  },
+  {
+    "id": 4,
+    "question": "Where did the US drop its first atomic bomb?",
+    "options": [
+      { "option": "Hiroshima", "isCorrect": true },
+      { "option": "Kavashaki", "isCorrect": false },
+      { "option": "Tokyo", "isCorrect": false },
+      { "option": "Nagasaki", "isCorrect": false }
+    ],
+    "explanation": "The first atomic bomb was dropped on Hiroshima on 6 August 1945, leading to Japan’s eventual surrender."
+  },
+  {
+    "id": 5,
+    "question": "Who were mainly persecuted by Hitler?",
+    "options": [
+      { "option": "Jews", "isCorrect": true },
+      { "option": "Russians", "isCorrect": false },
+      { "option": "Arabs", "isCorrect": false },
+      { "option": "Turks", "isCorrect": false }
+    ],
+    "explanation": "The Holocaust was the genocide of six million Jews under Hitler’s rule, along with other persecuted groups like Romani people and political dissidents."
+  },
+  {
+    "id": 6,
+    "question": "Which Prime Minister of England signed the Munich Pact with Germany?",
+    "options": [
+      { "option": "Chamberlain", "isCorrect": true },
+      { "option": "Winston Churchill", "isCorrect": false },
+      { "option": "Lloyd George", "isCorrect": false },
+      { "option": "Stanley Baldwin", "isCorrect": false }
+    ],
+    "explanation": "British Prime Minister Neville Chamberlain signed the Munich Pact in 1938, allowing Nazi Germany to annex the Sudetenland in Czechoslovakia."
+  },
+  {
+    "id": 7,
+    "question": "When was the Charter of the UN signed?",
+    "options": [
+      { "option": "June 26, 1945", "isCorrect": true },
+      { "option": "June 26, 1942", "isCorrect": false },
+      { "option": "January 1, 1942", "isCorrect": false },
+      { "option": "January 1, 1945", "isCorrect": false }
+    ],
+    "explanation": "The UN Charter was signed on 26 June 1945 in San Francisco, establishing the United Nations to promote international peace and security."
+  }
+]

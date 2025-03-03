@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "Gandhi regarded __ as his political guru.",
+    "answer": "Gopal Krishna Gokhale",
+    "explanation": "Gopal Krishna Gokhale, a moderate leader of the Indian National Congress, deeply influenced Gandhi’s political ideology and approach to nonviolent resistance."
+  },
+  {
+    "id": 2,
+    "question": "Khilafat Movement was led by __.",
+    "answer": "Shaukat Ali and Mohamed Ali",
+    "explanation": "The Ali brothers, Shaukat Ali and Mohamed Ali, led the Khilafat Movement (1919-1924) to protest against the British dismantling of the Ottoman Caliphate."
+  },
+  {
+    "id": 3,
+    "question": "Government of India Act 1919 introduced __ in the provinces.",
+    "answer": "Dyarchy",
+    "explanation": "Dyarchy was a dual system of governance introduced by the Government of India Act 1919, dividing subjects between elected Indian ministers and British officials."
+  },
+  {
+    "id": 4,
+    "question": "The Civil Disobedience Movement in North West Frontier Province was led by __.",
+    "answer": "Khan Abdul Ghaffar Khan",
+    "explanation": "Khan Abdul Ghaffar Khan, also known as Frontier Gandhi, led the movement in the North West Frontier Province through his nonviolent Khilafat and Red Shirt Movement."
+  },
+  {
+    "id": 5,
+    "question": "Ramsay Macdonald announced __ which provided separate electorates to the minorities and the depressed classes.",
+    "answer": "Communal Award",
+    "explanation": "The Communal Award of 1932 granted separate electorates to minorities, including Dalits, which led to Gandhi's fast and the Poona Pact with B.R. Ambedkar."
+  },
+  {
+    "id": 6,
+    "question": "__ established Congress Radio underground during the Quit India Movement.",
+    "answer": "Usha Mehta",
+    "explanation": "Usha Mehta set up an underground Congress Radio station in 1942 to broadcast news and messages defying British censorship during the Quit India Movement."
+  }
+]

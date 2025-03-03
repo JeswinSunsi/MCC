@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "question": "The delta which is known as Granary of South India is",
+    "options": [
+      { "option": "Cauvery delta", "isCorrect": true },
+      { "option": "Mahanadi delta", "isCorrect": false },
+      { "option": "Godavari delta", "isCorrect": false },
+      { "option": "Krishna delta", "isCorrect": false }
+    ],
+    "explanation": "The Cauvery delta, located in Tamil Nadu, is known as the 'Granary of South India' due to its fertile soil and extensive paddy cultivation."
+  },
+  {
+    "id": 2,
+    "question": "Second staple food of the people of Tamil Nadu is",
+    "options": [
+      { "option": "Millets", "isCorrect": true },
+      { "option": "Pulses", "isCorrect": false },
+      { "option": "Oilseeds", "isCorrect": false },
+      { "option": "Rice", "isCorrect": false }
+    ],
+    "explanation": "Millets, such as ragi and bajra, are widely consumed in Tamil Nadu as the second staple food after rice, especially in rural areas."
+  },
+  {
+    "id": 3,
+    "question": "A major hydro-electric power project of Tamil Nadu is",
+    "options": [
+      { "option": "Mettur", "isCorrect": true },
+      { "option": "Papansam", "isCorrect": false },
+      { "option": "Sathanur", "isCorrect": false },
+      { "option": "Thungabhadra", "isCorrect": false }
+    ],
+    "explanation": "The Mettur Dam is a major hydro-electric power project in Tamil Nadu, built across the Cauvery River."
+  },
+  {
+    "id": 4,
+    "question": "Number of major and minor ports in Tamil Nadu are",
+    "options": [
+      { "option": "3 and 15", "isCorrect": true },
+      { "option": "4 and 15", "isCorrect": false },
+      { "option": "3 and 16", "isCorrect": false },
+      { "option": "4 and 15", "isCorrect": false }
+    ],
+    "explanation": "Tamil Nadu has 3 major ports (Chennai, Ennore, and Tuticorin) and 15 minor ports that facilitate trade and transportation."
+  }
+]

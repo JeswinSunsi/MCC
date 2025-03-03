@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "The innermost layer of cortex in root is called ____________.",
+    "answer": "endodermis",
+    "explanation": "The endodermis is a specialized layer of cells that forms a selective barrier between the cortex and vascular tissues, controlling the movement of water and minerals into the vascular cylinder."
+  },
+  {
+    "id": 2,
+    "question": "Xylem and phloem are arranged in an alternate radii constitute a vascular bundle called ____________",
+    "answer": "radial vascular bundle",
+    "explanation": "In a radial vascular bundle, xylem and phloem tissues alternate in a circular pattern around the center of the root, which is characteristic of root anatomy and helps in efficient transport of water and nutrients."
+  },
+  {
+    "id": 3,
+    "question": "Glycolysis takes place in _______________.",
+    "answer": "cytoplasm",
+    "explanation": "Glycolysis occurs in the cytoplasm of cells because it doesn't require any specialized organelles, and it's the first step in cellular respiration where glucose is broken down to produce pyruvate."
+  },
+  {
+    "id": 4,
+    "question": "The source of O2 liberated in photosynthesis is ________________.",
+    "answer": "water (H2O)",
+    "explanation": "During photosynthesis, water molecules are split in a process called photolysis, releasing oxygen as a byproduct while the hydrogen is used to produce glucose."
+  },
+  {
+    "id": 5,
+    "question": "______________ is ATP factory of the cells",
+    "answer": "mitochondria",
+    "explanation": "Mitochondria are called the powerhouse or ATP factory of cells because they produce most of the cell's energy through the process of cellular respiration."
+  }
+]

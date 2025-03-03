@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "question": "Deforestation leads to ______________ in rainfall.",
+      "answer": "decrease",
+      "explanation": "Deforestation reduces rainfall because trees play a crucial role in the water cycle through transpiration and creating conditions favorable for precipitation."
+    },
+    {
+      "id": 2,
+      "question": "Removal of soil particles from the land is called ______________.",
+      "answer": "soil erosion",
+      "explanation": "Soil erosion is the process where soil particles are removed by wind, water, or other natural forces, leading to land degradation."
+    },
+    {
+      "id": 3,
+      "question": "Chipko movement is initiated against ______________.",
+      "answer": "deforestation",
+      "explanation": "The Chipko movement was a non-violent protest against deforestation and for forest conservation, where people hugged trees to prevent them from being cut."
+    },
+    {
+      "id": 4,
+      "question": "______________ is a biosphere reserve in Tamilnadu.",
+      "answer": "Nilgiri",
+      "explanation": "The Nilgiri Biosphere Reserve is the first biosphere reserve in India, located in Tamil Nadu, and is known for its rich biodiversity."
+    },
+    {
+      "id": 5,
+      "question": "Tidal energy is ___________ type of energy.",
+      "answer": "renewable",
+      "explanation": "Tidal energy is a renewable energy source as it harnesses the power of ocean tides, which are continuous and inexhaustible."
+    },
+    {
+      "id": 6,
+      "question": "Coal, petroleum and natural gas are called ______________ fuels.",
+      "answer": "fossil",
+      "explanation": "These are called fossil fuels because they formed from the remains of dead plants and animals over millions of years under high pressure and temperature."
+    },
+    {
+      "id": 7,
+      "question": "______________ is the most commonly used fuel for the production of electricity.",
+      "answer": "coal",
+      "explanation": "Coal is the most widely used fossil fuel for electricity generation worldwide due to its abundance and relatively low cost."
+    }
+]

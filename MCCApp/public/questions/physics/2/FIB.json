@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "The path of the light is called as __________",
+      "answer": "ray of light",
+      "explanation": "A ray of light represents the straight line path along which light travels in a particular direction."
+    },
+    {
+      "id": 2,
+      "question": "The refractive index of a transparent medium is always greater than __________",
+      "answer": "1",
+      "explanation": "The refractive index of any medium is always greater than 1 (except vacuum) as light travels slower in any medium compared to vacuum."
+    },
+    {
+      "id": 3,
+      "question": "If the energy of incident beam and the scattered beam are same, then the scattering of light is called as __________ scattering",
+      "answer": "elastic",
+      "explanation": "In elastic scattering, there is no energy loss between incident and scattered light, maintaining conservation of energy."
+    },
+    {
+      "id": 4,
+      "question": "According to Rayleigh's scattering law, the amount of scattering of light is inversely proportional to the fourth power of its __________",
+      "answer": "wavelength",
+      "explanation": "Rayleigh's law states that intensity of scattered light $I \\propto \\frac{1}{\\lambda^4}$, where $\\lambda$ is the wavelength of light."
+    },
+    {
+      "id": 5,
+      "question": "Amount of light entering into the eye is controlled by __________",
+      "answer": "iris",
+      "explanation": "The iris controls the size of the pupil, thereby regulating the amount of light entering the eye."
+    }
+]

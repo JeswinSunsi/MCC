@@ -1,0 +1,278 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following is / are a fossil fuel?",
+      "options": [
+        {
+          "option": "i, ii and iii",
+          "isCorrect": true
+        },
+        {
+          "option": "i only",
+          "isCorrect": false
+        },
+        {
+          "option": "i and ii",
+          "isCorrect": false
+        },
+        {
+          "option": "ii and iii",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Tar, coal, and petroleum are all fossil fuels formed from the remains of ancient organisms over millions of years under high pressure and temperature."
+    },
+    {
+      "id": 2,
+      "question": "What are the steps will you adopt for better waste management?",
+      "options": [
+        {
+          "option": "all of the above",
+          "isCorrect": true
+        },
+        {
+          "option": "reduce the amount of waste formed",
+          "isCorrect": false
+        },
+        {
+          "option": "reuse the waste",
+          "isCorrect": false
+        },
+        {
+          "option": "recycle the waste",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Effective waste management follows the 3R principle: Reduce (minimize waste generation), Reuse (use items multiple times), and Recycle (convert waste into new products)."
+    },
+    {
+      "id": 3,
+      "question": "The gas released from vehicles exhaust are",
+      "options": [
+        {
+          "option": "i, ii and iii",
+          "isCorrect": true
+        },
+        {
+          "option": "i and ii",
+          "isCorrect": false
+        },
+        {
+          "option": "i and iii",
+          "isCorrect": false
+        },
+        {
+          "option": "ii and iii",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Vehicle exhaust emissions contain multiple pollutants including carbon monoxide, sulfur dioxide, and nitrogen oxides, all of which contribute to air pollution."
+    },
+    {
+      "id": 4,
+      "question": "Soil erosion can be prevented by",
+      "options": [
+        {
+          "option": "afforestion",
+          "isCorrect": true
+        },
+        {
+          "option": "deforestation",
+          "isCorrect": false
+        },
+        {
+          "option": "over growing",
+          "isCorrect": false
+        },
+        {
+          "option": "removal of vegetation",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Afforestation helps prevent soil erosion as tree roots bind soil particles together and reduce the impact of rain and wind on soil."
+    },
+    {
+      "id": 5,
+      "question": "A renewable source of energy is",
+      "options": [
+        {
+          "option": "trees",
+          "isCorrect": true
+        },
+        {
+          "option": "petroleum",
+          "isCorrect": false
+        },
+        {
+          "option": "coal",
+          "isCorrect": false
+        },
+        {
+          "option": "nuclear fuel",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Trees are renewable resources as they can be regrown within a relatively short time, unlike fossil fuels which take millions of years to form."
+    },
+    {
+      "id": 6,
+      "question": "Soil erosion is more where there is",
+      "options": [
+        {
+          "option": "rain fall is high",
+          "isCorrect": true
+        },
+        {
+          "option": "no rain fall",
+          "isCorrect": false
+        },
+        {
+          "option": "low rainfall",
+          "isCorrect": false
+        },
+        {
+          "option": "none of these",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "High rainfall leads to increased soil erosion as heavy rain can wash away topsoil, especially in areas with poor vegetation cover."
+    },
+    {
+      "id": 7,
+      "question": "An inexhaustible resources is",
+      "options": [
+        {
+          "option": "wind power",
+          "isCorrect": true
+        },
+        {
+          "option": "soil fertility",
+          "isCorrect": false
+        },
+        {
+          "option": "wild life",
+          "isCorrect": false
+        },
+        {
+          "option": "all of the above",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Wind power is an inexhaustible resource as it is continuously generated through natural processes and cannot be depleted through human use."
+    },
+    {
+      "id": 8,
+      "question": "Common energy source in village is",
+      "options": [
+        {
+          "option": "wood and animal dung",
+          "isCorrect": true
+        },
+        {
+          "option": "electricity",
+          "isCorrect": false
+        },
+        {
+          "option": "coal",
+          "isCorrect": false
+        },
+        {
+          "option": "biogas",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In many villages, wood and animal dung are common energy sources for cooking and heating due to their availability and low cost."
+    },
+    {
+      "id": 9,
+      "question": "Green house effect refers to",
+      "options": [
+        {
+          "option": "warming of earth",
+          "isCorrect": true
+        },
+        {
+          "option": "cooling of earth",
+          "isCorrect": false
+        },
+        {
+          "option": "trapping of UV rays",
+          "isCorrect": false
+        },
+        {
+          "option": "cultivation of plants",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The greenhouse effect is the warming of Earth's surface due to the trapping of heat by greenhouse gases in the atmosphere."
+    },
+    {
+      "id": 10,
+      "question": "A cheap, conventional, commercial and inexhaustible source of energy is",
+      "options": [
+        {
+          "option": "hydropower",
+          "isCorrect": true
+        },
+        {
+          "option": "solar energy",
+          "isCorrect": false
+        },
+        {
+          "option": "wind energy",
+          "isCorrect": false
+        },
+        {
+          "option": "thermal energy",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Hydropower is a relatively cheap, conventional, and inexhaustible source of energy that uses flowing water to generate electricity."
+    },
+    {
+      "id": 11,
+      "question": "Global warming will cause",
+      "options": [
+        {
+          "option": "all of these",
+          "isCorrect": true
+        },
+        {
+          "option": "raise in level of oceans",
+          "isCorrect": false
+        },
+        {
+          "option": "melting of glaciers",
+          "isCorrect": false
+        },
+        {
+          "option": "sinking of islands",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Global warming leads to multiple effects including rising sea levels due to melting glaciers, which can cause low-lying islands to sink."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following statement is wrong with respect to wind energy",
+      "options": [
+        {
+          "option": "the blades of wind mill are operated with the help of electric motor",
+          "isCorrect": true
+        },
+        {
+          "option": "wind energy is a renewable energy",
+          "isCorrect": false
+        },
+        {
+          "option": "production of wind energy is pollution free",
+          "isCorrect": false
+        },
+        {
+          "option": "usage of wind energy can reduce the consumption of fossil fuels",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Wind turbine blades are moved by wind power, not electric motors. The statement suggesting they are operated by electric motors is incorrect."
+    }
+]

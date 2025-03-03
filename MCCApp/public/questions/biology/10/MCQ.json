@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "Tobacco consumption is known to stimulate secretion of adrenaline. The component causing this could be",
+      "options": [
+        {
+          "option": "Nicotine",
+          "isCorrect": true
+        },
+        {
+          "option": "Tannic acid",
+          "isCorrect": false
+        },
+        {
+          "option": "Curcumin",
+          "isCorrect": false
+        },
+        {
+          "option": "Leptin",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Nicotine in tobacco stimulates the release of adrenaline from adrenal glands, leading to increased heart rate and blood pressure."
+    },
+    {
+      "id": 2,
+      "question": "World 'No Tobacco Day' is observed on",
+      "options": [
+        {
+          "option": "May 31",
+          "isCorrect": true
+        },
+        {
+          "option": "June 6",
+          "isCorrect": false
+        },
+        {
+          "option": "April 22",
+          "isCorrect": false
+        },
+        {
+          "option": "October 2",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "World No Tobacco Day is observed annually on May 31 to raise awareness about the harmful effects of tobacco use and passive smoking."
+    },
+    {
+      "id": 3,
+      "question": "Cancer cells are more easily damaged by radiations than normal cells because they are",
+      "options": [
+        {
+          "option": "Undergoing rapid division",
+          "isCorrect": true
+        },
+        {
+          "option": "Different in structure",
+          "isCorrect": false
+        },
+        {
+          "option": "Non-dividing",
+          "isCorrect": false
+        },
+        {
+          "option": "Mutated Cells",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Cancer cells divide more rapidly than normal cells, making them more vulnerable to radiation damage during their frequent cell division phases."
+    },
+    {
+      "id": 4,
+      "question": "Which type of cancer affects lymph nodes and spleen?",
+      "options": [
+        {
+          "option": "Lymphoma",
+          "isCorrect": true
+        },
+        {
+          "option": "Carcinoma",
+          "isCorrect": false
+        },
+        {
+          "option": "Sarcoma",
+          "isCorrect": false
+        },
+        {
+          "option": "Leukemia",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Lymphoma is a cancer that begins in the lymphatic system, specifically affecting lymph nodes and other lymphoid tissues like the spleen."
+    },
+    {
+      "id": 5,
+      "question": "Excessive consumption of alcohol leads to",
+      "options": [
+        {
+          "option": "Cirrhosis of liver",
+          "isCorrect": true
+        },
+        {
+          "option": "Loss of memory",
+          "isCorrect": false
+        },
+        {
+          "option": "State of hallucination",
+          "isCorrect": false
+        },
+        {
+          "option": "Supression of brain function",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Chronic alcohol consumption primarily leads to cirrhosis, a condition where healthy liver tissue is replaced by scar tissue, impairing liver function."
+    },
+    {
+      "id": 6,
+      "question": "Coronary heart disease is due to",
+      "options": [
+        {
+          "option": "Insufficient blood supply to heart muscles",
+          "isCorrect": true
+        },
+        {
+          "option": "Streptococci bacteria",
+          "isCorrect": false
+        },
+        {
+          "option": "Inflammation of pericardium",
+          "isCorrect": false
+        },
+        {
+          "option": "Weakening of heart valves",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Coronary heart disease occurs when the coronary arteries become narrowed or blocked, reducing blood supply to heart muscles."
+    },
+    {
+      "id": 7,
+      "question": "Cancer of the epithelial cells is called",
+      "options": [
+        {
+          "option": "Carcinoma",
+          "isCorrect": true
+        },
+        {
+          "option": "Leukemia",
+          "isCorrect": false
+        },
+        {
+          "option": "Sarcoma",
+          "isCorrect": false
+        },
+        {
+          "option": "Lipoma",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Carcinoma is a type of cancer that starts in epithelial cells, which line the internal and external surfaces of the body."
+    },
+    {
+      "id": 8,
+      "question": "Metastasis is associated with",
+      "options": [
+        {
+          "option": "Malignant tumour",
+          "isCorrect": true
+        },
+        {
+          "option": "Benign tumour",
+          "isCorrect": false
+        },
+        {
+          "option": "Both (a) and (b)",
+          "isCorrect": false
+        },
+        {
+          "option": "Crown gall tumour",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Metastasis, the spread of cancer cells to other parts of the body, is a characteristic feature of malignant tumors only."
+    },
+    {
+      "id": 9,
+      "question": "Polyphagia is a condition seen in",
+      "options": [
+        {
+          "option": "Diabetes mellitus",
+          "isCorrect": true
+        },
+        {
+          "option": "Obesity",
+          "isCorrect": false
+        },
+        {
+          "option": "Diabetes insipidus",
+          "isCorrect": false
+        },
+        {
+          "option": "AIDS",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Polyphagia (excessive hunger) is a common symptom of diabetes mellitus, caused by the body's inability to use glucose properly."
+    },
+    {
+      "id": 10,
+      "question": "Where does alcohol effect immediately after drinking?",
+      "options": [
+        {
+          "option": "Central nervous system",
+          "isCorrect": true
+        },
+        {
+          "option": "Eyes",
+          "isCorrect": false
+        },
+        {
+          "option": "Auditory region",
+          "isCorrect": false
+        },
+        {
+          "option": "Liver",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Alcohol immediately affects the central nervous system, causing changes in behavior and coordination by altering neurotransmitter function."
+    }
+]

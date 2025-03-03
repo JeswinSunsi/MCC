@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "question": "A reaction between an acid and a base is called _________________",
+      "answer": "neutralization",
+      "explanation": "Neutralization is a reaction where an acid and base react to form salt and water, with pH approaching 7."
+    },
+    {
+      "id": 2,
+      "question": "When lithium metal is placed in hydrochloric acid, ________ gas is evolved",
+      "answer": "hydrogen",
+      "explanation": "The reaction $2Li + 2HCl \\rightarrow 2LiCl + H_2$ produces hydrogen gas."
+    },
+    {
+      "id": 3,
+      "question": "The equilibrium attained during the melting of ice is known as ___________",
+      "answer": "dynamic equilibrium",
+      "explanation": "During ice melting, the rate of melting equals the rate of freezing at the melting point, creating a dynamic equilibrium."
+    },
+    {
+      "id": 4,
+      "question": "The pH of a fruit juice is 5.6. If you add slaked lime to this juice, its pH _____________ (increase/decrease)",
+      "answer": "increase",
+      "explanation": "Slaked lime ($Ca(OH)_2$) is basic in nature, so adding it will increase the pH of acidic fruit juice."
+    },
+    {
+      "id": 5,
+      "question": "The value of ionic product of water at 25°C is _____________",
+      "answer": "$1 \\times 10^{-14}$",
+      "explanation": "The ionic product of water ($K_w = [H^+][OH^-]$) at 25°C is $1 \\times 10^{-14}$."
+    },
+    {
+      "id": 6,
+      "question": "The normal pH of human blood is _________",
+      "answer": "7.4",
+      "explanation": "Human blood maintains a slightly alkaline pH of 7.4 through various buffer systems."
+    },
+    {
+      "id": 7,
+      "question": "Electrolysis is type of _______________ reaction",
+      "answer": "decomposition",
+      "explanation": "Electrolysis breaks down (decomposes) compounds using electrical energy."
+    },
+    {
+      "id": 8,
+      "question": "The number of products formed in a synthesis reaction is _________",
+      "answer": "one",
+      "explanation": "In a synthesis/combination reaction, two or more reactants combine to form a single product."
+    },
+    {
+      "id": 9,
+      "question": "Chemical volcano is an example for _______________ type of reaction",
+      "answer": "decomposition",
+      "explanation": "Chemical volcano involves the decomposition of ammonium dichromate to form chromium oxide, nitrogen gas, and water."
+    },
+    {
+      "id": 10,
+      "question": "The ion formed by dissolution of H$^+$ in water is called _______________",
+      "answer": "hydronium ion",
+      "explanation": "When H$^+$ dissolves in water, it forms H$_3$O$^+$ (hydronium ion) by combining with a water molecule."
+    }
+]

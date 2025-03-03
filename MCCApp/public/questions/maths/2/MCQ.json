@@ -1,0 +1,348 @@
+[
+  {
+    "id": 1,
+    "question": "Euclid's division lemma states that for positive integers $a$ and $b$, there exist unique integers $q$ and $r$ such that $a = bq + r$, where $r$ must satisfy",
+    "options": [
+      {
+        "option": "$1 < r < b$",
+        "isCorrect": false
+      },
+      {
+        "option": "$0 < r < b$",
+        "isCorrect": false
+      },
+      {
+        "option": "$0 \\leq r < b$",
+        "isCorrect": true
+      },
+      {
+        "option": "$0 < r \\leq b$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In Euclid's division lemma, remainder $r$ must be non-negative and less than divisor $b$."
+  },
+  {
+    "id": 2,
+    "question": "Using Euclid's division lemma, if the cube of any positive integer is divided by 9 then the possible remainders are",
+    "options": [
+      {
+        "option": "0, 1, 8",
+        "isCorrect": true
+      },
+      {
+        "option": "1, 4, 8",
+        "isCorrect": false
+      },
+      {
+        "option": "0, 1, 3",
+        "isCorrect": false
+      },
+      {
+        "option": "1, 3, 5",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "When any number is cubed and divided by 9, only remainders 0, 1, and 8 are possible."
+  },
+  {
+    "id": 3,
+    "question": "If the HCF of 65 and 117 is expressible in the form of $65m - 117$, then the value of $m$ is",
+    "options": [
+      {
+        "option": "4",
+        "isCorrect": false
+      },
+      {
+        "option": "2",
+        "isCorrect": true
+      },
+      {
+        "option": "1",
+        "isCorrect": false
+      },
+      {
+        "option": "3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Using Euclidean algorithm, HCF(65,117) = 13, and $13 = 65(2) - 117$."
+  },
+  {
+    "id": 4,
+    "question": "The sum of the exponents of the prime factors in the prime factorization of 1729 is",
+    "options": [
+      {
+        "option": "1",
+        "isCorrect": false
+      },
+      {
+        "option": "2",
+        "isCorrect": false
+      },
+      {
+        "option": "3",
+        "isCorrect": false
+      },
+      {
+        "option": "4",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "1729 = $7 \\times 13 \\times 19$, sum of exponents = 1 + 1 + 1 = 3."
+  },
+  {
+    "id": 5,
+    "question": "The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is",
+    "options": [
+      {
+        "option": "2025",
+        "isCorrect": false
+      },
+      {
+        "option": "5220",
+        "isCorrect": false
+      },
+      {
+        "option": "5025",
+        "isCorrect": false
+      },
+      {
+        "option": "2520",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "LCM(1,2,3,4,5,6,7,8,9,10) = 2520"
+  },
+  {
+    "id": 6,
+    "question": "$7^{4k} \\equiv$ _____ (mod 100)",
+    "options": [
+      {
+        "option": "1",
+        "isCorrect": true
+      },
+      {
+        "option": "2",
+        "isCorrect": false
+      },
+      {
+        "option": "3",
+        "isCorrect": false
+      },
+      {
+        "option": "4",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "$7^4 \\equiv 1$ (mod 100), so $7^{4k} \\equiv 1$ (mod 100)"
+  },
+  {
+    "id": 7,
+    "question": "Given $F_1 = 1$, $F_2 = 3$ and $F_n = F_{n-1} + F_{n-2}$ then $F_5$ is",
+    "options": [
+      {
+        "option": "3",
+        "isCorrect": false
+      },
+      {
+        "option": "5",
+        "isCorrect": false
+      },
+      {
+        "option": "8",
+        "isCorrect": false
+      },
+      {
+        "option": "11",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "$F_3 = 4$, $F_4 = 7$, $F_5 = 11$ following the recursive formula."
+  },
+  {
+    "id": 8,
+    "question": "The first term of an arithmetic progression is unity and the common difference is 4. Which of the following will be a term of this A.P.",
+    "options": [
+      {
+        "option": "4551",
+        "isCorrect": false
+      },
+      {
+        "option": "10091",
+        "isCorrect": false
+      },
+      {
+        "option": "7881",
+        "isCorrect": true
+      },
+      {
+        "option": "13531",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Any term in AP will be of form $1 + 4n$ where n is a non-negative integer. 7881 satisfies this."
+  },
+  {
+    "id": 9,
+    "question": "If 6 times of 6th term of an A.P. is equal to 7 times the 7th term, then the 13th term of the A.P. is",
+    "options": [
+      {
+        "option": "0",
+        "isCorrect": true
+      },
+      {
+        "option": "6",
+        "isCorrect": false
+      },
+      {
+        "option": "7",
+        "isCorrect": false
+      },
+      {
+        "option": "13",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Using given condition and AP properties, we can find that the 13th term is 0."
+  },
+  {
+    "id": 10,
+    "question": "An A.P. consists of 31 terms. If its 16th term is $m$, then the sum of all the terms of this A.P. is",
+    "options": [
+      {
+        "option": "16m",
+        "isCorrect": false
+      },
+      {
+        "option": "62m",
+        "isCorrect": false
+      },
+      {
+        "option": "31m",
+        "isCorrect": true
+      },
+      {
+        "option": "$\\frac{31}{2}m$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In an AP with odd number of terms, sum = n × middle term = 31m"
+  },
+  
+  {
+    "id": 11,
+    "question": "In an A.P., the first term is 1 and the common difference is 4. How many terms of the A.P. must be taken for their sum to be equal to 120?",
+    "options": [
+      {
+        "option": "6",
+        "isCorrect": false
+      },
+      {
+        "option": "7",
+        "isCorrect": false
+      },
+      {
+        "option": "8",
+        "isCorrect": true
+      },
+      {
+        "option": "9",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Using sum formula: $S_n = \\frac{n}{2}[2a + (n-1)d] = 120$. Solving for n gives 8 terms."
+  },
+  {
+    "id": 12,
+    "question": "If $A = 2^{65}$ and $B = 2^{64} + 2^{63} + 2^{62} + ... + 2^0$ which of the following is true?",
+    "options": [
+      {
+        "option": "B is 264 more than A",
+        "isCorrect": false
+      },
+      {
+        "option": "A and B are equal",
+        "isCorrect": false
+      },
+      {
+        "option": "B is larger than A by 1",
+        "isCorrect": false
+      },
+      {
+        "option": "A is larger than B by 1",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Using geometric series sum: $B = 2^{65} - 1 = A - 1$"
+  },
+  {
+    "id": 13,
+    "question": "The next term of the sequence $\\frac{3}{16}, \\frac{1}{8}, \\frac{1}{12}, \\frac{1}{18}$ is",
+    "options": [
+      {
+        "option": "$\\frac{1}{24}$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{1}{27}$",
+        "isCorrect": true
+      },
+      {
+        "option": "$\\frac{2}{3}$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{1}{81}$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Pattern follows: multiply denominator by $\\frac{3}{2}$ each time, so next term is $\\frac{1}{27}$."
+  },
+  {
+    "id": 14,
+    "question": "If the sequence $t_1, t_2, t_3,...$ are in A.P. then the sequence $t_6, t_{12}, t_{18},...$ is",
+    "options": [
+      {
+        "option": "a Geometric Progression",
+        "isCorrect": false
+      },
+      {
+        "option": "an Arithmetic Progression",
+        "isCorrect": true
+      },
+      {
+        "option": "neither an Arithmetic Progression nor a Geometric Progression",
+        "isCorrect": false
+      },
+      {
+        "option": "a constant sequence",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Taking every 6th term of an AP results in another AP with common difference = 6d, where d is original common difference."
+  },
+  {
+    "id": 15,
+    "question": "The value of $(1 + 2 + 3 + ... + 15)(1^3 + 2^3 + 3^3 + ... + 15^3)$ is",
+    "options": [
+      {
+        "option": "14400",
+        "isCorrect": false
+      },
+      {
+        "option": "14200",
+        "isCorrect": false
+      },
+      {
+        "option": "14280",
+        "isCorrect": true
+      },
+      {
+        "option": "14520",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Using formulas: sum of first n numbers = $\\frac{n(n+1)}{2}$ and sum of cubes = $[\\frac{n(n+1)}{2}]^2$, then multiply."
+  }
+]

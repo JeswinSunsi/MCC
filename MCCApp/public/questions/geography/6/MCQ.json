@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "The latitudinal extent of Tamil Nadu is _______.",
+    "options": [
+      { "option": "8°4′N to 13°35′N", "isCorrect": true },
+      { "option": "8°5′S to 13°35′S", "isCorrect": false },
+      { "option": "8°0′N to 13°5′N", "isCorrect": false },
+      { "option": "8°0′S to 13°05′S", "isCorrect": false }
+    ],
+    "explanation": "Tamil Nadu lies between 8°4′N and 13°35′N latitude, covering the southern part of India."
+  },
+  {
+    "id": 2,
+    "question": "The longitudinal extent of Tamil Nadu is _______.",
+    "options": [
+      { "option": "76°18′ E to 80°20′E", "isCorrect": true },
+      { "option": "76°18′ W to 80°20′W", "isCorrect": false },
+      { "option": "86°18′ E to 10°20′E", "isCorrect": false },
+      { "option": "86°18′ W to 10°20′W", "isCorrect": false }
+    ],
+    "explanation": "Tamil Nadu extends longitudinally from 76°18′ E to 80°20′E."
+  },
+  {
+    "id": 3,
+    "question": "The highest peak in Tamil Nadu is _______.",
+    "options": [
+      { "option": "Doddabetta", "isCorrect": true },
+      { "option": "Anaimudi", "isCorrect": false },
+      { "option": "Mahendragiri", "isCorrect": false },
+      { "option": "Servarayan", "isCorrect": false }
+    ],
+    "explanation": "Doddabetta, at 2,637 meters, is the highest peak in Tamil Nadu, located in the Nilgiri Hills."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following passes is not located in the Western Ghats of Tamil Nadu?",
+    "options": [
+      { "option": "Bhorghat", "isCorrect": true },
+      { "option": "Palghat", "isCorrect": false },
+      { "option": "Shencottah", "isCorrect": false },
+      { "option": "Achankoil", "isCorrect": false }
+    ],
+    "explanation": "Bhorghat is a pass located in Maharashtra, not in the Western Ghats of Tamil Nadu."
+  },
+  {
+    "id": 5,
+    "question": "Which one of the following rivers flows into the Arabian Sea?",
+    "options": [
+      { "option": "Periyar", "isCorrect": true },
+      { "option": "Cauvery", "isCorrect": false },
+      { "option": "Chittar", "isCorrect": false },
+      { "option": "Bhavani", "isCorrect": false }
+    ],
+    "explanation": "The Periyar River, the longest river in Kerala, flows into the Arabian Sea."
+  },
+  {
+    "id": 6,
+    "question": "The district with the largest mangrove forest cover in Tamil Nadu is _______.",
+    "options": [
+      { "option": "Nagapattinam", "isCorrect": true },
+      { "option": "Ramanathapuram", "isCorrect": false },
+      { "option": "Cuddalore", "isCorrect": false },
+      { "option": "Theni", "isCorrect": false }
+    ],
+    "explanation": "Nagapattinam has the largest mangrove forest cover in Tamil Nadu, including the Pichavaram mangroves."
+  },
+  {
+    "id": 7,
+    "question": "Retreating monsoon winds pick up moisture from _______.",
+    "options": [
+      { "option": "Bay of Bengal", "isCorrect": true },
+      { "option": "Arabian Sea", "isCorrect": false },
+      { "option": "Indian Ocean", "isCorrect": false },
+      { "option": "Timor Sea", "isCorrect": false }
+    ],
+    "explanation": "The retreating monsoon winds pick up moisture from the Bay of Bengal, leading to rainfall in Tamil Nadu."
+  },
+  {
+    "id": 8,
+    "question": "The district which has the largest forest cover in Tamil Nadu is _______.",
+    "options": [
+      { "option": "Dharmapuri", "isCorrect": true },
+      { "option": "Vellore", "isCorrect": false },
+      { "option": "Dindigul", "isCorrect": false },
+      { "option": "Erode", "isCorrect": false }
+    ],
+    "explanation": "Dharmapuri has the largest forest cover in Tamil Nadu, mainly consisting of dry deciduous and scrub forests."
+  }
+]

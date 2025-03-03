@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "question": "__________ is the longest cell in our body.",
+    "answer": "neuron",
+    "explanation": "Neurons can extend up to several feet in length, making them the longest cells in the human body, which is essential for transmitting signals over long distances."
+  },
+  {
+    "id": 2,
+    "question": "__________ Impulses travels rapidly in neurons.",
+    "answer": "myelinated",
+    "explanation": "Myelinated neurons conduct impulses faster because myelin acts as an insulator, allowing signals to jump between nodes of Ranvier in a process called saltatory conduction."
+  },
+  {
+    "id": 3,
+    "question": "A change in the environment that causes an animal to react is called __________.",
+    "answer": "stimulus",
+    "explanation": "A stimulus is any detectable change in the internal or external environment that triggers a response in an organism, enabling it to adapt to changing conditions."
+  },
+  {
+    "id": 4,
+    "question": "__________ carries the impulse towards the cell body.",
+    "answer": "dendrite",
+    "explanation": "Dendrites are branched extensions of neurons that receive signals from other neurons and conduct them toward the cell body (soma)."
+  },
+  {
+    "id": 5,
+    "question": "The two antagonistic component of autonomic nervous system are __________ and __________.",
+    "answer": "sympathetic and parasympathetic",
+    "explanation": "These systems work in opposition: sympathetic activates 'fight or flight' responses while parasympathetic controls 'rest and digest' functions."
+  },
+  {
+    "id": 6,
+    "question": "A neuron contains all cell organelles except __________.",
+    "answer": "centrioles",
+    "explanation": "Neurons lack centrioles because they are post-mitotic cells that cannot divide, making these organelles unnecessary for cell division."
+  },
+  {
+    "id": 7,
+    "question": "__________ maintains the constant pressure inside the cranium.",
+    "answer": "cerebrospinal fluid",
+    "explanation": "Cerebrospinal fluid cushions the brain, maintains consistent pressure in the cranium, and helps remove waste products from the brain tissue."
+  },
+  {
+    "id": 8,
+    "question": "__________ and __________ increases the surface area of cerebrum.",
+    "answer": "gyri and sulci",
+    "explanation": "Gyri (ridges) and sulci (grooves) are folds in the cerebral cortex that dramatically increase the surface area, allowing for more neural tissue in a limited space."
+  },
+  {
+    "id": 9,
+    "question": "The part of human brain which acts as relay center is __________.",
+    "answer": "thalamus",
+    "explanation": "The thalamus functions as the brain's relay station, processing and directing sensory information to appropriate areas of the cerebral cortex."
+  }
+]

@@ -1,0 +1,233 @@
+[
+      {
+        "id": 1,
+        "question": "Inertia of a body depends on",
+        "options": [
+          {
+            "option": "weight of the object",
+            "isCorrect": false
+          },
+          {
+            "option": "acceleration due to gravity of the planet",
+            "isCorrect": false
+          },
+          {
+            "option": "mass of the object",
+            "isCorrect": true
+          },
+          {
+            "option": "Both $a$ & $b$",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Inertia is the property of matter that resists change in motion, and it depends solely on the mass of the object, not its weight or gravity."
+      },
+      {
+        "id": 2,
+        "question": "Impulse is equals to",
+        "options": [
+          {
+            "option": "rate of change of momentum",
+            "isCorrect": false
+          },
+          {
+            "option": "rate of force and time",
+            "isCorrect": false
+          },
+          {
+            "option": "change of momentum",
+            "isCorrect": true
+          },
+          {
+            "option": "rate of change of mass",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Impulse is defined as the change in momentum and can be calculated as the product of force and time interval ($J = F\\Delta t = \\Delta p$)."
+      },
+      {
+        "id": 3,
+        "question": "Newton's III law is applicable",
+        "options": [
+          {
+            "option": "for a body is at rest",
+            "isCorrect": false
+          },
+          {
+            "option": "for a body in motion",
+            "isCorrect": false
+          },
+          {
+            "option": "both $a$ & $b$",
+            "isCorrect": true
+          },
+          {
+            "option": "only for bodies with equal masses",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Newton's Third Law (action-reaction) applies universally to all bodies regardless of their state of motion or mass."
+      },
+      {
+        "id": 4,
+        "question": "Plotting a graph for momentum on the Y-axis and time on X-axis. slope of momentum-time graph gives",
+        "options": [
+          {
+            "option": "Impulsive force",
+            "isCorrect": false
+          },
+          {
+            "option": "Acceleration",
+            "isCorrect": false
+          },
+          {
+            "option": "Force",
+            "isCorrect": true
+          },
+          {
+            "option": "Rate of force",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The slope of a momentum-time graph represents the rate of change of momentum with respect to time, which by Newton's Second Law equals force ($F = \\frac{dp}{dt}$)."
+      },
+      {
+        "id": 5,
+        "question": "In which of the following sport the turning of effect of force used",
+        "options": [
+          {
+            "option": "swimming",
+            "isCorrect": false
+          },
+          {
+            "option": "tennis",
+            "isCorrect": true
+          },
+          {
+            "option": "cycling",
+            "isCorrect": false
+          },
+          {
+            "option": "hockey",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "In tennis, players use the turning effect of force to create spin on the ball, which is crucial for various shots like topspin and slice."
+      },
+      {
+        "id": 6,
+        "question": "The unit of '$g$' is $m s^{-2}$. It can be also expressed as",
+        "options": [
+          {
+            "option": "$cm s^{-1}$",
+            "isCorrect": false
+          },
+          {
+            "option": "$N kg^{-1}$",
+            "isCorrect": true
+          },
+          {
+            "option": "$N m^2 kg^{-1}$",
+            "isCorrect": false
+          },
+          {
+            "option": "$cm^2 s^{-2}$",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Since $g$ represents acceleration due to gravity, it can be expressed as force per unit mass ($N kg^{-1}$), which is dimensionally equivalent to $m s^{-2}$."
+      },
+      {
+        "id": 7,
+        "question": "One kilogram force equals to",
+        "options": [
+          {
+            "option": "9.8 dyne",
+            "isCorrect": false
+          },
+          {
+            "option": "$9.8 \\times 10^4$ N",
+            "isCorrect": false
+          },
+          {
+            "option": "$98 \\times 10^4$ dyne",
+            "isCorrect": true
+          },
+          {
+            "option": "980 dyne",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "One kilogram force equals $9.8$ N, which converts to $98 \\times 10^4$ dyne (1 N = $10^5$ dyne)."
+      },
+      {
+        "id": 8,
+        "question": "The mass of a body is measured on planet Earth as $M$ kg. When it is taken to a planet of radius half that of the Earth then its value will be ____kg",
+        "options": [
+          {
+            "option": "$4M$",
+            "isCorrect": false
+          },
+          {
+            "option": "$2M$",
+            "isCorrect": false
+          },
+          {
+            "option": "$M/4$",
+            "isCorrect": false
+          },
+          {
+            "option": "$M$",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "Mass is an intrinsic property of matter and remains constant regardless of location or gravitational field strength."
+      },
+      {
+        "id": 9,
+        "question": "If the Earth shrinks to 50% of its real radius its mass remaining the same, the weight of a body on the Earth will",
+        "options": [
+          {
+            "option": "decrease by 50%",
+            "isCorrect": false
+          },
+          {
+            "option": "increase by 50%",
+            "isCorrect": false
+          },
+          {
+            "option": "decrease by 25%",
+            "isCorrect": false
+          },
+          {
+            "option": "increase by 300%",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "According to Newton's Law of Gravitation, if radius halves while mass remains constant, gravitational force (weight) increases by a factor of 4 (300% increase), as $F \\propto \\frac{1}{r^2}$."
+      },
+      {
+        "id": 10,
+        "question": "To project the rockets which of the following principle(s) is /(are) required?",
+        "options": [
+          {
+            "option": "Newton's third law of motion",
+            "isCorrect": false
+          },
+          {
+            "option": "Newton's law of gravitation",
+            "isCorrect": false
+          },
+          {
+            "option": "law of conservation of linear momentum",
+            "isCorrect": false
+          },
+          {
+            "option": "both $a$ and $c$",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "Rocket propulsion works on Newton's Third Law (action-reaction) and conserves linear momentum as exhaust gases are expelled in one direction, propelling the rocket in the opposite direction."
+      }
+    ]
+  

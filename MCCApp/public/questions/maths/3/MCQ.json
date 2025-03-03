@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "question": "A system of three linear equations in three variables is inconsistent if their planes",
+    "options": [
+      {
+        "option": "intersect only at a point",
+        "isCorrect": false
+      },
+      {
+        "option": "intersect in a line",
+        "isCorrect": false
+      },
+      {
+        "option": "coincides with each other",
+        "isCorrect": false
+      },
+      {
+        "option": "do not intersect",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "When three planes do not intersect at any point, the system has no solution, making it inconsistent."
+  },
+  {
+    "id": 2,
+    "question": "The solution of the system $x + y - 3z = -6$, $-7y + 7z = 7$, $3z = 9$ is",
+    "options": [
+      {
+        "option": "$x = 1, y = 2, z = 3$",
+        "isCorrect": true
+      },
+      {
+        "option": "$x = -1, y = 2, z = 3$",
+        "isCorrect": false
+      },
+      {
+        "option": "$x = -1, y = -2, z = 3$",
+        "isCorrect": false
+      },
+      {
+        "option": "$x = 1, y = 2, z = -3$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Solving step by step: from third equation $z = 3$, then from second equation $y = 2$, and finally from first equation $x = 1$."
+  },
+  {
+    "id": 3,
+    "question": "If $(x-6)$ is the HCF of $x^2 - x - 24$ and $x^2 - kx - 6$ then the value of $k$ is",
+    "options": [
+      {
+        "option": "3",
+        "isCorrect": false
+      },
+      {
+        "option": "5",
+        "isCorrect": true
+      },
+      {
+        "option": "6",
+        "isCorrect": false
+      },
+      {
+        "option": "8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "If $(x-6)$ is HCF, both polynomials must be divisible by $(x-6)$. Using polynomial division leads to $k = 5$."
+  },
+  {
+    "id": 4,
+    "question": "$\\frac{3y^3-7y}{3y^2-7}$ is",
+    "options": [
+      {
+        "option": "$\\frac{9}{7}y$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{9}{21}y(y-\\frac{21}{3})$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{21y^3-42y+21}{3}$",
+        "isCorrect": false
+      },
+      {
+        "option": "$y$",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Dividing both numerator and denominator, we get $y$."
+  },
+  {
+    "id": 5,
+    "question": "$\\frac{y^2+1}{y}$ is not equal to",
+    "options": [
+      {
+        "option": "$\\frac{y^4+1}{y^2}$",
+        "isCorrect": true
+      },
+      {
+        "option": "$y + \\frac{1}{y}$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{y^2-1+2}{y}$",
+        "isCorrect": false
+      },
+      {
+        "option": "$\\frac{(y+1)^2-2y}{y}$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "All options except A simplify to $\\frac{y^2+1}{y}$."
+  },
+  
+    {
+      "id": 6,
+      "question": "$\\frac{x^2-6x+25}{8x^2-5x+5}$ gives",
+      "options": [
+        {
+          "option": "$\\frac{x^2-7x+40}{(5x-5)(x+1)}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{x^2+7x+40}{(5x-5)(x+1)+1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{x^2-7x+40}{(25x^2-1)}$",
+          "isCorrect": true
+        },
+        {
+          "option": "$\\frac{x^2+10}{(25x^2-1)}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "After simplifying and factoring, the expression reduces to $\\frac{x^2-7x+40}{25x^2-1}$."
+    },
+    {
+      "id": 7,
+      "question": "The square root of $\\frac{256x^8y^4z^{10}}{25x^6y^6z^6}$ is equal to",
+      "options": [
+        {
+          "option": "$\\frac{16}{5}\\frac{x^2z^4}{y^2}$",
+          "isCorrect": true
+        },
+        {
+          "option": "$\\frac{16}{2}\\frac{y^2}{x^2z^4}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{16}{5}\\frac{y}{xz}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{16}{5}\\frac{xz}{y}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Taking square root: $\\sqrt{\\frac{256}{25}} \\times \\sqrt{\\frac{x^8}{x^6}} \\times \\sqrt{\\frac{y^4}{y^6}} \\times \\sqrt{\\frac{z^{10}}{z^6}} = \\frac{16}{5}\\frac{x^2z^4}{y^2}$"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following should be added to make $x^4 + 64$ a perfect square",
+      "options": [
+        {
+          "option": "$4x^2$",
+          "isCorrect": false
+        },
+        {
+          "option": "$16x^2$",
+          "isCorrect": false
+        },
+        {
+          "option": "$8x^2$",
+          "isCorrect": true
+        },
+        {
+          "option": "$-8x^2$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To make it $(x^2 + 8)^2$, we need to add $8x^2$ as middle term."
+    },
+    {
+      "id": 9,
+      "question": "The solution of $2(x-1)^2 = 9$ is equal to",
+      "options": [
+        {
+          "option": "-1",
+          "isCorrect": false
+        },
+        {
+          "option": "2",
+          "isCorrect": false
+        },
+        {
+          "option": "–1, 2",
+          "isCorrect": true
+        },
+        {
+          "option": "None of these",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "$(x-1)^2 = \\frac{9}{2}$, so $x-1 = ±\\frac{3}{\\sqrt{2}}$, giving $x = -1$ or $2$."
+    },
+    {
+      "id": 10,
+      "question": "The values of $a$ and $b$ if $4x^4-24x^3+76x^2+ax+b$ is a perfect square are",
+      "options": [
+        {
+          "option": "100,120",
+          "isCorrect": false
+        },
+        {
+          "option": "10,12",
+          "isCorrect": false
+        },
+        {
+          "option": "-120,100",
+          "isCorrect": true
+        },
+        {
+          "option": "12,10",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "For perfect square, comparing with $(2x^2-6x+10)^2$ gives $a=-120$ and $b=100$."
+    },
+    
+      {
+        "id": 11,
+        "question": "If the roots of the equation $qx^2 + px^2 + r^2 = 0$ are the squares of the roots of the equation $qx^2 + px + r = 0$, then $q$, $p$, $r$ are in _______",
+        "options": [
+          {
+            "option": "A.P",
+            "isCorrect": false
+          },
+          {
+            "option": "G.P",
+            "isCorrect": true
+          },
+          {
+            "option": "Both A.P and G.P",
+            "isCorrect": false
+          },
+          {
+            "option": "none of these",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "When the conditions are satisfied, $q$, $p$, and $r$ form a geometric progression."
+      },
+      {
+        "id": 12,
+        "question": "Graph of a linear equation is a _______",
+        "options": [
+          {
+            "option": "straight line",
+            "isCorrect": true
+          },
+          {
+            "option": "circle",
+            "isCorrect": false
+          },
+          {
+            "option": "parabola",
+            "isCorrect": false
+          },
+          {
+            "option": "hyperbola",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A linear equation of the form $ax + by + c = 0$ always graphs as a straight line."
+      },
+      {
+        "id": 13,
+        "question": "The number of points of intersection of the quadratic polynomial $x^2 + 4x + 4$ with the X axis is",
+        "options": [
+          {
+            "option": "0",
+            "isCorrect": false
+          },
+          {
+            "option": "1",
+            "isCorrect": true
+          },
+          {
+            "option": "0 or 1",
+            "isCorrect": false
+          },
+          {
+            "option": "2",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "$(x^2 + 4x + 4) = (x + 2)^2$, giving one repeated root at $x = -2$."
+      },
+      {
+        "id": 14,
+        "question": "For the given matrix $A = \\begin{pmatrix} 1 & 3 & 5 & 7 \\\\ 2 & 4 & 6 & 8 \\\\ 9 & 11 & 13 & 15 \\end{pmatrix}$ the order of the matrix $A^T$ is",
+        "options": [
+          {
+            "option": "2 × 3",
+            "isCorrect": false
+          },
+          {
+            "option": "3 × 2",
+            "isCorrect": false
+          },
+          {
+            "option": "3 × 4",
+            "isCorrect": false
+          },
+          {
+            "option": "4 × 3",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "For a matrix of order $m × n$, its transpose has order $n × m$. Here $A$ is $3 × 4$, so $A^T$ is $4 × 3$."
+      },
+      {
+        "id": 15,
+        "question": "If $A$ is a $2 × 3$ matrix and $B$ is a $3 × 4$ matrix, how many columns does $AB$ have",
+        "options": [
+          {
+            "option": "3",
+            "isCorrect": false
+          },
+          {
+            "option": "4",
+            "isCorrect": true
+          },
+          {
+            "option": "2",
+            "isCorrect": false
+          },
+          {
+            "option": "5",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "In matrix multiplication, resulting matrix has same number of columns as second matrix (4)."
+      },
+      {
+        "id": 16,
+        "question": "If number of columns and rows are not equal in a matrix then it is said to be a",
+        "options": [
+          {
+            "option": "diagonal matrix",
+            "isCorrect": false
+          },
+          {
+            "option": "rectangular matrix",
+            "isCorrect": true
+          },
+          {
+            "option": "square matrix",
+            "isCorrect": false
+          },
+          {
+            "option": "identity matrix",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A matrix with unequal number of rows and columns is called a rectangular matrix."
+      },
+      {
+        "id": 17,
+        "question": "Transpose of a column matrix is",
+        "options": [
+          {
+            "option": "unit matrix",
+            "isCorrect": false
+          },
+          {
+            "option": "diagonal matrix",
+            "isCorrect": false
+          },
+          {
+            "option": "column matrix",
+            "isCorrect": false
+          },
+          {
+            "option": "row matrix",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "When a column matrix is transposed, it becomes a row matrix."
+      },
+      {
+        "id": 18,
+        "question": "Find the matrix $X$ if $2X + \\begin{pmatrix} 5 & 7 \\\\ 9 & 5 \\end{pmatrix} = \\begin{pmatrix} 1 & 3 \\\\ 5 & 7 \\end{pmatrix}$",
+        "options": [
+          {
+            "option": "$\\begin{pmatrix} -2 & -2 \\\\ -2 & 1 \\end{pmatrix}$",
+            "isCorrect": true
+          },
+          {
+            "option": "$\\begin{pmatrix} 2 & 2 \\\\ -2 & 1 \\end{pmatrix}$",
+            "isCorrect": false
+          },
+          {
+            "option": "$\\begin{pmatrix} 1 & 2 \\\\ 2 & 2 \\end{pmatrix}$",
+            "isCorrect": false
+          },
+          {
+            "option": "$\\begin{pmatrix} 2 & 1 \\\\ 2 & 2 \\end{pmatrix}$",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Subtract second matrix from first and divide by 2 to find X."
+      },
+      {
+        "id": 19,
+        "question": "Which of the following can be calculated from the given matrices $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix}$, $B = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix}$",
+        "options": [
+          {
+            "option": "(i) and (ii) only",
+            "isCorrect": false
+          },
+          {
+            "option": "(ii) and (iii) only",
+            "isCorrect": false
+          },
+          {
+            "option": "(ii) and (iv) only",
+            "isCorrect": false
+          },
+          {
+            "option": "all of these",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Only $AB$ can be calculated as dimensions match for multiplication (2×3 × 3×3)."
+      },
+      {
+        "id": 20,
+        "question": "If $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 3 & 2 & 1 \\end{pmatrix}$, $B = \\begin{pmatrix} 1 & 0 \\\\ 2 & 1 \\\\ 0 & 2 \\end{pmatrix}$ and $C = \\begin{pmatrix} 0 & -1 \\\\ 2 & 5 \\end{pmatrix}$. Which of the following statements are correct?",
+        "options": [
+          {
+            "option": "(i) and (ii) only",
+            "isCorrect": false
+          },
+          {
+            "option": "(ii) and (iii) only",
+            "isCorrect": false
+          },
+          {
+            "option": "(iii) and (iv) only",
+            "isCorrect": false
+          },
+          {
+            "option": "all of these",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "All given matrix operations are valid and results are correct after verification."
+      }
+  ]
+
+
+

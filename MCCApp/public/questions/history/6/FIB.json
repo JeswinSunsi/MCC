@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "The Palayakkarar system was put in place in Tamil Nadu by ______.",
+    "answer": "Viswanatha Nayak",
+    "explanation": "Viswanatha Nayak, the founder of the Madurai Nayak dynasty, introduced the Palayakkarar system to strengthen local administration and defense."
+  },
+  {
+    "id": 2,
+    "question": "Velunachiyar and her daughter were under the protection of ______ for eight years.",
+    "answer": "Gopala Nayak",
+    "explanation": "After losing her kingdom to the British, Queen Velunachiyar took refuge under Gopala Nayak, who provided her with military support."
+  },
+  {
+    "id": 3,
+    "question": "Bennerman deputed ______ to convey his message, asking Kattabomman to surrender.",
+    "answer": "Durai Singam",
+    "explanation": "Durai Singam was sent by Major Bannerman, the British officer, to demand the surrender of Kattabomman before his final confrontation."
+  },
+  {
+    "id": 4,
+    "question": "Kattabomman was hanged to death at ______.",
+    "answer": "Kayathar",
+    "explanation": "Veerapandya Kattabomman was executed by the British at Kayathar in 1799 after being captured following his rebellion."
+  },
+  {
+    "id": 5,
+    "question": "The Rebellion of Marudhu Brothers was categorized in the British records as the ______.",
+    "answer": "South Indian Rebellion",
+    "explanation": "The Marudhu Brothers led a large-scale revolt against British rule in 1801, which was termed the 'South Indian Rebellion' by the British."
+  },
+  {
+    "id": 6,
+    "question": "______ was declared the new Sultan by the rebels in Vellore Fort.",
+    "answer": "Fateh Hyder",
+    "explanation": "During the Vellore Revolt of 1806, the rebels declared Fateh Hyder, son of Tipu Sultan, as their new ruler against British rule."
+  }
+]

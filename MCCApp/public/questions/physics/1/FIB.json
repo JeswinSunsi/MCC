@@ -1,0 +1,33 @@
+[
+
+      {
+        "id": 1,
+        "question": "To produce a displacement ___________ is required",
+        "answer": "force",
+        "explanation": "A force is necessary to produce displacement as it causes a change in the state of motion or position of an object according to Newton's First Law."
+      },
+      {
+        "id": 2,
+        "question": "Passengers lean forward when sudden brake is applied in a moving vehicle. This can be explained by ___________",
+        "answer": "inertia of motion",
+        "explanation": "Due to inertia of motion, passengers tend to continue their forward motion when the vehicle suddenly stops, causing them to lean forward."
+      },
+      {
+        "id": 3,
+        "question": "By convention, the clockwise moments are taken as ___________ and the anticlockwise moments are taken as__________",
+        "answer": "negative, positive",
+        "explanation": "In rotational mechanics, clockwise moments are conventionally taken as negative and anticlockwise as positive to maintain consistency in calculations."
+      },
+      {
+        "id": 4,
+        "question": "___________ is used to change the speed of car",
+        "answer": "accelerator",
+        "explanation": "The accelerator controls the fuel supply to the engine, allowing the driver to increase or decrease the car's speed by changing its acceleration."
+      },
+      {
+        "id": 5,
+        "question": "A man of mass 100 kg has a weight of ___________ at the surface of the Earth",
+        "answer": "980 N",
+        "explanation": "Weight = mass × acceleration due to gravity. Here, $W = 100\\text{ kg} \\times 9.8\\text{ m/s}^2 = 980\\text{ N}$"
+      }
+    ]

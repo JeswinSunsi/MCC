@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the head of the World Trade Organisation (WTO)?",
+    "options": [
+      { "option": "Director General", "isCorrect": true },
+      { "option": "Ministerial conference", "isCorrect": false },
+      { "option": "Deputy Director General", "isCorrect": false },
+      { "option": "None of these", "isCorrect": false }
+    ],
+    "explanation": "The Director General is the head of the World Trade Organisation (WTO) and is responsible for overseeing its administrative functions and international trade negotiations."
+  },
+  {
+    "id": 2,
+    "question": "Colonial advent in India followed which order?",
+    "options": [
+      { "option": "Portuguese, Dutch, English, Danish, French", "isCorrect": true },
+      { "option": "Dutch, English, Danish, French", "isCorrect": false },
+      { "option": "Portuguese, Danish, Dutch, French, English", "isCorrect": false },
+      { "option": "Danish, Portuguese, French, English, Dutch", "isCorrect": false }
+    ],
+    "explanation": "The correct order of colonial advent in India is Portuguese (1498), Dutch (1605), English (1608), Danish (1616), and French (1668)."
+  },
+  {
+    "id": 3,
+    "question": "GATT’s first round was held in?",
+    "options": [
+      { "option": "Geneva", "isCorrect": true },
+      { "option": "Tokyo", "isCorrect": false },
+      { "option": "Uruguay", "isCorrect": false },
+      { "option": "Torquay", "isCorrect": false }
+    ],
+    "explanation": "The first round of the General Agreement on Tariffs and Trade (GATT) negotiations was held in Geneva in 1947."
+  },
+  {
+    "id": 4,
+    "question": "India signed the Dunkel proposal in?",
+    "options": [
+      { "option": "1994", "isCorrect": true },
+      { "option": "1984", "isCorrect": false },
+      { "option": "1976", "isCorrect": false },
+      { "option": "1950", "isCorrect": false }
+    ],
+    "explanation": "India signed the Dunkel Draft, which led to the formation of the WTO, in 1994."
+  },
+  {
+    "id": 5,
+    "question": "Who granted the English the 'Golden Fireman' in 1632?",
+    "options": [
+      { "option": "Sultan of Golconda", "isCorrect": true },
+      { "option": "Jahangir", "isCorrect": false },
+      { "option": "Akbar", "isCorrect": false },
+      { "option": "Aurangzeb", "isCorrect": false }
+    ],
+    "explanation": "The Sultan of Golconda granted the English the 'Golden Fireman' in 1632, allowing them to trade freely in his kingdom."
+  },
+  {
+    "id": 6,
+    "question": "Foreign Investment Policy (FIP) was announced in?",
+    "options": [
+      { "option": "July 1991", "isCorrect": true },
+      { "option": "June 1991", "isCorrect": false },
+      { "option": "July-Aug 1991", "isCorrect": false },
+      { "option": "Aug 1991", "isCorrect": false }
+    ],
+    "explanation": "The Foreign Investment Policy (FIP) was announced in July 1991 as part of India's economic liberalization reforms."
+  }
+]

@@ -1,0 +1,94 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following is correct?",
+      "options": [
+        {
+          "option": "Rate of change of charge is electrical power",
+          "isCorrect": false
+        },
+        {
+          "option": "Rate of change of charge is current",
+          "isCorrect": true
+        },
+        {
+          "option": "Rate of change of energy is current",
+          "isCorrect": false
+        },
+        {
+          "option": "Rate of change of current is charge",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Current is defined as the rate of flow of charge with respect to time: $I = \\frac{dQ}{dt}$"
+    },
+    {
+      "id": 2,
+      "question": "SI unit of resistance is",
+      "options": [
+        {
+          "option": "mho",
+          "isCorrect": false
+        },
+        {
+          "option": "joule",
+          "isCorrect": false
+        },
+        {
+          "option": "ohm",
+          "isCorrect": true
+        },
+        {
+          "option": "ohm meter",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The SI unit of electrical resistance is ohm (Ω), defined as the resistance that allows one ampere current when one volt potential difference is applied."
+    },
+    {
+      "id": 3,
+      "question": "In a simple circuit, why does the bulb glow when you close the switch?",
+      "options": [
+        {
+          "option": "The switch produces electricity",
+          "isCorrect": false
+        },
+        {
+          "option": "Closing the switch completes the circuit",
+          "isCorrect": true
+        },
+        {
+          "option": "Closing the switch breaks the circuit",
+          "isCorrect": false
+        },
+        {
+          "option": "The bulb is getting charged",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When the switch is closed, it completes the circuit, allowing current to flow through the bulb, which then converts electrical energy to light and heat."
+    },
+    {
+      "id": 4,
+      "question": "Kilowatt hour is the unit of",
+      "options": [
+        {
+          "option": "resistivity",
+          "isCorrect": false
+        },
+        {
+          "option": "conductivity",
+          "isCorrect": false
+        },
+        {
+          "option": "electrical energy",
+          "isCorrect": true
+        },
+        {
+          "option": "electrical power",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Kilowatt-hour (kWh) is a unit of electrical energy, equal to the energy consumed by a 1 kilowatt device running for 1 hour (3.6 × 10⁶ joules)."
+    }
+]

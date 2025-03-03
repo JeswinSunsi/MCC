@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "______ was known as the 'Father of modern China'.",
+    "answer": "Sun Yat-sen",
+    "explanation": "Sun Yat-sen was a revolutionary leader who played a key role in overthrowing the Qing dynasty and founding the Republic of China in 1912."
+  },
+  {
+    "id": 2,
+    "question": "In 1918, the society for the study of Marxism was formed in ______ University.",
+    "answer": "Peking",
+    "explanation": "Peking University became a center for Marxist thought in China, influencing the rise of the Communist Party."
+  },
+  {
+    "id": 3,
+    "question": "After the death of Dr. Sun Yat Sen, the leader of the Kuomintang party was ______.",
+    "answer": "Chiang Kai-shek",
+    "explanation": "Chiang Kai-shek took over the Kuomintang (KMT) after Sun Yat-sen’s death in 1925 and led the Chinese Nationalist government."
+  },
+  {
+    "id": 4,
+    "question": "______ treaty is open to any Arab nation desiring peace and security in the region.",
+    "answer": "Baghdad Pact",
+    "explanation": "The Baghdad Pact (1955) was a military alliance aimed at preventing Soviet influence in the Middle East."
+  },
+  {
+    "id": 5,
+    "question": "The treaty of ______ provided for mandates in Turkish-Arab Empire.",
+    "answer": "Sevres",
+    "explanation": "The Treaty of Sèvres (1920) divided the Ottoman Empire and established mandates over former Turkish-Arab territories."
+  },
+  {
+    "id": 6,
+    "question": "Germany joined NATO in ______.",
+    "answer": "1955",
+    "explanation": "West Germany joined NATO in 1955 as part of the Cold War effort to strengthen Western alliances against the Soviet Union."
+  },
+  {
+    "id": 7,
+    "question": "______ was the Headquarters of the Council of Europe.",
+    "answer": "Strasbourg",
+    "explanation": "Strasbourg, France, has been the headquarters of the Council of Europe since its founding in 1949 to promote human rights and democracy."
+  },
+  {
+    "id": 8,
+    "question": "______ treaty signed on February 7, 1992, created the European Union.",
+    "answer": "Maastricht",
+    "explanation": "The Maastricht Treaty (1992) formally established the European Union (EU) and introduced plans for a common currency, the euro."
+  }
+]

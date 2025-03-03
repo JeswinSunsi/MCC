@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "When a circuit is open, _____________ cannot pass through it",
+      "answer": "current",
+      "explanation": "In an open circuit, the path is broken and electrons cannot flow, therefore no electric current can pass through it."
+    },
+    {
+      "id": 2,
+      "question": "The ratio of the potential difference to the current is known as ________",
+      "answer": "resistance",
+      "explanation": "According to Ohm's law, resistance (R) = potential difference (V) / current (I), or $R = \\frac{V}{I}$."
+    },
+    {
+      "id": 3,
+      "question": "The wiring in a house consists of _________ circuits",
+      "answer": "parallel",
+      "explanation": "House wiring uses parallel circuits so that each device can operate independently and at the same voltage as the main supply."
+    },
+    {
+      "id": 4,
+      "question": "The power of an electric device is a product of _________ and __________",
+      "answer": "voltage, current",
+      "explanation": "Electric power (P) is calculated as the product of voltage (V) and current (I): P = VI."
+    },
+    {
+      "id": 5,
+      "question": "LED stands for ___________________",
+      "answer": "Light Emitting Diode",
+      "explanation": "LED (Light Emitting Diode) is a semiconductor device that emits light when electric current passes through it."
+    }
+]
