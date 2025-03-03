@@ -3,8 +3,8 @@
         <h2 class="section-title">Most Popular Quizes</h2>
 
         <Carousel v-bind="config">
-            <Slide v-for="image in images" :key="image.id">
-                <div class="autoscroll-container"
+            <Slide v-for="image in images" :key="image.id" @click="$router.push(image.route)">
+                <div class="autoscroll-container" 
                     :style='`background-image: url(${image.url}); background-size: cover; padding: 1rem; height: 100%; width: 100%;`'>
                 </div>
             </Slide>
@@ -12,40 +12,40 @@
 
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
-            <button class="subject-button" @click="changeSubject('Maths')"
-            :class="{ active: selectedSubject === 'Maths' }">Maths</button>
-            <button class="subject-button" @click="changeSubject('History')"
-                :class="{ active: selectedSubject === 'History' }">History</button>
-            <button class="subject-button" @click="changeSubject('Geography')"
-                :class="{ active: selectedSubject === 'Geography' }">Geography</button>
-            <button class="subject-button" @click="changeSubject('Civics')"
-                :class="{ active: selectedSubject === 'Civics' }">Civics</button>
-            <button class="subject-button" @click="changeSubject('Economics')"
-                :class="{ active: selectedSubject === 'Economics' }">Economics</button>
-            <button class="subject-button" @click="changeSubject('Physics')"
-                :class="{ active: selectedSubject === 'Physics' }">Physics</button>
-            <button class="subject-button" @click="changeSubject('Chemistry')"
-                :class="{ active: selectedSubject === 'Chemistry' }">Chemistry</button>
-            <button class="subject-button" @click="changeSubject('Biology')"
-                :class="{ active: selectedSubject === 'Biology' }">Biology</button>
-
-
-
+                <button class="subject-button" @click="changeSubject('Maths')"
+                    :class="{ active: selectedSubject === 'Maths' }">Maths</button>
+                <button class="subject-button" @click="changeSubject('History')"
+                    :class="{ active: selectedSubject === 'History' }">History</button>
+                <button class="subject-button" @click="changeSubject('Geography')"
+                    :class="{ active: selectedSubject === 'Geography' }">Geography</button>
+                <button class="subject-button" @click="changeSubject('Civics')"
+                    :class="{ active: selectedSubject === 'Civics' }">Civics</button>
+                <button class="subject-button" @click="changeSubject('Economics')"
+                    :class="{ active: selectedSubject === 'Economics' }">Economics</button>
+                <button class="subject-button" @click="changeSubject('Physics')"
+                    :class="{ active: selectedSubject === 'Physics' }">Physics</button>
+                <button class="subject-button" @click="changeSubject('Chemistry')"
+                    :class="{ active: selectedSubject === 'Chemistry' }">Chemistry</button>
+                <button class="subject-button" @click="changeSubject('Biology')"
+                    :class="{ active: selectedSubject === 'Biology' }">Biology</button>
 
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" 
-         v-for="(chapter, index) in Chapters[selectedSubject]" 
-         :key="index"
-         @click="toggleTypes(index)"
-    >
-        {{ chapter }}
-        <div class="type" v-if="selectedChapter === index">
-            <div class="mcq-type" @click.stop="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">MCQ</div>
-            <div class="fib-type" @click.stop="$router.push(`/fib/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">FIB</div>
-        </div>
-    </div>
+            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index"
+                @click="toggleTypes(index)">
+                <h1>{{ chapter }}</h1>
+                <Transition name="fade">
+                <div class="type" v-if="selectedChapter === index">
+                    <div class="mcq-type"
+                        @click.stop="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">MCQ
+                    </div>
+                    <div class="fib-type"
+                        @click.stop="$router.push(`/fib/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">FIB
+                    </div>
+                </div>
+            </Transition>
+            </div>
         </div>
 
         <div class="footer">
@@ -65,7 +65,7 @@ import quizCardImage from "../assets/quizcard.png"
 import quizCardImage2 from "../assets/quizcard2.png"
 import quizCardImage3 from "../assets/quizcard3.png"
 
-const images = [{ "id": 1, "url": quizCardImage }, { "id": 1, "url": quizCardImage2 }, { "id": 3, "url": quizCardImage3 }]
+const images = [{ "id": 1, "url": quizCardImage, "route": "/mcq/maths/Numbers And Sequences/2" }, { "id": 1, "url": quizCardImage2, "route": "/mcq/maths/Numbers And Sequences/2" }, { "id": 3, "url": quizCardImage3, "route": "/mcq/maths/Numbers And Sequences/2" }]
 
 const selectedChapter = ref(null)
 
@@ -130,8 +130,6 @@ const Chapters = ref({
         "India's Foreign Policy",
         "India's International Relations"
     ]
-
-
 })
 
 
@@ -143,11 +141,13 @@ function changeSubject(subject) {
 <style scoped>
 .type {
     display: flex;
-    margin-top: 0.6rem;
     font-weight: 700;
+    margin-top: -0.1rem;
+    color: #3F4EA4;
 }
 
-.mcq-type, .fib-type {
+.mcq-type,
+.fib-type {
     border: 1px solid #3F4EA4;
     padding: 0.4rem 0.8rem;
     margin-right: 0.2rem;
@@ -212,11 +212,17 @@ function changeSubject(subject) {
 }
 
 .chapter-item {
-    padding: 0.8rem 0;
+    min-height: 2.4rem;
     margin-bottom: 0.2rem;
     border-bottom: 1px solid #ADADAD;
     font-size: 0.8rem;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.chapter-item h1 {
+    margin-right: 0.75rem;
 }
 
 .footer {
@@ -241,5 +247,20 @@ function changeSubject(subject) {
 
 .footer h2 {
     font-size: 0.6rem;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
 }
 </style>
