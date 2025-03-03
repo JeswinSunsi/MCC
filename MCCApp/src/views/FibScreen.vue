@@ -11,7 +11,11 @@
     </div>
     <div class="question-card">
       <div class="question">
+        <h4 style="font-size: 0.7rem; margin-bottom: 0.5rem;">Question {{qnNow + 1}}</h4>
         <h2 v-html="renderedQuestion"></h2>
+      </div>
+      <div class="input-wrapper">
+        <input type="text" class="answerbox" @keyup.enter="answerQuestion('AAA')" v-model="answerContent" ref="inputRef">
       </div>
 
     </div>
@@ -25,7 +29,7 @@
 
     </div>
     <Transition name="slide-up">
-    <div class="explanation-wrapper" v-if="showExplanationData">
+    <div class="explanation-wrapper" v-if="showExplanationData && quizData[qnNow].explanation">
       <div class="explanation" v-html="renderLatex(quizData[qnNow].explanation)">
       </div>
       </div>
@@ -57,12 +61,13 @@ const showExplanationData = ref(false)
 const progress = ref(0)
 let oneBarProgress = 0
 
-const selectedOption = ref(null)
 const showResult = ref(false)
 const qnNow = ref(0)
 const quizData = ref(null)
 const loading = ref(true)
 const totalQns = ref(0)
+const answerContent = ref("")
+const inputRef = ref("")
 
 let answerData = {"correct": 0, "incorrect": 0}
 
@@ -91,20 +96,20 @@ const renderedQuestion = computed(() => {
   return renderLatex(quizData.value[qnNow.value].question)
 })
 
-function selectOption(index, correctness) {
-  selectedOption.value = index
-  showResult.value = true
-  if (correctness) {
+function answerQuestion(correctAnswer) {
+  if (answerContent.value == correctAnswer) {
     answerData.correct = answerData.correct + 1
   } else {
     answerData.incorrect = answerData.incorrect + 1
     showExplanationData.value = true;
   }
+  inputRef.value.blur()
+  showResult.value = true;
 }
 
 const loadSubjectData = async () => {
   try {
-    const response = await fetch(`/questions/${subject}/${chapter}/fib.json`)
+    const response = await fetch(`/questions/${subject}/${chapter}/FIB.json`)
     quizData.value = await response.json()
     totalQns.value = quizData.value.length
     oneBarProgress = 100 / totalQns.value
@@ -132,7 +137,6 @@ function continueToNextQn() {
     qnNow.value++
     progress.value = progress.value + oneBarProgress
     showResult.value = false
-    selectedOption.value = null
     showExplanationData.value = null
   }
 }
@@ -217,54 +221,6 @@ loadSubjectData()
   font-weight: 600;
 }
 
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.option {
-  border: 1px solid #ddd;
-  border-radius: 0.6rem;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.2s;
-  line-height: 1.5rem;
-}
-
-.option.selected {
-  border-color: #4a90e2;
-}
-
-.option.correct {
-  background-color: rgba(76, 175, 80, 0.1);
-  border-color: #4CAF50;
-}
-
-.option.incorrect {
-  background-color: rgba(244, 67, 54, 0.1);
-  border-color: #F44336;
-}
-
-.option-circle {
-  width: 1rem;
-  min-width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 2px solid #ddd;
-}
-
-.option-circle.correct {
-  border-color: #4CAF50;
-}
-
-.option-circle.incorrect {
-  border-color: #ff4081;
-}
-
 .actions {
   display: flex;
   gap: 15px;
@@ -343,5 +299,20 @@ loadSubjectData()
   color: #000;
   line-height: 1.2rem;
   font-size: 0.8rem;
+}
+
+.input-wrapper {
+  background-color: rgb(233, 233, 233);
+  width: 60%;
+  height: 2rem;
+  border-bottom: 1px black dotted;
+}
+
+.answerbox {
+  height: inherit;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 </style>
