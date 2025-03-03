@@ -1,39 +1,44 @@
-
 [
-      {
-          "id": 1,
-          "question": "Japan forced a war on China in the year ______.",
-          "answer": "1894"
-      },
-      {
-          "id": 2,
-          "question": "The new state of Albania was created according to the Treaty of ______ signed in May 1913.",
-          "answer": "London"
-      },
-      {
-          "id": 3,
-          "question": "Japan entered into an alliance with England in the year ______.",
-          "answer": "1902"
-      },
-      {
-          "id": 4,
-          "question": "In the Balkans ______ had mixed population.",
-          "answer": "Ottoman Empire"
-      },
-      {
-          "id": 5,
-          "question": "In the battle of Tannenberg ______ suffered heavy losses.",
-          "answer": "Russia"
-      },
-      {
-          "id": 6,
-          "question": "______ as Prime Minister represented France in Paris Peace Conference.",
-          "answer": "Georges Clemenceau"
-      },
-      {
-          "id": 7,
-          "question": "Locarno Treaty was signed in the year ______.",
-          "answer": "1925"
-      }
+    {
+        "id": 1,
+        "question": "Japan forced a war on China in the year ______.",
+        "answer": "1894",
+        "explanation": "The First Sino-Japanese War began in 1894 when Japan, seeking to expand its influence, launched an aggressive campaign against China over the control of Korea."
+    },
+    {
+        "id": 2,
+        "question": "The new state of Albania was created according to the Treaty of ______ signed in May 1913.",
+        "answer": "London",
+        "explanation": "The Treaty of London in 1913 recognized Albania as an independent state following the First Balkan War, ending centuries of Ottoman rule."
+    },
+    {
+        "id": 3,
+        "question": "Japan entered into an alliance with England in the year ______.",
+        "answer": "1902",
+        "explanation": "The Anglo-Japanese Alliance of 1902 was a military agreement between Britain and Japan, marking Japan's emergence as a major world power."
+    },
+    {
+        "id": 4,
+        "question": "In the Balkans ______ had mixed population.",
+        "answer": "Ottoman Empire",
+        "explanation": "The Ottoman Empire in the Balkans was home to diverse ethnic groups including Turks, Greeks, Slavs, and Albanians, making it a complex multicultural region."
+    },
+    {
+        "id": 5,
+        "question": "In the battle of Tannenberg ______ suffered heavy losses.",
+        "answer": "Russia",
+        "explanation": "At the Battle of Tannenberg in 1914, the Russian Second Army was decisively defeated by German forces, resulting in about 92,000 Russian casualties."
+    },
+    {
+        "id": 6,
+        "question": "______ as Prime Minister represented France in Paris Peace Conference.",
+        "answer": "Georges Clemenceau",
+        "explanation": "Georges Clemenceau, known as 'The Tiger,' represented France at the Paris Peace Conference in 1919 and was instrumental in crafting the Treaty of Versailles."
+    },
+    {
+        "id": 7,
+        "question": "Locarno Treaty was signed in the year ______.",
+        "answer": "1925",
+        "explanation": "The Locarno Treaties of 1925 were agreements between various European nations that aimed to normalize relations between Germany and other European powers after World War I."
+    }
 ]
-
