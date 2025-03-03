@@ -299,7 +299,9 @@ loadSubjectData()
 .actions {
   display: flex;
   gap: 15px;
-  width: 90%;
+  width: 100%;
+  padding: 0rem 1.5rem;
+  background-color: #3f51b5;
 }
 
 .help-btn,
