@@ -3,32 +3,40 @@
         <h2 class="section-title">Most Popular Quizes</h2>
 
         <Carousel v-bind="config">
-    <Slide v-for="image in images" :key="image.id">
-      <div class="autoscroll-container" :style='`background-image: url(${image.url}); background-size: cover; padding: 1rem; height: 100%; width: 100%;`'>
-      </div>
-    </Slide>
-  </Carousel>
+            <Slide v-for="image in images" :key="image.id">
+                <div class="autoscroll-container"
+                    :style='`background-image: url(${image.url}); background-size: cover; padding: 1rem; height: 100%; width: 100%;`'>
+                </div>
+            </Slide>
+        </Carousel>
 
         <h2 class="section-title">Subjects</h2>
         <div class="subjects-container">
-            <button class="subject-button" @click="changeSubject('Biology')"
-                :class="{ active: selectedSubject === 'Biology' }">Biology</button>
-            <button class="subject-button" @click="changeSubject('Math')"
-                :class="{ active: selectedSubject === 'Math' }">Math</button>
-            <button class="subject-button" @click="changeSubject('Civics')"
-                :class="{ active: selectedSubject === 'Civics' }">Civics</button>
+            <button class="subject-button" @click="changeSubject('Maths')"
+            :class="{ active: selectedSubject === 'Maths' }">Maths</button>
             <button class="subject-button" @click="changeSubject('History')"
                 :class="{ active: selectedSubject === 'History' }">History</button>
             <button class="subject-button" @click="changeSubject('Geography')"
                 :class="{ active: selectedSubject === 'Geography' }">Geography</button>
-            <button class="subject-button" @click="changeSubject('Chemistry')"
-                :class="{ active: selectedSubject === 'Chemistry' }">Chemistry</button>
+            <button class="subject-button" @click="changeSubject('Civics')"
+                :class="{ active: selectedSubject === 'Civics' }">Civics</button>
+            <button class="subject-button" @click="changeSubject('Economics')"
+                :class="{ active: selectedSubject === 'Economics' }">Economics</button>
             <button class="subject-button" @click="changeSubject('Physics')"
                 :class="{ active: selectedSubject === 'Physics' }">Physics</button>
+            <button class="subject-button" @click="changeSubject('Chemistry')"
+                :class="{ active: selectedSubject === 'Chemistry' }">Chemistry</button>
+            <button class="subject-button" @click="changeSubject('Biology')"
+                :class="{ active: selectedSubject === 'Biology' }">Biology</button>
+
+
+
+
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index" @click="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index+1}`)">
+            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index"
+                @click="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">
                 {{ chapter }}
             </div>
         </div>
@@ -50,41 +58,67 @@ import quizCardImage from "../assets/quizcard.png"
 import quizCardImage2 from "../assets/quizcard2.png"
 import quizCardImage3 from "../assets/quizcard3.png"
 
-const images = [{"id": 1, "url": quizCardImage}, {"id": 1, "url": quizCardImage2}, {"id": 3, "url": quizCardImage3}]
+const images = [{ "id": 1, "url": quizCardImage }, { "id": 1, "url": quizCardImage2 }, { "id": 3, "url": quizCardImage3 }]
 
 const config = {
-  height: 196,
-  itemsToShow: 1,
-  gap: 5,
-  autoplay: 4000,
-  wrapAround: true,
-  pauseAutoplayOnHover: true,
+    height: 196,
+    itemsToShow: 1,
+    gap: 5,
+    autoplay: 4000,
+    wrapAround: true,
+    pauseAutoplayOnHover: true,
 };
 
-const selectedSubject = ref("Biology")
+const selectedSubject = ref("Maths")
 
 const Chapters = ref({
-    "Math": ['Relations and Functions',
-        'Inverse Trigonometry',
-        'Matrices',
-        'Determinants',
-        'Continuity and Differentiability',
-        'Application of Derivatives']
-,
-    "Biology": [
-        'Atoms & Nuclei',
-        'Magnetism & Induction',
-        'Wave Optics',
-        'The D Block',
-        'Solutions & Electrochemistry',
-        'Current Electricity'
+    "Maths": ["Relations and Functions",
+        "Numbers and Sequences",
+        "Algebra",
+        "Geometry",
+        "Coordinate Geometry",
+        "Trigonometry",
+        "Mensuration",
+        "Statistics and Probability"
+    ]
+    ,
+    "Geography": [
+        "India - Location, Relief and Drainage",
+        "Climate and Natural Vegetation of India",
+        "India - Agriculture",
+        "India - Resources and Industries",
+        "India - Population, Transport, Communication and Trade",
+        "Physical Geography of Tamil Nadu",
+        "Human Geography of Tamil Nadu"
+
     ],
-    "History": ['The French Reneissance',
-        'Bolshevism in Imperial Russia',
-        'Subcontinental Empires',
-        'Introduction to Democratic Politics',
-        'Policy Development',
-        'World War II']
+    "History": ["Outbreak of World War I and Its Aftermath",
+        "The World between two World Wars",
+        "World War II",
+        "The World after World War II",
+        "Social and Religious Reform Movements in the 19th Century",
+        "Early Revolts against British Rule in Tamil Nadu",
+        "Anti-Colonial Movements and the Birth of Nationalism",
+        "Nationalism: Gandhian Phase",
+        "Freedom Struggle in Tamil Nadu",
+        "Social Transformation in Tamil Nadu"
+    ],
+    "Economics": [
+        "Gross Domestic Product and its Growth: an Introduction",
+        "Globalization and Trade",
+        "Food Security and Nutrition",
+        "Government and Taxes",
+        "Industrial Clusters in Tamil Nadu"
+    ],
+    "Civics": [
+        "Indian Constitution",
+        "Central Government",
+        "State Government",
+        "India's Foreign Policy",
+        "India's International Relations"
+    ]
+
+
 })
 
 
@@ -117,6 +151,7 @@ function changeSubject(subject) {
     width: 100%;
     margin-bottom: 1rem;
 }
+
 .quiz-card {
     min-height: 5rem;
 }
