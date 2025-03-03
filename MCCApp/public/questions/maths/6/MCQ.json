@@ -1,0 +1,348 @@
+[
+    {
+      "id": 1,
+      "question": "The value of $\\frac{\\sin^2\\theta + 1}{\\tan^2\\theta + 1}$ is equal to",
+      "options": [
+        {
+          "option": "$\\tan^2\\theta$",
+          "isCorrect": false
+        },
+        {
+          "option": "1",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\cos^2\\theta$",
+          "isCorrect": true
+        },
+        {
+          "option": "0",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using identity $\\tan^2\\theta = \\frac{\\sin^2\\theta}{\\cos^2\\theta}$, the expression simplifies to $\\cos^2\\theta$."
+    },
+    {
+      "id": 2,
+      "question": "$\\tan\\theta\\cosec\\theta - 2$ is equal to",
+      "options": [
+        {
+          "option": "$\\sec\\theta$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\cot^2\\theta$",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\sin\\theta$",
+          "isCorrect": true
+        },
+        {
+          "option": "$\\cot\\theta$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "$\\tan\\theta\\cosec\\theta = \\frac{\\sin\\theta}{\\cos\\theta} \\cdot \\frac{1}{\\sin\\theta} = \\frac{1}{\\cos\\theta}$, so $\\tan\\theta\\cosec\\theta - 2 = \\sin\\theta$"
+    },
+    {
+      "id": 3,
+      "question": "If $(\\sin\\alpha + \\cosec\\alpha)^2 + (\\cos\\alpha + \\sec\\alpha)^2 = k + \\tan^2\\alpha + \\cot^2\\alpha$, then the value of $k$ is equal to",
+      "options": [
+        {
+          "option": "9",
+          "isCorrect": true
+        },
+        {
+          "option": "7",
+          "isCorrect": false
+        },
+        {
+          "option": "5",
+          "isCorrect": false
+        },
+        {
+          "option": "3",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Expanding and using trigonometric identities leads to $k = 9$."
+    },
+    {
+      "id": 4,
+      "question": "If $\\sin\\theta + \\cos\\theta = a$ and $\\sec\\theta + \\cosec\\theta = b$, then the value of $b(a^2-1)$ is equal to",
+      "options": [
+        {
+          "option": "2a",
+          "isCorrect": true
+        },
+        {
+          "option": "3a",
+          "isCorrect": false
+        },
+        {
+          "option": "0",
+          "isCorrect": false
+        },
+        {
+          "option": "2ab",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using trigonometric identities and given relations, $b(a^2-1) = 2a$."
+    },
+    {
+      "id": 5,
+      "question": "If $5^x = \\sec\\theta$ and $5^y = \\tan\\theta$, then $x^2-y^2$ is equal to",
+      "options": [
+        {
+          "option": "25",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{1}{25}$",
+          "isCorrect": false
+        },
+        {
+          "option": "5",
+          "isCorrect": false
+        },
+        {
+          "option": "1",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Using $\\sec^2\\theta - \\tan^2\\theta = 1$, we get $5^{2x} - 5^{2y} = 1$, so $x^2-y^2 = 1$."
+    },
+    
+        {
+          "id": 6,
+          "question": "If $\\sin\\theta = \\cos\\theta$, then $2\\tan^2\\theta - 2\\sin^2\\theta$ is equal to",
+          "options": [
+            {
+              "option": "$-\\frac{3}{2}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{3}{2}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{2}{3}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$-\\frac{2}{3}$",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "When $\\sin\\theta = \\cos\\theta$, $\\theta = 45°$, so $\\sin\\theta = \\cos\\theta = \\frac{1}{\\sqrt{2}}$. Substituting gives $-\\frac{2}{3}$."
+        },
+        {
+          "id": 7,
+          "question": "If $\\frac{x}{a} = \\tan\\theta$ and $\\frac{y}{b} = \\sec\\theta$ then",
+          "options": [
+            {
+              "option": "$\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 1$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 0$",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Using identity $\\sec^2\\theta - \\tan^2\\theta = 1$, substituting gives $\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 1$."
+        },
+        {
+          "id": 8,
+          "question": "$(1 + \\tan\\theta + \\sec\\theta)(1 + \\cot\\theta - \\cosec\\theta)$ is equal to",
+          "options": [
+            {
+              "option": "0",
+              "isCorrect": false
+            },
+            {
+              "option": "1",
+              "isCorrect": false
+            },
+            {
+              "option": "2",
+              "isCorrect": true
+            },
+            {
+              "option": "-1",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using trigonometric identities and expanding, the expression equals 2."
+        },
+        {
+          "id": 9,
+          "question": "If $a\\cot\\theta + b\\cosec\\theta = p$ and $b\\cot\\theta + a\\cosec\\theta = q$ then $p^2 - q^2$ is equal to",
+          "options": [
+            {
+              "option": "$a^2 - b^2$",
+              "isCorrect": true
+            },
+            {
+              "option": "$b^2 - a^2$",
+              "isCorrect": false
+            },
+            {
+              "option": "$a^2 + b^2$",
+              "isCorrect": false
+            },
+            {
+              "option": "$b - a$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Expanding $p^2 - q^2$ and using trigonometric identities gives $a^2 - b^2$."
+        },
+        {
+          "id": 10,
+          "question": "If the ratio of the height of a tower and the length of its shadow is 3:1, then the angle of elevation of the sun has measure",
+          "options": [
+            {
+              "option": "45°",
+              "isCorrect": false
+            },
+            {
+              "option": "30°",
+              "isCorrect": false
+            },
+            {
+              "option": "90°",
+              "isCorrect": false
+            },
+            {
+              "option": "60°",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "$\\tan\\theta = \\frac{opposite}{adjacent} = \\frac{3}{1} = \\sqrt{3}$, therefore $\\theta = 60°$."
+        },
+        {
+          "id": 11,
+          "question": "The electric pole subtends an angle of 30° at a point on the same level as its foot. At a second point 'b' metres above the first, the depression of the foot of the pole is 60°. The height of the pole (in metres) is equal to",
+          "options": [
+            {
+              "option": "$3b$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{b}{3}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{b}{2}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$b\\sqrt{3}$",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Using trigonometric ratios and solving the equations gives height = $b\\sqrt{3}$."
+        },
+        {
+          "id": 12,
+          "question": "A tower is 60 m high. Its shadow reduces by x metres when the angle of elevation of the sun increases from 30° to 45° then x is equal to",
+          "options": [
+            {
+              "option": "41.92 m",
+              "isCorrect": false
+            },
+            {
+              "option": "43.92 m",
+              "isCorrect": true
+            },
+            {
+              "option": "43 m",
+              "isCorrect": false
+            },
+            {
+              "option": "45.6 m",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using $\\tan 30° = \\frac{60}{l_1}$ and $\\tan 45° = \\frac{60}{l_2}$, difference $l_1 - l_2 = 43.92$ m."
+        },
+        {
+          "id": 13,
+          "question": "The angle of depression of the top and bottom of 20 m tall building from the top of a multistoried building are 30° and 60° respectively. The height of the multistoried building and the distance between two buildings (in metres) is",
+          "options": [
+            {
+              "option": "20, $10\\sqrt{3}$",
+              "isCorrect": false
+            },
+            {
+              "option": "30, $5\\sqrt{3}$",
+              "isCorrect": false
+            },
+            {
+              "option": "20, 10",
+              "isCorrect": false
+            },
+            {
+              "option": "30, $10\\sqrt{3}$",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Using trigonometric ratios and solving simultaneous equations gives height = 30m and distance = $10\\sqrt{3}$ m."
+        },
+        {
+          "id": 14,
+          "question": "Two persons are standing 'x' metres apart from each other and the height of the first person is double that of the other. If from the middle point of the line joining their feet an observer finds the angular elevations of their tops to be complementary, then the height of the shorter person (in metres) is",
+          "options": [
+            {
+              "option": "$2x$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{x}{2\\sqrt{2}}$",
+              "isCorrect": true
+            },
+            {
+              "option": "$\\frac{x}{2}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$2x$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using complementary angles and ratio of heights, height of shorter person = $\\frac{x}{2\\sqrt{2}}$."
+        },
+        {
+          "id": 15,
+          "question": "The angle of elevation of a cloud from a point h metres above a lake is $\\beta$. The angle of depression of its reflection in the lake is 45°. The height of location of the cloud from the lake is",
+          "options": [
+            {
+              "option": "$h(\\frac{1+\\tan\\beta}{1-\\tan\\beta})$",
+              "isCorrect": true
+            },
+            {
+              "option": "$h(\\frac{1-\\tan\\beta}{1+\\tan\\beta})$",
+              "isCorrect": false
+            },
+            {
+              "option": "$h\\tan(45° - \\beta)$",
+              "isCorrect": false
+            },
+            {
+              "option": "none of these",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using properties of reflection and trigonometric ratios, height = $h(\\frac{1+\\tan\\beta}{1-\\tan\\beta})$."
+        }
+    ]

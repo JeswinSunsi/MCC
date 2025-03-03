@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Hitler attacked which was a demilitarised zone.",
+    "answer": "Rhineland",
+    "explanation": "In 1936, Hitler violated the Treaty of Versailles by remilitarizing the Rhineland, a demilitarized zone between Germany and France."
+  },
+  {
+    "id": 2,
+    "question": "The alliance between Italy, Germany and Japan is known as ______.",
+    "answer": "Axis Powers",
+    "explanation": "The Axis Powers, formed by Germany, Italy, and Japan, were the main opponents of the Allies during World War II."
+  },
+  {
+    "id": 3,
+    "question": "Britain Prime Minister ______ resigned in 1940.",
+    "answer": "Neville Chamberlain",
+    "explanation": "Neville Chamberlain resigned as British Prime Minister in May 1940, following criticism of his appeasement policy, and was succeeded by Winston Churchill."
+  },
+  {
+    "id": 4,
+    "question": "______ is a device used to find out the enemy aircraft from a distance.",
+    "answer": "Radar",
+    "explanation": "Radar (Radio Detection and Ranging) was crucial in detecting enemy aircraft during World War II, helping Britain defend against German air raids."
+  }
+]

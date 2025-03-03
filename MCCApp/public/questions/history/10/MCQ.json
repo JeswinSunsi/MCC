@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "_____ established a full-fledged printing press in 1709, at Tranquebar.",
+    "options": [
+      { "option": "Ziegenbalg", "isCorrect": true },
+      { "option": "Caldwell", "isCorrect": false },
+      { "option": "F.W. Ellis", "isCorrect": false },
+      { "option": "Meenakshisundaram", "isCorrect": false }
+    ],
+    "explanation": "Bartholomäus Ziegenbalg, a German missionary, established the first printing press in Tranquebar, Tamil Nadu, in 1709."
+  },
+  {
+    "id": 2,
+    "question": "_____ founded Adi Dravida Mahajana Sabha in 1893.",
+    "options": [
+      { "option": "Rettaimalai Srinivasan", "isCorrect": true },
+      { "option": "B. R. Ambedkar", "isCorrect": false },
+      { "option": "Rajaji", "isCorrect": false },
+      { "option": "M. C. Rajah", "isCorrect": false }
+    ],
+    "explanation": "Rettaimalai Srinivasan, a Dalit leader, founded the Adi Dravida Mahajana Sabha to fight for the rights of marginalized communities."
+  },
+  {
+    "id": 3,
+    "question": "India’s first organised trade union, the Madras Labour Union, was formed in _____.",
+    "options": [
+      { "option": "1918", "isCorrect": true },
+      { "option": "1917", "isCorrect": false },
+      { "option": "1916", "isCorrect": false },
+      { "option": "1914", "isCorrect": false }
+    ],
+    "explanation": "The Madras Labour Union was established in 1918 by B.P. Wadia and V. Kalyanasundaram to improve labor conditions."
+  },
+  {
+    "id": 4,
+    "question": "_____ was established by the Justice Party Government for the selection of Government officials.",
+    "options": [
+      { "option": "Public Service Commission", "isCorrect": true },
+      { "option": "Staff Selection Board", "isCorrect": false },
+      { "option": "Provincial Staff Recruitment Board", "isCorrect": false },
+      { "option": "Staff Selection Commission", "isCorrect": false }
+    ],
+    "explanation": "The Public Service Commission was set up by the Justice Party Government to ensure fair selection of government officials."
+  },
+  {
+    "id": 5,
+    "question": "_____ was the first elected Legislative Council Member from the depressed class in Madras Province.",
+    "options": [
+      { "option": "M. C. Rajah", "isCorrect": true },
+      { "option": "Rettaimalai Srinivasan", "isCorrect": false },
+      { "option": "T.M. Nair", "isCorrect": false },
+      { "option": "P. Varadarajulu", "isCorrect": false }
+    ],
+    "explanation": "M. C. Rajah became the first elected Legislative Council Member from the depressed classes in Madras Province, advocating for their rights."
+  }
+]

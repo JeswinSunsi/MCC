@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "question": "When a sound wave travels through air, the air particles",
+      "options": [
+        {
+          "option": "vibrate along the direction of the wave motion",
+          "isCorrect": true
+        },
+        {
+          "option": "vibrate but not in any fixed direction",
+          "isCorrect": false
+        },
+        {
+          "option": "vibrate perpendicular to the direction of the wave motion",
+          "isCorrect": false
+        },
+        {
+          "option": "do not vibrate",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Sound waves are longitudinal waves where particles vibrate parallel to the direction of wave propagation, creating compressions and rarefactions."
+    },
+    {
+      "id": 2,
+      "question": "Velocity of sound in a gaseous medium is 330 ms$^{-1}$. If the pressure is increased by 4 times without causing a change in the temperature, the velocity of sound in the gas is",
+      "options": [
+        {
+          "option": "330 ms$^{-1}$",
+          "isCorrect": true
+        },
+        {
+          "option": "660 ms$^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "156 ms$^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "990 ms$^{-1}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Velocity of sound in a gas depends only on temperature and not on pressure. Therefore, if temperature remains constant, velocity remains unchanged."
+    },
+    {
+      "id": 3,
+      "question": "The frequency, which is audible to the human ear is",
+      "options": [
+        {
+          "option": "50 kHz",
+          "isCorrect": false
+        },
+        {
+          "option": "20 kHz",
+          "isCorrect": true
+        },
+        {
+          "option": "15000 kHz",
+          "isCorrect": false
+        },
+        {
+          "option": "10000 kHz",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The human ear can typically hear frequencies between 20 Hz and 20 kHz (20,000 Hz)."
+    },
+    {
+      "id": 4,
+      "question": "The velocity of sound in air at a particular temperature is 330 ms$^{-1}$. What will be its value when temperature is doubled and the pressure is halved?",
+      "options": [
+        {
+          "option": "330 ms$^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "165 ms$^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "option": "330 × $\\sqrt{2}$ ms$^{-1}$",
+          "isCorrect": true
+        },
+        {
+          "option": "320 / $\\sqrt{2}$ ms$^{-1}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Velocity of sound $v \\propto \\sqrt{T}$, where T is temperature. When temperature doubles, velocity increases by factor of $\\sqrt{2}$. Pressure change has no effect."
+    },
+    {
+      "id": 5,
+      "question": "If a sound wave travels with a frequency of 1.25 × 10$^4$ Hz at 344 ms$^{-1}$, the wavelength will be",
+      "options": [
+        {
+          "option": "27.52 m",
+          "isCorrect": false
+        },
+        {
+          "option": "275.2 m",
+          "isCorrect": false
+        },
+        {
+          "option": "0.02752 m",
+          "isCorrect": true
+        },
+        {
+          "option": "2.752 m",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using wave equation $v = f\\lambda$, wavelength $\\lambda = \\frac{v}{f} = \\frac{344}{1.25 × 10^4} = 0.02752$ m"
+    },
+    {
+      "id": 6,
+      "question": "The sound waves are reflected from an obstacle into the same medium from which they were incident. Which of the following changes?",
+      "options": [
+        {
+          "option": "speed",
+          "isCorrect": false
+        },
+        {
+          "option": "frequency",
+          "isCorrect": false
+        },
+        {
+          "option": "wavelength",
+          "isCorrect": false
+        },
+        {
+          "option": "none of these",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "When sound waves reflect in the same medium, speed, frequency, and wavelength remain unchanged as the properties of the medium remain the same."
+    },
+    {
+      "id": 7,
+      "question": "Velocity of sound in the atmosphere of a planet is 500 ms$^{-1}$. The minimum distance between the sources of sound and the obstacle to hear the echo, should be",
+      "options": [
+        {
+          "option": "17 m",
+          "isCorrect": false
+        },
+        {
+          "option": "20 m",
+          "isCorrect": false
+        },
+        {
+          "option": "25 m",
+          "isCorrect": true
+        },
+        {
+          "option": "50 m",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "For echo, minimum time gap needed is 0.1s. Distance = $\\frac{v × t}{2} = \\frac{500 × 0.1}{2} = 25$ m (divided by 2 as sound travels twice the distance)."
+    }
+]

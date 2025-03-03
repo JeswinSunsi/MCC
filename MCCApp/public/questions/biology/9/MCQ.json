@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "Which method of crop improvement can be practised by a farmer if he is inexperienced?",
+      "options": [
+        {
+          "option": "mass selection",
+          "isCorrect": true
+        },
+        {
+          "option": "clonal selection",
+          "isCorrect": false
+        },
+        {
+          "option": "pureline selection",
+          "isCorrect": false
+        },
+        {
+          "option": "hybridisation",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mass selection is the simplest and oldest method of crop improvement where farmers can select better-looking plants with desirable traits from a mixed population."
+    },
+    {
+      "id": 2,
+      "question": "Pusa Komal is a disease resistant variety of _________.",
+      "options": [
+        {
+          "option": "cow pea",
+          "isCorrect": true
+        },
+        {
+          "option": "sugarcane",
+          "isCorrect": false
+        },
+        {
+          "option": "rice",
+          "isCorrect": false
+        },
+        {
+          "option": "maize",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Pusa Komal is a disease-resistant variety of cow pea developed by the Indian Agricultural Research Institute (IARI)."
+    },
+    {
+      "id": 3,
+      "question": "Himgiri developed by hybridisation and selection for disease resistance against rust pathogens is a variety of __________.",
+      "options": [
+        {
+          "option": "wheat",
+          "isCorrect": true
+        },
+        {
+          "option": "chilli",
+          "isCorrect": false
+        },
+        {
+          "option": "maize",
+          "isCorrect": false
+        },
+        {
+          "option": "sugarcane",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Himgiri is a rust-resistant variety of wheat developed through hybridization and selection breeding methods."
+    },
+    {
+      "id": 4,
+      "question": "The miracle rice which saved millions of lives and celebrated its 50th birthday is _______",
+      "options": [
+        {
+          "option": "IR 8",
+          "isCorrect": true
+        },
+        {
+          "option": "IR 24",
+          "isCorrect": false
+        },
+        {
+          "option": "Atomita 2",
+          "isCorrect": false
+        },
+        {
+          "option": "Ponni",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "IR8, developed by IRRI, was called 'miracle rice' due to its high yield potential that helped prevent predicted food shortages in Asia during the 1960s."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is used to produce products useful to humans by biotechnology techniques?",
+      "options": [
+        {
+          "option": "both (a) and (b)",
+          "isCorrect": true
+        },
+        {
+          "option": "enzyme from organism",
+          "isCorrect": false
+        },
+        {
+          "option": "live organism",
+          "isCorrect": false
+        },
+        {
+          "option": "vitamins",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Biotechnology uses both enzymes isolated from organisms and live organisms themselves to produce useful products through various techniques."
+    },
+    {
+      "id": 6,
+      "question": "We can cut the DNA with the help of",
+      "options": [
+        {
+          "option": "restriction endonucleases",
+          "isCorrect": true
+        },
+        {
+          "option": "scissors",
+          "isCorrect": false
+        },
+        {
+          "option": "knife",
+          "isCorrect": false
+        },
+        {
+          "option": "RNAase",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Restriction endonucleases are enzymes that cut DNA at specific recognition sequences, making them essential tools in genetic engineering."
+    },
+    {
+      "id": 7,
+      "question": "rDNA is a",
+      "options": [
+        {
+          "option": "recombinant of vector DNA and desired DNA",
+          "isCorrect": true
+        },
+        {
+          "option": "vector DNA",
+          "isCorrect": false
+        },
+        {
+          "option": "circular DNA",
+          "isCorrect": false
+        },
+        {
+          "option": "satellite DNA",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Recombinant DNA (rDNA) is formed when DNA from two different sources is combined, typically a vector DNA and the desired gene sequence."
+    },
+    {
+      "id": 8,
+      "question": "DNA fingerprinting is based on the principle of identifying --------------- sequences of DNA",
+      "options": [
+        {
+          "option": "polymorphic",
+          "isCorrect": true
+        },
+        {
+          "option": "single stranded",
+          "isCorrect": false
+        },
+        {
+          "option": "mutated",
+          "isCorrect": false
+        },
+        {
+          "option": "repetitive",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "DNA fingerprinting identifies unique patterns in polymorphic DNA sequences that vary between individuals but are inherited in a stable manner."
+    },
+    {
+      "id": 9,
+      "question": "Organisms with modified endogenous gene or a foregin gene are also known as",
+      "options": [
+        {
+          "option": "both a and b",
+          "isCorrect": true
+        },
+        {
+          "option": "transgenic organsims",
+          "isCorrect": false
+        },
+        {
+          "option": "genetically modified",
+          "isCorrect": false
+        },
+        {
+          "option": "mutated",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Organisms with modified or foreign genes are called both transgenic organisms and genetically modified organisms (GMOs)."
+    },
+    {
+      "id": 10,
+      "question": "In a hexaploid wheat( 2n = 6x = 42 ) the haploid (n) and the basic(x) number of chromosomes respectively are",
+      "options": [
+        {
+          "option": "n = 21 and x = 7",
+          "isCorrect": true
+        },
+        {
+          "option": "n = 7 and x = 21",
+          "isCorrect": false
+        },
+        {
+          "option": "n = 21 and x = 21",
+          "isCorrect": false
+        },
+        {
+          "option": "n = 7 and x = 7",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In hexaploid wheat, the haploid number (n) is 21 (half of 2n=42) and the basic number (x) is 7 (total chromosomes divided by ploidy level 42/6)."
+    }
+]

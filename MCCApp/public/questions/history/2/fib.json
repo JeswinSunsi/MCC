@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "question": "The founder of the Social Democratic Party was ______.",
+    "answer": "Ferdinand Lassalle",
+    "explanation": "Ferdinand Lassalle founded the General German Workers' Association (ADAV) in 1863, which later merged into the Social Democratic Party of Germany (SPD)."
+  },
+  {
+    "id": 2,
+    "question": "The Nazi Party’s propaganda was led by ______.",
+    "answer": "Joseph Goebbels",
+    "explanation": "Joseph Goebbels was the Minister of Propaganda in Nazi Germany, responsible for controlling media and spreading Nazi ideology."
+  },
+  {
+    "id": 3,
+    "question": "The Vietnam Nationalist Party was formed in ______.",
+    "answer": "1927",
+    "explanation": "The Vietnam Nationalist Party (VNQDD) was founded in 1927 to resist French colonial rule and promote Vietnamese independence."
+  },
+  {
+    "id": 4,
+    "question": "The Secret State Police in Nazi Germany was known as ______.",
+    "answer": "Gestapo",
+    "explanation": "The Gestapo (Geheime Staatspolizei) was the secret police of Nazi Germany, used to suppress opposition and enforce Nazi policies."
+  },
+  {
+    "id": 5,
+    "question": "The Union of South Africa came into being in May ______.",
+    "answer": "1910",
+    "explanation": "The Union of South Africa was formed in 1910 as a self-governing British dominion, uniting four former colonies."
+  },
+  {
+    "id": 6,
+    "question": "The ANC leader Nelson Mandela was put behind the bars for ______ years.",
+    "answer": "27",
+    "explanation": "Nelson Mandela was imprisoned for 27 years (1962-1990) for opposing apartheid and fighting for racial equality in South Africa."
+  },
+  {
+    "id": 7,
+    "question": "Boers were also known as ______.",
+    "answer": "Afrikaners",
+    "explanation": "Boers, descendants of Dutch settlers in South Africa, were also called Afrikaners, and they played a key role in South African history."
+  }
+]

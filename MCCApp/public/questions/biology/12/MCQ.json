@@ -1,0 +1,117 @@
+[
+    {
+      "id": 1,
+      "question": "Which software is used to create animation?",
+      "options": [
+        {
+          "option": "Scratch",
+          "isCorrect": true
+        },
+        {
+          "option": "Paint",
+          "isCorrect": false
+        },
+        {
+          "option": "PDF",
+          "isCorrect": false
+        },
+        {
+          "option": "MS Word",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Scratch is a block-based visual programming language and website designed specifically for creating interactive animations, stories, and games."
+    },
+    {
+      "id": 2,
+      "question": "All files are stored in the ______________",
+      "options": [
+        {
+          "option": "Folder",
+          "isCorrect": true
+        },
+        {
+          "option": "box",
+          "isCorrect": false
+        },
+        {
+          "option": "Pai",
+          "isCorrect": false
+        },
+        {
+          "option": "scanner",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Folders are used to organize and store files in a computer's file system, making it easier to locate and manage files."
+    },
+    {
+      "id": 3,
+      "question": "Which is used to build scripts?",
+      "options": [
+        {
+          "option": "Script area",
+          "isCorrect": true
+        },
+        {
+          "option": "Block palette",
+          "isCorrect": false
+        },
+        {
+          "option": "stage",
+          "isCorrect": false
+        },
+        {
+          "option": "sprite",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The script area in Scratch is where users drag and combine blocks to create scripts (programs) that control sprites and animations."
+    },
+    {
+      "id": 4,
+      "question": "Which is used to edit programs?",
+      "options": [
+        {
+          "option": "script editor",
+          "isCorrect": true
+        },
+        {
+          "option": "Inkscape",
+          "isCorrect": false
+        },
+        {
+          "option": "stage",
+          "isCorrect": false
+        },
+        {
+          "option": "sprite",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The script editor is a tool used to modify and edit programming code or scripts in a development environment."
+    },
+    {
+      "id": 5,
+      "question": "Where you will create category of blocks?",
+      "options": [
+        {
+          "option": "Block palette",
+          "isCorrect": true
+        },
+        {
+          "option": "Block menu",
+          "isCorrect": false
+        },
+        {
+          "option": "Script area",
+          "isCorrect": false
+        },
+        {
+          "option": "sprite",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Block palette in Scratch contains different categories of programming blocks that can be used to create scripts and programs."
+    }
+]

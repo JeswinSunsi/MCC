@@ -1,0 +1,167 @@
+ [
+    {
+      "number": 1,
+      "question": "If $n(A \\times B) = 6$ and $A = \\{1,3\\}$ then $n(B)$ is",
+      "explanation": "We know that for any two sets $X$ and $Y$, $n(X \\times Y) = n(X) \\times n(Y)$. Given $n(A \\times B) = 6$ and $n(A) = 2$ (since $A = \\{1,3\\}$), we have $n(A) \\times n(B) = 6$, so $2 \\times n(B) = 6$, which means $n(B) = 3$.",
+      "options": [
+        {"option": "1", "isCorrect": false},
+        {"option": "2", "isCorrect": false},
+        {"option": "3", "isCorrect": true},
+        {"option": "6", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 2,
+      "question": "If $A = \\{a,b\\}$, $B = \\{2,3\\}$, $C = \\{p, q, r, s\\}$ then $n[(A \\cup C) \\times B]$ is",
+      "explanation": "First, we find $n(A \\cup C)$. Since $A$ and $C$ are disjoint sets, $n(A \\cup C) = n(A) + n(C) = 2 + 4 = 6$. Now, $n[(A \\cup C) \\times B] = n(A \\cup C) \\times n(B) = 6 \\times 2 = 12$.",
+      "options": [
+        {"option": "8", "isCorrect": false},
+        {"option": "20", "isCorrect": false},
+        {"option": "12", "isCorrect": true},
+        {"option": "16", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 3,
+      "question": "If $A= \\{1,2\\}$, $B = \\{1,2,3,4\\}$, $C = \\{5,6\\}$ and $D= \\{5, 6, 7, 8\\}$ then state which of the following statement is true.",
+      "explanation": "Let's check each option:\n(A) $(A \\times C) \\subset (B \\times D)$: \nThis means all pairs in $A \\times C$ must be in $B \\times D$.\n$A \\times C = \\{(1,5), (1,6), (2,5), (2,6)\\}$\n$B \\times D = \\{(1,5), (1,6), (1,7), (1,8), (2,5), (2,6), (2,7), (2,8), (3,5), (3,6), (3,7), (3,8), (4,5), (4,6), (4,7), (4,8)\\}$\nSince all elements of $A \\times C$ are in $B \\times D$, this statement is true.\n\n(B) $(B \\times D) \\subset (A \\times C)$: False, as $B \\times D$ has elements not in $A \\times C$, such as $(3,5)$.\n\n(C) $(A \\times B) \\subset (A \\times D)$: False, as $A \\times B$ contains $(1,1)$, but $A \\times D$ doesn't.\n\n(D) $(D \\times A) \\subset (B \\times A)$: False, as $D \\times A$ contains $(7,1)$, but $B \\times A$ doesn't.",
+      "options": [
+        {"option": "$(A \\times C) \\subset (B \\times D)$", "isCorrect": true},
+        {"option": "$(B \\times D) \\subset (A \\times C)$", "isCorrect": false},
+        {"option": "$(A \\times B) \\subset (A \\times D)$", "isCorrect": false},
+        {"option": "$(D \\times A) \\subset (B \\times A)$", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 4,
+      "question": "If there are 1024 relations from a set $A = \\{1, 2, 3, 4, 5\\}$ to a set $B$, then the number of elements in $B$ is",
+      "explanation": "The number of possible relations from set $A$ to set $B$ is $2^{n(A) \\times n(B)}$, where $n(A)$ is the number of elements in set $A$ and $n(B)$ is the number of elements in set $B$. Given that $n(A) = 5$ and the number of relations is 1024, we have:\n$2^{5 \\times n(B)} = 1024$\n$2^{5 \\times n(B)} = 2^{10}$\nComparing exponents: $5 \\times n(B) = 10$\n$n(B) = 2$",
+      "options": [
+        {"option": "3", "isCorrect": false},
+        {"option": "2", "isCorrect": true},
+        {"option": "4", "isCorrect": false},
+        {"option": "8", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 5,
+      "question": "The range of the relation $R = \\{(x,x^2) | x$ is a prime number less than $13\\}$ is",
+      "explanation": "Prime numbers less than 13 are 2, 3, 5, 7, 11. The relation maps each to its square:\n$R = \\{(2,4), (3,9), (5,25), (7,49), (11,121)\\}$\nTherefore, the range is $\\{4, 9, 25, 49, 121\\}$.",
+      "options": [
+        {"option": "$\\{2,3,5,7\\}$", "isCorrect": false},
+        {"option": "$\\{2,3,5,7,11\\}$", "isCorrect": false},
+        {"option": "$\\{4,9,25,49,121\\}$", "isCorrect": true},
+        {"option": "$\\{1,4,9,25,49,121\\}$", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 6,
+      "question": "If the ordered pairs $(a + 2,4)$ and $(5,2a + b)$ are equal then $(a, b)$ is",
+      "explanation": "For ordered pairs to be equal, their corresponding components must be equal:\n$a + 2 = 5$ and $4 = 2a + b$\nFrom the first equation: $a = 3$\nSubstituting into the second equation:\n$4 = 2(3) + b$\n$4 = 6 + b$\n$b = -2$\nThus, $(a,b) = (3,-2)$.",
+      "options": [
+        {"option": "$(2, -2)$", "isCorrect": false},
+        {"option": "$(5,1)$", "isCorrect": false},
+        {"option": "$(2,3)$", "isCorrect": false},
+        {"option": "$(3, -2)$", "isCorrect": true}
+      ]
+    },
+    {
+      "number": 7,
+      "question": "Let $n(A) = m$ and $n(B) = n$ then the total number of non-empty relations that can be defined from $A$ to $B$ is",
+      "explanation": "The total number of possible relations from $A$ to $B$ is $2^{m \\times n}$. Since we want non-empty relations, we exclude the empty relation, so the answer is $2^{m \\times n} - 1$.",
+      "options": [
+        {"option": "$m^n$", "isCorrect": false},
+        {"option": "$n^m$", "isCorrect": false},
+        {"option": "$2^{m \\times n} - 1$", "isCorrect": true},
+        {"option": "$2^{n \\times m}$", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 8,
+      "question": "If $\\{(a, 8), (6, b)\\}$ represents an identity function, then the value of $a$ and $b$ are respectively",
+      "explanation": "For an identity function, we must have $f(x) = x$ for all $x$ in the domain. Thus, if $(a,8)$ is in the identity function, then $a = 8$. Similarly, if $(6,b)$ is in the identity function, then $b = 6$.",
+      "options": [
+        {"option": "$(8,6)$", "isCorrect": true},
+        {"option": "$(8,8)$", "isCorrect": false},
+        {"option": "$(6,8)$", "isCorrect": false},
+        {"option": "$(6,6)$", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 9,
+      "question": "Let $A = \\{1,2,3,4\\}$ and $B = \\{4,8,9,10\\}$. $f = \\{(1,4),(2,8),(3,9),(4,10)\\}$ is a",
+      "explanation": "A function is one-to-one (injective) if every element in the range corresponds to exactly one element in the domain. Here, each element in $B$ has exactly one pre-image in $A$, so $f$ is one-to-one. It's also onto (surjective) since the range is all of $B$. Thus, $f$ is a bijection (one-to-one and onto).",
+      "options": [
+        {"option": "Many-one function", "isCorrect": false},
+        {"option": "Identity function", "isCorrect": false},
+        {"option": "One-to-one function", "isCorrect": true},
+        {"option": "Into function", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 10,
+      "question": "If $f(x)= 2x^2$ and $g(x)= x^3$, then $f \\circ g$ is",
+      "explanation": "$(f \\circ g)(x) = f(g(x)) = f(x^3) = 2(x^3)^2 = 2x^6$",
+      "options": [
+        {"option": "$2x-3$", "isCorrect": false},
+        {"option": "$2x^2$", "isCorrect": false},
+        {"option": "$3x^3$", "isCorrect": false},
+        {"option": "$2x^6$", "isCorrect": true}
+      ]
+    },
+    {
+      "number": 11,
+      "question": "If $f : A \\to B$ is a bijective function and if $n(B) = 7$, then $n(A)$ is equal to",
+      "explanation": "A bijective function requires that every element in the codomain $B$ has exactly one pre-image in the domain $A$. This means $A$ and $B$ must have the same number of elements. Since $n(B) = 7$, we have $n(A) = 7$.",
+      "options": [
+        {"option": "7", "isCorrect": true},
+        {"option": "49", "isCorrect": false},
+        {"option": "1", "isCorrect": false},
+        {"option": "14", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 12,
+      "question": "Let $f$ and $g$ be two functions given by $f = \\{(0,1),(2,0),(3, -4),(4,2),(5,7)\\}$ and $g = \\{(0,2),(1,0),(2,4),(-4,2),(7,0)\\}$ then the range of $f \\circ g$ is",
+      "explanation": "To find $f \\circ g$, we need to calculate $f(g(x))$ for each $x$ in the domain of $g$.\n$f \\circ g(0) = f(g(0)) = f(2) = 0$\n$f \\circ g(1) = f(g(1)) = f(0) = 1$\n$f \\circ g(2) = f(g(2)) = f(4) = 2$\n$f \\circ g(-4) = f(g(-4)) = f(2) = 0$\n$f \\circ g(7) = f(g(7)) = f(0) = 1$\nSo $f \\circ g = \\{(0,0), (1,1), (2,2), (-4,0), (7,1)\\}$\nThe range of $f \\circ g$ is $\\{0, 1, 2\\}$.",
+      "options": [
+        {"option": "$\\{0,2,3,4,5\\}$", "isCorrect": false},
+        {"option": "$\\{-4,1,0,2,7\\}$", "isCorrect": false},
+        {"option": "$\\{1,2,3,4,5\\}$", "isCorrect": false},
+        {"option": "$\\{0,1,2\\}$", "isCorrect": true}
+      ]
+    },
+    {
+      "number": 13,
+      "question": "Let $f(x)=\\frac{1}{1+x^2}$ then",
+      "explanation": "We need to determine the relationship between $f(xy)$ and $f(x)\\cdot f(y)$.\n$f(x)\\cdot f(y) = \\frac{1}{1+x^2} \\cdot \\frac{1}{1+y^2} = \\frac{1}{(1+x^2)(1+y^2)}$\n$f(xy) = \\frac{1}{1+(xy)^2} = \\frac{1}{1+x^2y^2}$\n\nWe can compare:\n$(1+x^2)(1+y^2) = 1+x^2+y^2+x^2y^2 > 1+x^2y^2$\nSince the denominator in $f(x)\\cdot f(y)$ is larger, we have $f(xy) > f(x)\\cdot f(y)$ for all non-zero $x, y$.",
+      "options": [
+        {"option": "$f(xy) = f(x)\\cdot f(y)$", "isCorrect": false},
+        {"option": "$f(xy) > f(x)\\cdot f(y)$", "isCorrect": true},
+        {"option": "$f(xy) < f(x)\\cdot f(y)$", "isCorrect": false},
+        {"option": "None of these", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 14,
+      "question": "If $g = \\{(1,1),(2,3),(3,5),(4,7)\\}$ is a function given by $g(x) = ax + \\beta$ then the values of $a$ and $\\beta$ are",
+      "explanation": "For a linear function $g(x) = ax + \\beta$, we can substitute any two points to find $a$ and $\\beta$.\nUsing $(1,1)$ and $(2,3)$:\n$g(1) = a(1) + \\beta = 1$\n$g(2) = a(2) + \\beta = 3$\n\nFrom first equation: $a + \\beta = 1$ ... (1)\nFrom second equation: $2a + \\beta = 3$ ... (2)\n\nSubtracting (1) from (2): $a = 2$\nSubstituting back: $2 + \\beta = 1$, so $\\beta = -1$\n\nTo verify: $g(3) = 2(3) + (-1) = 5$ and $g(4) = 2(4) + (-1) = 7$, which match the given values.",
+      "options": [
+        {"option": "$(-1,2)$", "isCorrect": false},
+        {"option": "$(2, -1)$", "isCorrect": true},
+        {"option": "$(-1, -2)$", "isCorrect": false},
+        {"option": "$(1,2)$", "isCorrect": false}
+      ]
+    },
+    {
+      "number": 15,
+      "question": "$f(x) = (x +1)^3 - (x - 1)^3$ represents a function which is",
+      "explanation": "We expand the expression:\n$f(x) = (x+1)^3 - (x-1)^3$\n$= (x^3 + 3x^2 + 3x + 1) - (x^3 - 3x^2 + 3x - 1)$\n$= x^3 + 3x^2 + 3x + 1 - x^3 + 3x^2 - 3x + 1$\n$= 6x^2 + 2$\n\nSince the highest power of $x$ is 2, this is a quadratic function.",
+      "options": [
+        {"option": "linear", "isCorrect": false},
+        {"option": "cubic", "isCorrect": false},
+        {"option": "reciprocal", "isCorrect": false},
+        {"option": "quadratic", "isCorrect": true}
+      ]
+    }
+  ]

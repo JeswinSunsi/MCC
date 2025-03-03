@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "The pairs of contrasting character (traits) of Mendel are called _________.",
+      "answer": "alleles",
+      "explanation": "Alleles are alternative forms of a gene that control the same trait but produce different phenotypes, as demonstrated in Mendel's contrasting traits experiments."
+    },
+    {
+      "id": 2,
+      "question": "Physical expression of a gene is called _________",
+      "answer": "phenotype",
+      "explanation": "Phenotype is the observable physical or biochemical characteristics of an organism, resulting from the interaction between its genotype and the environment."
+    },
+    {
+      "id": 3,
+      "question": "The thin thread like structures found in the nucleus of each cell are called _________.",
+      "answer": "chromosomes",
+      "explanation": "Chromosomes are thread-like structures made of DNA and proteins that carry genetic information and become visible during cell division."
+    },
+    {
+      "id": 4,
+      "question": "DNA consists of two ____________ chains",
+      "answer": "polynucleotide",
+      "explanation": "DNA is composed of two polynucleotide chains that coil around each other to form a double helix structure."
+    },
+    {
+      "id": 5,
+      "question": "An inheritable change in the amount or the structure of a gene or a chromosome is called _______________.",
+      "answer": "mutation",
+      "explanation": "A mutation is a permanent, heritable change in genetic material that can affect gene structure or chromosome composition, potentially impacting an organism's characteristics."
+    }
+]

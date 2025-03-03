@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "A solution is a __________ mixture",
+      "options": [
+        {
+          "option": "homogeneous",
+          "isCorrect": true
+        },
+        {
+          "option": "heterogeneous",
+          "isCorrect": false
+        },
+        {
+          "option": "homogeneous and heterogeneous",
+          "isCorrect": false
+        },
+        {
+          "option": "non homogeneous",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A solution is a homogeneous mixture where the solute is uniformly distributed throughout the solvent."
+    },
+    {
+      "id": 2,
+      "question": "The number of components in a binary solution is __________",
+      "options": [
+        {
+          "option": "2",
+          "isCorrect": true
+        },
+        {
+          "option": "3",
+          "isCorrect": false
+        },
+        {
+          "option": "4",
+          "isCorrect": false
+        },
+        {
+          "option": "5",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Binary means two; a binary solution contains two components - one solute and one solvent."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is the universal solvent?",
+      "options": [
+        {
+          "option": "Acetone",
+          "isCorrect": false
+        },
+        {
+          "option": "Benzene",
+          "isCorrect": false
+        },
+        {
+          "option": "Water",
+          "isCorrect": true
+        },
+        {
+          "option": "Alcohol",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Water is called the universal solvent because it can dissolve more substances than any other liquid."
+    },
+    {
+      "id": 4,
+      "question": "A solution in which no more solute can be dissolved in a definite amount of solvent at a given temperature is called _______",
+      "options": [
+        {
+          "option": "Saturated solution",
+          "isCorrect": true
+        },
+        {
+          "option": "Un saturated solution",
+          "isCorrect": false
+        },
+        {
+          "option": "Super saturated solution",
+          "isCorrect": false
+        },
+        {
+          "option": "Dilute solution",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A saturated solution contains the maximum amount of solute that can be dissolved at a given temperature."
+    },
+    {
+      "id": 5,
+      "question": "Identify the non aqueous solution",
+      "options": [
+        {
+          "option": "sodium chloride in water",
+          "isCorrect": false
+        },
+        {
+          "option": "glucose in water",
+          "isCorrect": false
+        },
+        {
+          "option": "copper sulphate in water",
+          "isCorrect": false
+        },
+        {
+          "option": "sulphur in carbon-di-sulphide",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "A non-aqueous solution uses a solvent other than water. Here, $CS_2$ is the solvent, not water."
+    },
+    {
+      "id": 6,
+      "question": "When pressure is increased at constant temperature the solubility of gases in liquid ___________",
+      "options": [
+        {
+          "option": "No change",
+          "isCorrect": false
+        },
+        {
+          "option": "increases",
+          "isCorrect": true
+        },
+        {
+          "option": "decreases",
+          "isCorrect": false
+        },
+        {
+          "option": "no reaction",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "According to Henry's law, the solubility of a gas in a liquid increases with increase in pressure at constant temperature."
+    },
+    {
+      "id": 7,
+      "question": "Solubility of NaCl in 100 ml water is 36 g. If 25 g of salt is dissolved in 100 ml of water how much more salt is required for saturation _____________",
+      "options": [
+        {
+          "option": "12g",
+          "isCorrect": false
+        },
+        {
+          "option": "11g",
+          "isCorrect": true
+        },
+        {
+          "option": "16g",
+          "isCorrect": false
+        },
+        {
+          "option": "20g",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Required salt = Solubility - Already dissolved salt = 36g - 25g = 11g"
+    },
+    {
+      "id": 8,
+      "question": "A 25% alcohol solution means",
+      "options": [
+        {
+          "option": "25 ml alcohol in 100 ml of water",
+          "isCorrect": false
+        },
+        {
+          "option": "25 ml alcohol in 25 ml of water",
+          "isCorrect": false
+        },
+        {
+          "option": "25 ml alcohol in 75 ml of water",
+          "isCorrect": true
+        },
+        {
+          "option": "75 ml alcohol in 25 ml of water",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "25% solution means 25 parts solute in 100 parts solution (25 ml alcohol + 75 ml water = 100 ml solution)."
+    },
+    {
+      "id": 9,
+      "question": "Deliquescence is due to __________",
+      "options": [
+        {
+          "option": "Strong affinity to water",
+          "isCorrect": true
+        },
+        {
+          "option": "Less affinity to water",
+          "isCorrect": false
+        },
+        {
+          "option": "Strong hatred to water",
+          "isCorrect": false
+        },
+        {
+          "option": "Inertness to water",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Deliquescence occurs when a substance has strong affinity for water and absorbs moisture from air to form a solution."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is hygroscopic in nature?",
+      "options": [
+        {
+          "option": "ferric chloride",
+          "isCorrect": false
+        },
+        {
+          "option": "copper sulphate penta hydrate",
+          "isCorrect": false
+        },
+        {
+          "option": "silica gel",
+          "isCorrect": true
+        },
+        {
+          "option": "none of the above",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Silica gel is hygroscopic as it can absorb moisture from air without forming a solution, unlike deliquescent substances."
+    }
+]

@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The soil which is rich in iron oxides is __________.",
+      "options": [
+        {"option": "Alluvial", "isCorrect": false},
+        {"option": "Black", "isCorrect": false},
+        {"option": "Red", "isCorrect": true},
+        {"option": "Alkaline", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which of the following organizations has divided the Indian soils into 8 major groups?",
+      "options": [
+        {"option": "Indian Council of Agricultural Research", "isCorrect": true},
+        {"option": "Indian Meteorological Department", "isCorrect": false},
+        {"option": "Soil Survey of India", "isCorrect": false},
+        {"option": "Indian Institute of Soil Science", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "The soils formed by the rivers are:",
+      "options": [
+        {"option": "Red soils", "isCorrect": false},
+        {"option": "Black soils", "isCorrect": false},
+        {"option": "Desert soils", "isCorrect": false},
+        {"option": "Alluvial soils", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "_________ is the highest gravity dam in India.",
+      "options": [
+        {"option": "Hirakud dam", "isCorrect": false},
+        {"option": "Bhakra Nangal dam", "isCorrect": true},
+        {"option": "Mettur dam", "isCorrect": false},
+        {"option": "Nagarjuna Sagar dam", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "__________ is a cash crop.",
+      "options": [
+        {"option": "Cotton", "isCorrect": true},
+        {"option": "Wheat", "isCorrect": false},
+        {"option": "Rice", "isCorrect": false},
+        {"option": "Maize", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Black soils are also called as:",
+      "options": [
+        {"option": "Arid soils", "isCorrect": false},
+        {"option": "Saline soils", "isCorrect": false},
+        {"option": "Regur soils", "isCorrect": true},
+        {"option": "Mountain soils", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "The longest dam in the world is ___________.",
+      "options": [
+        {"option": "Mettur dam", "isCorrect": false},
+        {"option": "Kosi dam", "isCorrect": false},
+        {"option": "Hirakud dam", "isCorrect": true},
+        {"option": "Bhakra-Nangal dam", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which crop is called as “Golden Fibre” in India?",
+      "options": [
+        {"option": "Cotton", "isCorrect": false},
+        {"option": "Wheat", "isCorrect": false},
+        {"option": "Jute", "isCorrect": true},
+        {"option": "Tobacco", "isCorrect": false}
+      ]
+    }
+  ]
+}

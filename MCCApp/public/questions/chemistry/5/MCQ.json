@@ -1,0 +1,209 @@
+[
+    {
+      "id": 1,
+      "question": "The molecular formula of an open chain organic compound is $C_3H_6$. The class of the compound is",
+      "options": [
+        {
+          "option": "alkane",
+          "isCorrect": false
+        },
+        {
+          "option": "alkene",
+          "isCorrect": true
+        },
+        {
+          "option": "alkyne",
+          "isCorrect": false
+        },
+        {
+          "option": "alcohol",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "For $C_3H_6$, the general formula is $C_nH_{2n}$, which corresponds to alkenes (compounds with one double bond)."
+    },
+    {
+      "id": 2,
+      "question": "The IUPAC name of an organic compound is 3-Methyl butan-1-ol. What type compound it is?",
+      "options": [
+        {
+          "option": "Aldehyde",
+          "isCorrect": false
+        },
+        {
+          "option": "Carboxylic acid",
+          "isCorrect": false
+        },
+        {
+          "option": "Ketone",
+          "isCorrect": false
+        },
+        {
+          "option": "Alcohol",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The suffix '-ol' indicates that the compound is an alcohol, containing an -OH group."
+    },
+    {
+      "id": 3,
+      "question": "The secondary suffix used in IUPAC nomenclature of an aldehyde is ____",
+      "options": [
+        {
+          "option": "-ol",
+          "isCorrect": false
+        },
+        {
+          "option": "–oic acid",
+          "isCorrect": false
+        },
+        {
+          "option": "-al",
+          "isCorrect": true
+        },
+        {
+          "option": "-one",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The suffix '-al' is used for aldehydes in IUPAC nomenclature, indicating the presence of -CHO group."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following pairs can be the successive members of a homologous series?",
+      "options": [
+        {
+          "option": "$C_3H_8$ and $C_4H_{10}$",
+          "isCorrect": true
+        },
+        {
+          "option": "$C_2H_2$ and $C_2H_4$",
+          "isCorrect": false
+        },
+        {
+          "option": "$CH_4$ and $C_3H_6$",
+          "isCorrect": false
+        },
+        {
+          "option": "$C_2H_5OH$ and $C_4H_8OH$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Propane ($C_3H_8$) and butane ($C_4H_{10}$) are successive members of alkane series, differing by -$CH_2$ group."
+    },
+    {
+      "id": 5,
+      "question": "$C_2H_5OH + 3O_2 \\rightarrow 2CO_2 + 3H_2O$ is a",
+      "options": [
+        {
+          "option": "Reduction of ethanol",
+          "isCorrect": false
+        },
+        {
+          "option": "Combustion of ethanol",
+          "isCorrect": true
+        },
+        {
+          "option": "Oxidation of ethanoic acid",
+          "isCorrect": false
+        },
+        {
+          "option": "Oxidation of ethanal",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "This reaction shows complete oxidation (combustion) of ethanol to form carbon dioxide and water."
+    },
+    {
+      "id": 6,
+      "question": "Rectified spirit is an aqueous solution which contains about _______ of ethanol",
+      "options": [
+        {
+          "option": "95.5 %",
+          "isCorrect": true
+        },
+        {
+          "option": "75.5 %",
+          "isCorrect": false
+        },
+        {
+          "option": "55.5 %",
+          "isCorrect": false
+        },
+        {
+          "option": "45.5 %",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Rectified spirit contains approximately 95.5% ethanol and 4.5% water by volume."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following are used as anaesthetics?",
+      "options": [
+        {
+          "option": "Carboxylic acids",
+          "isCorrect": false
+        },
+        {
+          "option": "Ethers",
+          "isCorrect": true
+        },
+        {
+          "option": "Esters",
+          "isCorrect": false
+        },
+        {
+          "option": "Aldehydes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ethers, particularly diethyl ether, have been historically used as anaesthetics due to their depressant effect on the central nervous system."
+    },
+    {
+      "id": 8,
+      "question": "TFM in soaps represents ___________ content in soap",
+      "options": [
+        {
+          "option": "mineral",
+          "isCorrect": false
+        },
+        {
+          "option": "vitamin",
+          "isCorrect": false
+        },
+        {
+          "option": "fatty acid",
+          "isCorrect": true
+        },
+        {
+          "option": "carbohydrate",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "TFM (Total Fatty Matter) indicates the total amount of fatty acids in soap, which determines its quality."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following statements is wrong about detergents?",
+      "options": [
+        {
+          "option": "It is a sodium salt of long chain fatty acids",
+          "isCorrect": true
+        },
+        {
+          "option": "It is sodium salts of sulphonic acids",
+          "isCorrect": false
+        },
+        {
+          "option": "The ionic part in a detergent is –$SO_3^-Na^+$",
+          "isCorrect": false
+        },
+        {
+          "option": "It is effective even in hard water",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Sodium salts of long chain fatty acids are soaps, not detergents. Detergents are sodium salts of sulphonic acids."
+    }
+]

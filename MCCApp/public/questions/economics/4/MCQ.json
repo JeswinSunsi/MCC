@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "The three levels of governments in India are?",
+    "options": [
+      { "option": "Union, state and local", "isCorrect": true },
+      { "option": "Central, state and village", "isCorrect": false },
+      { "option": "Union, municipality and panchayat", "isCorrect": false },
+      { "option": "None of the above", "isCorrect": false }
+    ],
+    "explanation": "India follows a three-tier government system consisting of the Union (Central) Government, State Governments, and Local Governments (Municipalities and Panchayats)."
+  },
+  {
+    "id": 2,
+    "question": "In India, taxes include?",
+    "options": [
+      { "option": "Both (a) and (b)", "isCorrect": true },
+      { "option": "Direct taxes", "isCorrect": false },
+      { "option": "Indirect taxes", "isCorrect": false },
+      { "option": "None of these", "isCorrect": false }
+    ],
+    "explanation": "Taxes in India are categorized into Direct Taxes (e.g., Income Tax) and Indirect Taxes (e.g., GST, Excise Duty)."
+  },
+  {
+    "id": 3,
+    "question": "Which is the role of government in development policies?",
+    "options": [
+      { "option": "All of the above", "isCorrect": true },
+      { "option": "Defence", "isCorrect": false },
+      { "option": "Foreign policy", "isCorrect": false },
+      { "option": "Regulate the economy", "isCorrect": false }
+    ],
+    "explanation": "Governments play a crucial role in national development, including defense, foreign policy, and economic regulations."
+  },
+  {
+    "id": 4,
+    "question": "The most common and important tax levied on an individual in India is?",
+    "options": [
+      { "option": "Income tax", "isCorrect": true },
+      { "option": "Service tax", "isCorrect": false },
+      { "option": "Excise duty", "isCorrect": false },
+      { "option": "Central sales tax", "isCorrect": false }
+    ],
+    "explanation": "Income tax is a direct tax levied on individuals and businesses based on their income."
+  },
+  {
+    "id": 5,
+    "question": "Under which tax is 'one nation, one uniform tax' ensured?",
+    "options": [
+      { "option": "Goods and Service Tax", "isCorrect": true },
+      { "option": "Value added tax (VAT)", "isCorrect": false },
+      { "option": "Income tax", "isCorrect": false },
+      { "option": "Sales tax", "isCorrect": false }
+    ],
+    "explanation": "GST (Goods and Services Tax) replaced multiple indirect taxes, ensuring a uniform taxation system across India."
+  },
+  {
+    "id": 6,
+    "question": "Income tax was introduced in India for the first time in the year?",
+    "options": [
+      { "option": "1860", "isCorrect": true },
+      { "option": "1870", "isCorrect": false },
+      { "option": "1880", "isCorrect": false },
+      { "option": "1850", "isCorrect": false }
+    ],
+    "explanation": "Income tax was first introduced in India in 1860 by James Wilson to overcome the financial crisis after the Revolt of 1857."
+  },
+  {
+    "id": 7,
+    "question": "__________ tax is charged on the benefits derived from property ownership.",
+    "options": [
+      { "option": "Wealth tax", "isCorrect": true },
+      { "option": "Income tax", "isCorrect": false },
+      { "option": "Corporate tax", "isCorrect": false },
+      { "option": "Excise duty", "isCorrect": false }
+    ],
+    "explanation": "Wealth tax was imposed on individuals based on their net wealth, but it was abolished in 2015 in India."
+  },
+  {
+    "id": 8,
+    "question": "What are identified as causes of black money?",
+    "options": [
+      { "option": "All of the above", "isCorrect": true },
+      { "option": "Shortage of goods", "isCorrect": false },
+      { "option": "High tax rate", "isCorrect": false },
+      { "option": "Smuggling", "isCorrect": false }
+    ],
+    "explanation": "Black money is generated due to factors like high tax rates, smuggling, and artificial shortages of goods."
+  }
+]

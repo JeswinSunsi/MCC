@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "The north-south extent of India is",
+    "options": [
+      { "option": "3,214 km", "isCorrect": true },
+      { "option": "2,500 km", "isCorrect": false },
+      { "option": "2,933 km", "isCorrect": false },
+      { "option": "2,814 km", "isCorrect": false }
+    ],
+    "explanation": "India extends 3,214 km from north to south, from Kashmir to Kanyakumari."
+  },
+  {
+    "id": 2,
+    "question": "_____ River is known as ‘Sorrow of Bihar’.",
+    "options": [
+      { "option": "Kosi", "isCorrect": true },
+      { "option": "Narmada", "isCorrect": false },
+      { "option": "Godavari", "isCorrect": false },
+      { "option": "Damodar", "isCorrect": false }
+    ],
+    "explanation": "The Kosi River is called the ‘Sorrow of Bihar’ due to its frequent and devastating floods."
+  },
+  {
+    "id": 3,
+    "question": "A landmass bounded by sea on three sides is referred to as _____.",
+    "options": [
+      { "option": "Peninsula", "isCorrect": true },
+      { "option": "Coast", "isCorrect": false },
+      { "option": "Island", "isCorrect": false },
+      { "option": "Strait", "isCorrect": false }
+    ],
+    "explanation": "A peninsula is a landform surrounded by water on three sides, such as the Indian subcontinent."
+  },
+  {
+    "id": 4,
+    "question": "The Palk Strait and Gulf of Mannar separate India from _____.",
+    "options": [
+      { "option": "Sri Lanka", "isCorrect": true },
+      { "option": "Goa", "isCorrect": false },
+      { "option": "West Bengal", "isCorrect": false },
+      { "option": "Maldives", "isCorrect": false }
+    ],
+    "explanation": "The Palk Strait and Gulf of Mannar lie between India and Sri Lanka."
+  },
+  {
+    "id": 5,
+    "question": "The highest peak in South India is",
+    "options": [
+      { "option": "Anaimudi", "isCorrect": true },
+      { "option": "Ooty", "isCorrect": false },
+      { "option": "Kodaikanal", "isCorrect": false },
+      { "option": "Jindhagada", "isCorrect": false }
+    ],
+    "explanation": "Anamudi, at 2,695 meters, is the highest peak in South India, located in Kerala."
+  },
+  {
+    "id": 6,
+    "question": "_____ Plains are formed by the older alluviums.",
+    "options": [
+      { "option": "Bhangar", "isCorrect": true },
+      { "option": "Bhabar", "isCorrect": false },
+      { "option": "Tarai", "isCorrect": false },
+      { "option": "Khadar", "isCorrect": false }
+    ],
+    "explanation": "Bhangar plains are made up of older alluvial deposits and are found in the Gangetic plains."
+  },
+  {
+    "id": 7,
+    "question": "Pulicat Lake is located between the states of",
+    "options": [
+      { "option": "Tamil Nadu and Andhra Pradesh", "isCorrect": true },
+      { "option": "West Bengal and Odisha", "isCorrect": false },
+      { "option": "Karnataka and Kerala", "isCorrect": false },
+      { "option": "Odisha and Andhra Pradesh", "isCorrect": false }
+    ],
+    "explanation": "Pulicat Lake, the second-largest brackish water lake in India, lies between Tamil Nadu and Andhra Pradesh."
+  }
+]

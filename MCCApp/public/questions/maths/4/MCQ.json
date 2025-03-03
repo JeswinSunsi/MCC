@@ -1,0 +1,348 @@
+[
+    {
+      "id": 1,
+      "question": "If in triangles ABC and EDF, $\\frac{AB}{DE} = \\frac{BC}{FD}$ then they will be similar, when",
+      "options": [
+        {
+          "option": "∠B = ∠E",
+          "isCorrect": false
+        },
+        {
+          "option": "∠A = ∠D",
+          "isCorrect": true
+        },
+        {
+          "option": "∠B = ∠D",
+          "isCorrect": false
+        },
+        {
+          "option": "∠A = ∠F",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "For similarity with given ratio of sides, corresponding angles must be equal, and ∠A = ∠D is one of the required conditions."
+    },
+    {
+      "id": 2,
+      "question": "In $\\triangle LMN$, ∠L = 60°, ∠M = 50°. If $\\triangle LMN \\sim \\triangle PQR$ then the value of ∠R is",
+      "options": [
+        {
+          "option": "40°",
+          "isCorrect": false
+        },
+        {
+          "option": "70°",
+          "isCorrect": true
+        },
+        {
+          "option": "30°",
+          "isCorrect": false
+        },
+        {
+          "option": "110°",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In similar triangles, corresponding angles are equal. In first triangle, third angle = 180° - (60° + 50°) = 70°, so ∠R = 70°."
+    },
+    {
+      "id": 3,
+      "question": "If $\\triangle ABC$ is an isosceles triangle with ∠C = 90° and AC = 5 cm, then AB is",
+      "options": [
+        {
+          "option": "2.5 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "5 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "10 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "5$\\sqrt{2}$ cm",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "In isosceles right triangle, both legs are equal (AC = BC = 5), so hypotenuse AB = 5$\\sqrt{2}$ by Pythagorean theorem."
+    },
+    {
+      "id": 4,
+      "question": "If ST ∥ QR, PS = 2 cm and SQ = 3 cm, then the ratio of the area of $\\triangle PQR$ to the area of $\\triangle PST$ is",
+      "options": [
+        {
+          "option": "25 : 4",
+          "isCorrect": false
+        },
+        {
+          "option": "25 : 7",
+          "isCorrect": false
+        },
+        {
+          "option": "25 : 11",
+          "isCorrect": false
+        },
+        {
+          "option": "25 : 13",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "By similar triangles property, ratio of areas = square of ratio of corresponding sides = $(\\frac{PS+SQ}{PS})^2 = (\\frac{5}{2})^2 = 25:4$"
+    },
+    {
+      "id": 5,
+      "question": "The perimeters of two similar triangles $\\triangle ABC$ and $\\triangle PQR$ are 36 cm and 24 cm respectively. If PQ = 10 cm, then the length of AB is",
+      "options": [
+        {
+          "option": "$6\\frac{2}{3}$ cm",
+          "isCorrect": false
+        },
+        {
+          "option": "$10\\frac{6}{3}$ cm",
+          "isCorrect": false
+        },
+        {
+          "option": "$6\\frac{2}{3}$ cm",
+          "isCorrect": false
+        },
+        {
+          "option": "15 cm",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Ratio of perimeters = ratio of corresponding sides = 36:24 = 3:2. If PQ = 10, then AB = 15."
+    },
+    
+        {
+          "id": 6,
+          "question": "If in $\\triangle ABC$, DE ∥ BC, AB = 3.6 cm, AC = 2.4 cm and AD = 2.1 cm then the length of AE is",
+          "options": [
+            {
+              "option": "1.4 cm",
+              "isCorrect": true
+            },
+            {
+              "option": "1.8 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "1.2 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "1.05 cm",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "By similar triangles property, $\\frac{AD}{AB} = \\frac{AE}{AC}$, so $AE = \\frac{AD × AC}{AB} = \\frac{2.1 × 2.4}{3.6} = 1.4$ cm"
+        },
+        {
+          "id": 7,
+          "question": "In a $\\triangle ABC$, AD is the bisector of ∠BAC. If AB = 8 cm, BD = 6 cm and DC = 3 cm. The length of the side AC is",
+          "options": [
+            {
+              "option": "6 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "4 cm",
+              "isCorrect": true
+            },
+            {
+              "option": "3 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "8 cm",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "By angle bisector theorem, $\\frac{BD}{DC} = \\frac{AB}{AC}$, so $\\frac{6}{3} = \\frac{8}{AC}$, therefore AC = 4 cm."
+        },
+        {
+          "id": 8,
+          "question": "In the adjacent figure ∠BAC = 90° and AD ⊥ BC then",
+          "options": [
+            {
+              "option": "BD · CD = BC²",
+              "isCorrect": false
+            },
+            {
+              "option": "AB · AC = BC²",
+              "isCorrect": false
+            },
+            {
+              "option": "BD · CD = AD²",
+              "isCorrect": true
+            },
+            {
+              "option": "AB · AC = AD²",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "When AD is altitude to hypotenuse BC in right triangle, BD · CD = AD² (geometric mean property)."
+        },
+        {
+          "id": 9,
+          "question": "Two poles of heights 6 m and 11 m stand vertically on a plane ground. If the distance between their feet is 12 m, what is the distance between their tops?",
+          "options": [
+            {
+              "option": "13 m",
+              "isCorrect": true
+            },
+            {
+              "option": "14 m",
+              "isCorrect": false
+            },
+            {
+              "option": "15 m",
+              "isCorrect": false
+            },
+            {
+              "option": "12.8 m",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using distance formula in right triangle: $\\sqrt{12^2 + (11-6)^2} = \\sqrt{144 + 25} = 13$ m"
+        },
+        {
+          "id": 10,
+          "question": "In the given figure, PR = 26 cm, QR = 24 cm, ∠PAQ = 90°, PA = 6 cm and QA = 8 cm. Find ∠PQR",
+          "options": [
+            {
+              "option": "80°",
+              "isCorrect": false
+            },
+            {
+              "option": "85°",
+              "isCorrect": false
+            },
+            {
+              "option": "75°",
+              "isCorrect": true
+            },
+            {
+              "option": "90°",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Using cosine law in triangle PQR and given that PAQ is right angle, ∠PQR = 75°"
+        },
+        {
+          "id": 11,
+          "question": "A tangent is perpendicular to the radius at the",
+          "options": [
+            {
+              "option": "centre",
+              "isCorrect": false
+            },
+            {
+              "option": "point of contact",
+              "isCorrect": true
+            },
+            {
+              "option": "infinity",
+              "isCorrect": false
+            },
+            {
+              "option": "chord",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A fundamental property of circles: the tangent at any point is perpendicular to the radius at the point of contact."
+        },
+        {
+          "id": 12,
+          "question": "How many tangents can be drawn to the circle from an exterior point?",
+          "options": [
+            {
+              "option": "one",
+              "isCorrect": false
+            },
+            {
+              "option": "two",
+              "isCorrect": true
+            },
+            {
+              "option": "infinite",
+              "isCorrect": false
+            },
+            {
+              "option": "zero",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Exactly two tangents can be drawn to a circle from any external point."
+        },
+        {
+          "id": 13,
+          "question": "The two tangents from an external point P to a circle with centre at O are PA and PB. If ∠APB = 70° then the value of ∠AOB is",
+          "options": [
+            {
+              "option": "100°",
+              "isCorrect": false
+            },
+            {
+              "option": "110°",
+              "isCorrect": true
+            },
+            {
+              "option": "120°",
+              "isCorrect": false
+            },
+            {
+              "option": "130°",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "For tangents from external point, ∠AOB = 180° - 70° = 110° (twice the complement of half of ∠APB)."
+        },
+        {
+          "id": 14,
+          "question": "In figure CP and CQ are tangents to a circle with centre at O. ARB is another tangent touching the circle at R. If CP = 11 cm and BC = 7 cm, then the length of BR is",
+          "options": [
+            {
+              "option": "6 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "5 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "8 cm",
+              "isCorrect": false
+            },
+            {
+              "option": "4 cm",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Tangents from an external point are equal in length, and using properties of right triangles, BR = 4 cm."
+        },
+        {
+          "id": 15,
+          "question": "In figure if PR is tangent to the circle at P and O is the centre of the circle, then ∠POQ is",
+          "options": [
+            {
+              "option": "120°",
+              "isCorrect": false
+            },
+            {
+              "option": "100°",
+              "isCorrect": false
+            },
+            {
+              "option": "110°",
+              "isCorrect": false
+            },
+            {
+              "option": "90°",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "When PR is tangent at P, ∠POQ = 90° as radius is perpendicular to tangent at point of contact."
+        }
+    ]

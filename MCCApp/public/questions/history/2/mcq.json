@@ -1,52 +1,57 @@
 [
-    {
-      "id": "1",
-      "question": "Who was the leader of the Bolshevik Revolution in 1917?",
-      "options": [
-        {"option": "Vladimir Lenin", "isCorrect": true},
-        {"option": "Joseph Stalin", "isCorrect": false},
-        {"option": "Leon Trotsky", "isCorrect": false},
-        {"option": "Nicholas II", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "2",
-      "question": "Which event marked the beginning of Bolshevik rule in Russia?",
-      "options": [
-        {"option": "February Revolution", "isCorrect": false},
-        {"option": "October Revolution", "isCorrect": true},
-        {"option": "Russian Civil War", "isCorrect": false},
-        {"option": "Treaty of Brest-Litovsk", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "3",
-      "question": "What was the key slogan of the Bolsheviks during the Russian Revolution?",
-      "options": [
-        {"option": "Liberty, Equality, Fraternity", "isCorrect": false},
-        {"option": "Workers of the World, Unite!", "isCorrect": false},
-        {"option": "Peace, Land, and Bread", "isCorrect": true},
-        {"option": "Power to the Soviets", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "4",
-      "question": "What was the name of the secret police established by the Bolsheviks?",
-      "options": [
-        {"option": "KGB", "isCorrect": false},
-        {"option": "NKVD", "isCorrect": false},
-        {"option": "Cheka", "isCorrect": true},
-        {"option": "Red Guards", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "5",
-      "question": "Which treaty did the Bolsheviks sign to withdraw Russia from World War I?",
-      "options": [
-        {"option": "Treaty of Versailles", "isCorrect": false},
-        {"option": "Treaty of Brest-Litovsk", "isCorrect": true},
-        {"option": "Treaty of Trianon", "isCorrect": false},
-        {"option": "Treaty of Saint-Germain", "isCorrect": false}
-      ]
-    }
+  {
+    "id": 1,
+    "question": "With whom of the following was the Lateran Treaty signed by Italy?",
+    "options": [
+      { "option": "Pope", "isCorrect": true },
+      { "option": "Germany", "isCorrect": false },
+      { "option": "Russia", "isCorrect": false },
+      { "option": "Spain", "isCorrect": false }
+    ],
+    "explanation": "The Lateran Treaty (1929) was signed between Italy and Pope Pius XI, recognizing Vatican City as an independent state."
+  },
+  {
+    "id": 2,
+    "question": "With whose conquest did the Mexican civilization collapse?",
+    "options": [
+      { "option": "Hernan Cortes", "isCorrect": true },
+      { "option": "Francisco Pizarro", "isCorrect": false },
+      { "option": "Toussaint Louverture", "isCorrect": false },
+      { "option": "Pedro I", "isCorrect": false }
+    ],
+    "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire in 1519-1521, leading to the collapse of Mexican civilization."
+  },
+  {
+    "id": 3,
+    "question": "Who made Peru as part of their dominions?",
+    "options": [
+      { "option": "Spaniards", "isCorrect": true },
+      { "option": "English", "isCorrect": false },
+      { "option": "Russians", "isCorrect": false },
+      { "option": "French", "isCorrect": false }
+    ],
+    "explanation": "The Spanish, led by Francisco Pizarro, conquered the Inca Empire in the 16th century and made Peru a Spanish colony."
+  },
+  {
+    "id": 4,
+    "question": "Which President of the USA pursued 'Good Neighbour' policy towards Latin America?",
+    "options": [
+      { "option": "Franklin D. Roosevelt", "isCorrect": true },
+      { "option": "Truman", "isCorrect": false },
+      { "option": "Woodrow Wilson", "isCorrect": false },
+      { "option": "Eisenhower", "isCorrect": false }
+    ],
+    "explanation": "Franklin D. Roosevelt introduced the 'Good Neighbor Policy' in the 1930s to improve U.S. relations with Latin America."
+  },
+  {
+    "id": 5,
+    "question": "Which part of the world disliked dollar imperialism?",
+    "options": [
+      { "option": "Latin America", "isCorrect": true },
+      { "option": "Europe", "isCorrect": false },
+      { "option": "India", "isCorrect": false },
+      { "option": "China", "isCorrect": false }
+    ],
+    "explanation": "Latin American nations criticized 'dollar imperialism' as U.S. economic influence often led to political interference in their affairs."
+  }
 ]

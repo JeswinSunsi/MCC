@@ -11,35 +11,25 @@
     </div>
     <div class="question-card">
       <div class="question">
+        <h4 style="font-size: 0.7rem; margin-bottom: 0.5rem;">Question {{qnNow + 1}}</h4>
         <h2 v-html="renderedQuestion"></h2>
       </div>
-
-      <div class="options">
-        <div v-for="(option, index) in quizData[qnNow].options" :key="index" class="option"
-          :class="{ 
-            correct: showResult && option.isCorrect,
-            incorrect: showResult && !option.isCorrect && selectedOption === index
-          }" 
-          @click="selectOption(index, option.isCorrect)">
-          <div class="option-text" v-html="renderLatex(option.option)"></div>
-          <div class="option-circle" :class="{
-            correct: showResult && option.isCorrect, 
-            incorrect: showResult && !option.isCorrect && selectedOption === index
-          }"></div>
-        </div>
+      <div class="input-wrapper" :class="{incorrectAnswerStyle: incorrectAnswer == 'true', correctAnswerStyle: incorrectAnswer == 'false', blankAnswerstyle: incorrectAnswer == 'blank'}">
+        <input type="text" class="answerbox" @keyup.enter="answerQuestion()" v-model="answerContent" ref="inputRef" >
       </div>
+
     </div>
     <div class="actions">
       <button class="help-btn" @click="showExplanationData = !showExplanationData">
         <span class="help-icon">🔍</span> Help
       </button>
-      <button class="bookmark-btn">
-        <span class="bookmark-icon">🔖</span> Bookmark
+      <button class="bookmark-btn" @click="continueToNextQn()">
+        <span class="bookmark-icon">➡️</span> Skip
       </button>
 
     </div>
     <Transition name="slide-up">
-    <div class="explanation-wrapper" v-if="showExplanationData">
+    <div class="explanation-wrapper" v-if="showExplanationData && quizData[qnNow].explanation">
       <div class="explanation" v-html="renderLatex(quizData[qnNow].explanation)">
       </div>
       </div>
@@ -71,12 +61,14 @@ const showExplanationData = ref(false)
 const progress = ref(0)
 let oneBarProgress = 0
 
-const selectedOption = ref(null)
 const showResult = ref(false)
 const qnNow = ref(0)
 const quizData = ref(null)
 const loading = ref(true)
 const totalQns = ref(0)
+const answerContent = ref("")
+const inputRef = ref("")
+const incorrectAnswer = ref("blank")
 
 let answerData = {"correct": 0, "incorrect": 0}
 
@@ -105,20 +97,23 @@ const renderedQuestion = computed(() => {
   return renderLatex(quizData.value[qnNow.value].question)
 })
 
-function selectOption(index, correctness) {
-  selectedOption.value = index
-  showResult.value = true
-  if (correctness) {
+function answerQuestion() {
+  if (answerContent.value == quizData.value[qnNow.value].answer) {
     answerData.correct = answerData.correct + 1
+    incorrectAnswer.value = "false";
   } else {
     answerData.incorrect = answerData.incorrect + 1
+    incorrectAnswer.value = "true";
     showExplanationData.value = true;
   }
+  inputRef.value.blur()
+  showResult.value = true;
+  console.log(incorrectAnswer.value)
 }
 
 const loadSubjectData = async () => {
   try {
-    const response = await fetch(`/questions/${subject}/${chapter}/mcq.json`)
+    const response = await fetch(`/questions/${subject}/${chapter}/FIB.json`)
     quizData.value = await response.json()
     totalQns.value = quizData.value.length
     oneBarProgress = 100 / totalQns.value
@@ -133,7 +128,8 @@ const loadSubjectData = async () => {
 function continueToNextQn() {
   if (qnNow.value == (totalQns.value - 1)) {
     let stars = 0
-    const finalAnswerData = (answerData.correct / totalQns.value) * 100
+    let finalAnswerData = (answerData.correct / totalQns.value) * 100
+    finalAnswerData = Math.trunc(finalAnswerData)
     if (finalAnswerData < 40) {
       stars = 1
     } else if (finalAnswerData < 80) {
@@ -146,8 +142,9 @@ function continueToNextQn() {
     qnNow.value++
     progress.value = progress.value + oneBarProgress
     showResult.value = false
-    selectedOption.value = null
     showExplanationData.value = null
+    answerContent.value = ""
+    incorrectAnswer.value = "blank";
   }
 }
 
@@ -155,6 +152,18 @@ loadSubjectData()
 </script>
 
 <style scoped>
+.incorrectAnswerStyle {
+  background-color: rgba(244, 67, 54, 0.1) !important;
+}
+
+.correctAnswerStyle {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+.blankAnswerStyle {
+  background-color: rgb(233, 233, 233) !important;
+}
+
 :deep(.katex) {
   font-size: 1.1em;
 }
@@ -178,6 +187,7 @@ loadSubjectData()
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
+  padding: 0rem 1rem;
 }
 
 .chapter-label {
@@ -231,54 +241,6 @@ loadSubjectData()
   font-weight: 600;
 }
 
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.option {
-  border: 1px solid #ddd;
-  border-radius: 0.6rem;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.2s;
-  line-height: 1.5rem;
-}
-
-.option.selected {
-  border-color: #4a90e2;
-}
-
-.option.correct {
-  background-color: rgba(76, 175, 80, 0.1);
-  border-color: #4CAF50;
-}
-
-.option.incorrect {
-  background-color: rgba(244, 67, 54, 0.1);
-  border-color: #F44336;
-}
-
-.option-circle {
-  width: 1rem;
-  min-width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 2px solid #ddd;
-}
-
-.option-circle.correct {
-  border-color: #4CAF50;
-}
-
-.option-circle.incorrect {
-  border-color: #ff4081;
-}
-
 .actions {
   display: flex;
   gap: 15px;
@@ -305,7 +267,7 @@ loadSubjectData()
 }
 
 .bookmark-btn {
-  color: #ff4081;
+  color: #01A7ED;
 }
 
 .help-icon,
@@ -328,12 +290,12 @@ loadSubjectData()
 
 .slide-up-enter-active,
 .slide-up-leave-active {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .slide-up-enter-from,
 .slide-up-leave-to {
-  transform: translateY(100%);
+  transform: translateY(200%);
 }
 
 .slide-up-enter-to,
@@ -357,5 +319,20 @@ loadSubjectData()
   color: #000;
   line-height: 1.2rem;
   font-size: 0.8rem;
+}
+
+.input-wrapper {
+  background-color: rgb(233, 233, 233);
+  width: 60%;
+  height: 2rem;
+  border-bottom: 1px black dotted;
+}
+
+.answerbox {
+  height: inherit;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 </style>

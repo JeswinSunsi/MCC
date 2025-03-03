@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "$H_2(g) + Cl_2(g) \\rightarrow 2HCl(g)$ is a",
+      "options": [
+        {
+          "option": "Decomposition Reaction",
+          "isCorrect": false
+        },
+        {
+          "option": "Combination Reaction",
+          "isCorrect": true
+        },
+        {
+          "option": "Single Displacement Reaction",
+          "isCorrect": false
+        },
+        {
+          "option": "Double Displacement Reaction",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Two different elements combine to form a single compound, making it a combination reaction."
+    },
+    {
+      "id": 2,
+      "question": "Photolysis is a decomposition reaction caused by ___________",
+      "options": [
+        {
+          "option": "heat",
+          "isCorrect": false
+        },
+        {
+          "option": "electricity",
+          "isCorrect": false
+        },
+        {
+          "option": "light",
+          "isCorrect": true
+        },
+        {
+          "option": "mechanical energy",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Photolysis is the breakdown of compounds by light energy (photo = light, lysis = breaking)."
+    },
+    {
+      "id": 3,
+      "question": "A reaction between carbon and oxygen is represented by $C(s) + O_2(g) \\rightarrow CO_2(g) + Heat$. In which of the type(s), the above reaction can be classified?",
+      "options": [
+        {
+          "option": "i and ii",
+          "isCorrect": false
+        },
+        {
+          "option": "i and iv",
+          "isCorrect": false
+        },
+        {
+          "option": "i, ii and iii",
+          "isCorrect": false
+        },
+        {
+          "option": "i, ii and iv",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "This is a combination reaction (i), combustion reaction (ii), and irreversible reaction (iv)."
+    },
+    {
+      "id": 4,
+      "question": "The chemical equation $Na_2SO_4(aq) + BaCl_2(aq) \\rightarrow BaSO_4(s)\\downarrow + 2NaCl(aq)$ represents which of the following types of reaction?",
+      "options": [
+        {
+          "option": "Neutralisation",
+          "isCorrect": false
+        },
+        {
+          "option": "Combustion",
+          "isCorrect": false
+        },
+        {
+          "option": "Precipitation",
+          "isCorrect": true
+        },
+        {
+          "option": "Single displacement",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Formation of insoluble $BaSO_4$ precipitate (↓) makes this a precipitation reaction."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following statements are correct about a chemical equilibrium?",
+      "options": [
+        {
+          "option": "i, ii and iii",
+          "isCorrect": false
+        },
+        {
+          "option": "i, ii and iv",
+          "isCorrect": true
+        },
+        {
+          "option": "ii, iii and iv",
+          "isCorrect": false
+        },
+        {
+          "option": "i, iii and iv",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Chemical equilibrium is dynamic (i), has equal forward and reverse rates (ii), and can have different concentrations of reactants and products (iv)."
+    },
+    {
+      "id": 6,
+      "question": "A single displacement reaction is represented by $X(s) + 2HCl(aq) \\rightarrow XCl_2(aq) + H_2(g)$. Which of the following(s) could be X?",
+      "options": [
+        {
+          "option": "i and ii",
+          "isCorrect": false
+        },
+        {
+          "option": "ii and iii",
+          "isCorrect": false
+        },
+        {
+          "option": "iii and iv",
+          "isCorrect": false
+        },
+        {
+          "option": "i and iv",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Zn and Mg are more reactive than H₂ and can displace it from HCl, while Ag and Cu cannot."
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is not an \"element + element → compound\" type reaction?",
+        "options": [
+          {
+            "option": "$C(s) + O_2(g) \\rightarrow CO_2(g)$",
+            "isCorrect": false
+          },
+          {
+            "option": "$2K(s) + Br_2(l) \\rightarrow 2KBr(s)$",
+            "isCorrect": false
+          },
+          {
+            "option": "$2CO(g) + O_2(g) \\rightarrow 2CO_2(g)$",
+            "isCorrect": true
+          },
+          {
+            "option": "$4Fe(s) + 3O_2(g) \\rightarrow 2Fe_2O_3(s)$",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "CO + O₂ → CO₂ involves a compound (CO) reacting with an element, not two elements combining."
+      },
+    {
+      "id": 8,
+      "question": "Which of the following represents a precipitation reaction?",
+      "options": [
+        {
+          "option": "A(s) + B(s) → C(s) + D(s)",
+          "isCorrect": false
+        },
+        {
+          "option": "A(s) + B(aq) → C(aq) + D(l)",
+          "isCorrect": false
+        },
+        {
+          "option": "A(aq) + B(aq) → C(s) + D(aq)",
+          "isCorrect": true
+        },
+        {
+          "option": "A(aq) + B(s) → C(aq) + D(l)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Precipitation reactions involve formation of an insoluble solid (s) from aqueous solutions (aq)."
+    },
+    {
+      "id": 9,
+      "question": "The pH of a solution is 3. Its [OH$^-$] concentration is",
+      "options": [
+        {
+          "option": "1 × 10$^{-3}$ M",
+          "isCorrect": false
+        },
+        {
+          "option": "3 M",
+          "isCorrect": false
+        },
+        {
+          "option": "1 × 10$^{-11}$ M",
+          "isCorrect": true
+        },
+        {
+          "option": "11 M",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "At pH = 3, [H$^+$] = 10$^{-3}$ M, so [OH$^-$] = 10$^{-14}$/10$^{-3}$ = 10$^{-11}$ M (from K$_w$ = 10$^{-14}$)."
+    },
+    {
+      "id": 10,
+      "question": "Powdered $CaCO_3$ reacts more rapidly than flaky $CaCO_3$ because of ___________",
+      "options": [
+        {
+          "option": "large surface area",
+          "isCorrect": true
+        },
+        {
+          "option": "high pressure",
+          "isCorrect": false
+        },
+        {
+          "option": "high concentration",
+          "isCorrect": false
+        },
+        {
+          "option": "high temperature",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Powdered form has larger surface area exposed to reactants, increasing the rate of reaction."
+    }
+]

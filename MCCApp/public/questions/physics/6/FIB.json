@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "question": "One roentgen is equal to ____________ disintegrations per second",
+      "answer": "$3.7 \\times 10^{10}$",
+      "explanation": "One roentgen equals $3.7 \\times 10^{10}$ disintegrations per second, which is also equal to one curie."
+    },
+    {
+      "id": 2,
+      "question": "Positron is an ____________",
+      "answer": "anti-electron",
+      "explanation": "A positron is an anti-electron, having the same mass as an electron but with positive charge."
+    },
+    {
+      "id": 3,
+      "question": "Anemia can be cured by ____________ isotope",
+      "answer": "radioactive iron-59",
+      "explanation": "Radioactive iron-59 is used to study iron absorption in anemia patients and help in treatment."
+    },
+    {
+      "id": 4,
+      "question": "Abbreviation of ICRP ____________",
+      "answer": "International Commission on Radiological Protection",
+      "explanation": "ICRP is a key organization that provides recommendations and guidelines for radiation protection."
+    },
+    {
+      "id": 5,
+      "question": "_________is used to measure exposure rate of radiation in humans",
+      "answer": "roentgen meter",
+      "explanation": "A roentgen meter (R-meter) measures ionizing radiation exposure in terms of roentgens."
+    },
+    {
+      "id": 6,
+      "question": "________ has the greatest penetration power",
+      "answer": "gamma rays",
+      "explanation": "Among all types of radiation, gamma rays have the highest penetrating power due to their high energy and no charge."
+    },
+    {
+      "id": 7,
+      "question": "$_ZY^A \\rightarrow _{Z+1}Y^A + X$ ; Then, X is __________",
+      "answer": "electron",
+      "explanation": "In this beta decay process, X is an electron ($\\beta^-$ particle), as atomic number increases by 1 while mass number remains constant."
+    },
+    {
+      "id": 8,
+      "question": "$_ZX^A \\rightarrow _ZY^A$ This reaction is possible in ______________ decay",
+      "answer": "gamma",
+      "explanation": "In gamma decay, only energy is released with no change in atomic number (Z) or mass number (A)."
+    },
+    {
+      "id": 9,
+      "question": "The average energy released in each fusion reaction is about ________ J",
+      "answer": "$3.27 \\times 10^{-12}$",
+      "explanation": "In nuclear fusion reactions, approximately $3.27 \\times 10^{-12}$ joules of energy is released per reaction."
+    },
+    {
+      "id": 10,
+      "question": "Nuclear fusion is possible only at an extremely high temperature of the order of ____ K",
+      "answer": "$10^7$",
+      "explanation": "Nuclear fusion requires temperatures around $10^7$ Kelvin to overcome the electrostatic repulsion between nuclei."
+    },
+    {
+      "id": 11,
+      "question": "The radio isotope of ________ helps to increase the productivity of crops",
+      "answer": "phosphorus-32",
+      "explanation": "Phosphorus-32 is used in agricultural research to study fertilizer absorption and improve crop yields."
+    },
+    {
+      "id": 12,
+      "question": "If the radiation exposure is 100 R, it may cause ______________",
+      "answer": "radiation sickness",
+      "explanation": "Exposure to 100 roentgens can cause radiation sickness, including symptoms like nausea, fatigue, and decreased blood cell count."
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "The number of periods and groups in the periodic table are______",
+      "options": [
+        {
+          "option": "6,16",
+          "isCorrect": false
+        },
+        {
+          "option": "7,17",
+          "isCorrect": false
+        },
+        {
+          "option": "8,18",
+          "isCorrect": false
+        },
+        {
+          "option": "7,18",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The modern periodic table has 7 periods (horizontal rows) and 18 groups (vertical columns)."
+    },
+    {
+      "id": 2,
+      "question": "The basis of modern periodic law is______",
+      "options": [
+        {
+          "option": "atomic number",
+          "isCorrect": true
+        },
+        {
+          "option": "atomic mass",
+          "isCorrect": false
+        },
+        {
+          "option": "isotopic mass",
+          "isCorrect": false
+        },
+        {
+          "option": "number of neutrons",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Modern periodic law states that properties of elements are periodic functions of their atomic numbers."
+    },
+    {
+      "id": 3,
+      "question": "_____ group contains the member of halogen family",
+      "options": [
+        {
+          "option": "17th",
+          "isCorrect": true
+        },
+        {
+          "option": "15th",
+          "isCorrect": false
+        },
+        {
+          "option": "18th",
+          "isCorrect": false
+        },
+        {
+          "option": "16th",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Group 17 (VIIA) contains halogens (F, Cl, Br, I, At)."
+    },
+    {
+      "id": 4,
+      "question": "_____ is a relative periodic property",
+      "options": [
+        {
+          "option": "atomic radii",
+          "isCorrect": false
+        },
+        {
+          "option": "ionic radii",
+          "isCorrect": false
+        },
+        {
+          "option": "electron affinity",
+          "isCorrect": false
+        },
+        {
+          "option": "electronegativity",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Electronegativity is a relative property as it compares an atom's ability to attract electrons relative to other atoms."
+    },
+    {
+      "id": 5,
+      "question": "Chemical formula of rust is ________",
+      "options": [
+        {
+          "option": "FeO.$x$H$_2$O",
+          "isCorrect": false
+        },
+        {
+          "option": "FeO$_4$.$x$H$_2$O",
+          "isCorrect": false
+        },
+        {
+          "option": "Fe$_2$O$_3$.$x$H$_2$O",
+          "isCorrect": true
+        },
+        {
+          "option": "FeO",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Rust is hydrated iron(III) oxide with formula Fe$_2$O$_3$.$x$H$_2$O."
+    },
+    {
+      "id": 6,
+      "question": "In the alumino thermic process the role of Al is _____",
+      "options": [
+        {
+          "option": "oxidizing agent",
+          "isCorrect": false
+        },
+        {
+          "option": "reducing agent",
+          "isCorrect": true
+        },
+        {
+          "option": "hydrogenating agent",
+          "isCorrect": false
+        },
+        {
+          "option": "sulphurising agent",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In aluminothermic process, aluminum acts as a reducing agent, reducing metal oxides to pure metals."
+    },
+    {
+      "id": 7,
+      "question": "The process of coating the surface of metal with a thin layer of zinc is called______",
+      "options": [
+        {
+          "option": "painting",
+          "isCorrect": false
+        },
+        {
+          "option": "thinning",
+          "isCorrect": false
+        },
+        {
+          "option": "galvanization",
+          "isCorrect": true
+        },
+        {
+          "option": "electroplating",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Galvanization is the process of coating iron/steel with zinc to prevent corrosion."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following have inert gases 2 electrons in the outermost shell",
+      "options": [
+        {
+          "option": "He",
+          "isCorrect": true
+        },
+        {
+          "option": "Ne",
+          "isCorrect": false
+        },
+        {
+          "option": "Ar",
+          "isCorrect": false
+        },
+        {
+          "option": "Kr",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Helium is the only noble gas with 2 electrons in its outermost shell (1s$^2$ configuration)."
+    },
+    {
+      "id": 9,
+      "question": "Neon shows zero electron affinity due to _____",
+      "options": [
+        {
+          "option": "stable arrangement of neutrons",
+          "isCorrect": false
+        },
+        {
+          "option": "stable configuration of electrons",
+          "isCorrect": true
+        },
+        {
+          "option": "reduced size",
+          "isCorrect": false
+        },
+        {
+          "option": "increased density",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Neon has zero electron affinity due to its stable electronic configuration (complete octet)."
+    },
+    {
+      "id": 10,
+      "question": "______ is an important metal to form amalgam",
+      "options": [
+        {
+          "option": "Ag",
+          "isCorrect": false
+        },
+        {
+          "option": "Hg",
+          "isCorrect": true
+        },
+        {
+          "option": "Mg",
+          "isCorrect": false
+        },
+        {
+          "option": "Al",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mercury (Hg) forms amalgams (alloys) with other metals and is the only metal that is liquid at room temperature."
+    }
+]

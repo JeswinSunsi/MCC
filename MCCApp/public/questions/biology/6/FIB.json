@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "question": "The embryo sac in a typical dicot at the time of fertilization is ___________.",
+      "answer": "8-nucleate",
+      "explanation": "A mature embryo sac in dicots contains 8 nuclei: one egg cell, two synergids, three antipodal cells, and two polar nuclei, making it 8-nucleate at fertilization."
+    },
+    {
+      "id": 2,
+      "question": "After fertilization the ovary develops into ___________.",
+      "answer": "fruit",
+      "explanation": "Following fertilization, the ovary matures and develops into a fruit, while the ovules develop into seeds."
+    },
+    {
+      "id": 3,
+      "question": "Planaria reproduces asexually by ___________.",
+      "answer": "regeneration",
+      "explanation": "Planaria can reproduce asexually through regeneration, where a piece of its body can grow into a complete new individual."
+    },
+    {
+      "id": 4,
+      "question": "Fertilization is __________ in humans",
+      "answer": "internal",
+      "explanation": "In humans, fertilization occurs internally in the fallopian tube where the sperm meets and fuses with the egg."
+    },
+    {
+      "id": 5,
+      "question": "The implantation of the embryo occurs at about ___________ day of fertilization",
+      "answer": "7th",
+      "explanation": "The human embryo typically implants into the uterine wall around the 7th day after fertilization."
+    },
+    {
+      "id": 6,
+      "question": "___________ is the first secretion from the mammary gland after child birth",
+      "answer": "Colostrum",
+      "explanation": "Colostrum is the first milk produced by mammary glands, rich in antibodies and providing important immunity to the newborn."
+    },
+    {
+      "id": 7,
+      "question": "Prolactin is a hormone produced by ___________.",
+      "answer": "anterior pituitary",
+      "explanation": "Prolactin is secreted by the anterior pituitary gland and stimulates milk production in mammary glands."
+    }
+]

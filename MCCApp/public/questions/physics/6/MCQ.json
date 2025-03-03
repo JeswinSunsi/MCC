@@ -1,0 +1,278 @@
+[
+    {
+      "id": 1,
+      "question": "Man-made radioactivity is also known as",
+      "options": [
+        {
+          "option": "Induced radioactivity",
+          "isCorrect": false
+        },
+        {
+          "option": "Spontaneous radioactivity",
+          "isCorrect": false
+        },
+        {
+          "option": "Artificial radioactivity",
+          "isCorrect": false
+        },
+        {
+          "option": "$a$ & $c$",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Man-made radioactivity is known as both induced and artificial radioactivity as it's created through human intervention rather than occurring naturally."
+    },
+    {
+      "id": 2,
+      "question": "Unit of radioactivity is",
+      "options": [
+        {
+          "option": "roentgen",
+          "isCorrect": false
+        },
+        {
+          "option": "curie",
+          "isCorrect": false
+        },
+        {
+          "option": "becquerel",
+          "isCorrect": false
+        },
+        {
+          "option": "all the above",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Radioactivity can be measured in multiple units: becquerel (SI unit), curie (traditional unit), and roentgen (exposure measurement)."
+    },
+    {
+      "id": 3,
+      "question": "Artificial radioactivity was discovered by",
+      "options": [
+        {
+          "option": "Bequerel",
+          "isCorrect": false
+        },
+        {
+          "option": "Irene Curie",
+          "isCorrect": true
+        },
+        {
+          "option": "Roentgen",
+          "isCorrect": false
+        },
+        {
+          "option": "Neils Bohr",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Artificial radioactivity was discovered by Irene Curie and her husband Frederic Joliot in 1934."
+    },
+    {
+      "id": 4,
+      "question": "In which of the following, no change in mass number of the daughter nuclei takes place: i) $\\alpha$ decay ii) $\\beta$ decay iii) $\\gamma$ decay iv) neutron decay",
+      "options": [
+        {
+          "option": "(i) is correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(ii) and (iii) are correct",
+          "isCorrect": true
+        },
+        {
+          "option": "(i) & (iv) are correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(ii) & (iv) are correct",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In $\\beta$ decay and $\\gamma$ decay, the mass number remains unchanged. $\\beta$ decay only changes atomic number, while $\\gamma$ decay only releases energy."
+    },
+    {
+      "id": 5,
+      "question": "Which isotope is used for the treatment of cancer?",
+      "options": [
+        {
+          "option": "Radio Iodine",
+          "isCorrect": false
+        },
+        {
+          "option": "Radio Cobalt",
+          "isCorrect": true
+        },
+        {
+          "option": "Radio Carbon",
+          "isCorrect": false
+        },
+        {
+          "option": "Radio Nickel",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Cobalt-60, a radioactive isotope of cobalt, is commonly used in radiation therapy for cancer treatment due to its strong gamma radiation."
+    },
+    {
+      "id": 6,
+      "question": "Gamma radiations are dangerous because",
+      "options": [
+        {
+          "option": "it affects eyes & bones",
+          "isCorrect": false
+        },
+        {
+          "option": "it affects tissues",
+          "isCorrect": false
+        },
+        {
+          "option": "it produces genetic disorder",
+          "isCorrect": true
+        },
+        {
+          "option": "it produces enormous amount of heat",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Gamma radiation is highly penetrating and can cause genetic mutations by damaging DNA, making it particularly dangerous to living tissues."
+    },
+    {
+      "id": 7,
+      "question": "Which aprons are used to protect us from gamma radiations?",
+      "options": [
+        {
+          "option": "Lead oxide",
+          "isCorrect": false
+        },
+        {
+          "option": "Iron",
+          "isCorrect": false
+        },
+        {
+          "option": "Lead",
+          "isCorrect": true
+        },
+        {
+          "option": "Aluminium",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Lead aprons are used as protection because lead's high density and atomic number make it very effective at blocking gamma radiation."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following statements is/are correct? i) $\\alpha$ particles are photons ii) Penetrating power of $\\gamma$ radiation is very low iii) Ionization power is maximum for $\\alpha$ rays iv) Penetrating power of $\\gamma$ radiation is very high",
+      "options": [
+        {
+          "option": "(i) & (ii) are correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(ii) & (iii) are correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(iv) only correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(iii) & (iv) are correct",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "$\\alpha$ rays have the highest ionization power, and $\\gamma$ radiation has the highest penetrating power due to its electromagnetic nature."
+    },
+    {
+      "id": 9,
+      "question": "Proton - Proton chain reaction is an example of",
+      "options": [
+        {
+          "option": "Nuclear fission",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\alpha$ - decay",
+          "isCorrect": false
+        },
+        {
+          "option": "Nuclear fusion",
+          "isCorrect": true
+        },
+        {
+          "option": "$\\beta$ - decay",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The proton-proton chain reaction is a nuclear fusion process where hydrogen nuclei combine to form helium, occurring in stars like our Sun."
+    },
+    {
+      "id": 10,
+      "question": "In the nuclear reaction $_6X^{12} \\rightarrow _ZY^A + \\alpha$, the values of A & Z are",
+      "options": [
+        {
+          "option": "8, 6",
+          "isCorrect": false
+        },
+        {
+          "option": "8, 4",
+          "isCorrect": true
+        },
+        {
+          "option": "4, 8",
+          "isCorrect": false
+        },
+        {
+          "option": "cannot be determined with the given data",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In $\\alpha$ decay, mass number decreases by 4 (A = 12-4 = 8) and atomic number decreases by 2 (Z = 6-2 = 4)."
+    },
+    {
+      "id": 11,
+      "question": "Kamini reactor is located at",
+      "options": [
+        {
+          "option": "Kalpakkam",
+          "isCorrect": true
+        },
+        {
+          "option": "Koodankulam",
+          "isCorrect": false
+        },
+        {
+          "option": "Mumbai",
+          "isCorrect": false
+        },
+        {
+          "option": "Rajasthan",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "KAMINI (Kalpakkam Mini) reactor is located at Kalpakkam, Tamil Nadu, and is the only U-233 fueled reactor in the world."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is/are correct? i) Chain reaction takes place in a nuclear reactor and an atomic bomb ii) The chain reaction in a nuclear reactor is controlled iii) The chain reaction in a nuclear reactor is not controlled iv) No chain reaction takes place in an atom bomb",
+      "options": [
+        {
+          "option": "(i) only correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(i) & (ii) are correct",
+          "isCorrect": true
+        },
+        {
+          "option": "(iv) only correct",
+          "isCorrect": false
+        },
+        {
+          "option": "(iii) & (iv) are correct",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Chain reactions occur in both nuclear reactors and atomic bombs, but in reactors, the reaction is controlled using moderators and control rods."
+    }
+]

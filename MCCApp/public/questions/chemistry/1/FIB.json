@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "question": "Atoms of different elements having _______ mass number, but ________ atomic numbers are called isobars",
+      "answer": "same, different",
+      "explanation": "Isobars are atoms of different elements with the same mass number (A) but different atomic numbers (Z)."
+    },
+    {
+      "id": 2,
+      "question": "Atoms of one element can be transmuted into atoms of other element by ________",
+      "answer": "nuclear reactions",
+      "explanation": "Nuclear reactions can change one element into another by altering the number of protons in the nucleus."
+    },
+    {
+      "id": 3,
+      "question": "The sum of the numbers of protons and neutrons of an atom is called its __________",
+      "answer": "mass number",
+      "explanation": "Mass number (A) = number of protons (Z) + number of neutrons (N)."
+    },
+    {
+      "id": 4,
+      "question": "Relative atomic mass is otherwise known as __________",
+      "answer": "atomic weight",
+      "explanation": "Relative atomic mass and atomic weight are the same, representing the average mass of an atom relative to 1/12th the mass of carbon-12."
+    },
+    {
+      "id": 5,
+      "question": "The average atomic mass of hydrogen is ___________ amu",
+      "answer": "1.008",
+      "explanation": "The average atomic mass of hydrogen is 1.008 amu, considering all its naturally occurring isotopes."
+    },
+    {
+      "id": 6,
+      "question": "If a molecule is made of similar kind of atoms, then it is called ____________ atomic molecule",
+      "answer": "homo",
+      "explanation": "Homoatomic molecules are made up of the same type of atoms, like $H_2$, $O_2$, $N_2$."
+    },
+    {
+      "id": 7,
+      "question": "The number of atoms present in a molecule is called its ____________",
+      "answer": "atomicity",
+      "explanation": "Atomicity refers to the number of atoms present in one molecule of an element or compound."
+    },
+    {
+      "id": 8,
+      "question": "One mole of any gas occupies ________ ml at S.T.P",
+      "answer": "22400",
+      "explanation": "At STP (Standard Temperature and Pressure), one mole of any gas occupies 22.4 liters or 22400 ml."
+    },
+    {
+      "id": 9,
+      "question": "Atomicity of phosphorous is ___________",
+      "answer": "4",
+      "explanation": "Phosphorus exists as $P_4$ molecules, hence its atomicity is 4."
+    }
+]

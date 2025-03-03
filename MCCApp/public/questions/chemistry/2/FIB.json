@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "question": "If the electronegativity difference between two bonded atoms in a molecule is greater than 1.7, the nature of bonding is ______",
+      "answer": "ionic",
+      "explanation": "When electronegativity difference exceeds 1.7, the bond is considered ionic due to significant electron transfer between atoms."
+    },
+    {
+      "id": 2,
+      "question": "________ is the longest period in the periodical table",
+      "answer": "sixth period",
+      "explanation": "The sixth period contains 32 elements, making it the longest period in the periodic table."
+    },
+    {
+      "id": 3,
+      "question": "________ forms the basis of modern periodic table",
+      "answer": "atomic number",
+      "explanation": "The modern periodic table is arranged based on increasing atomic number, as proposed by Moseley."
+    },
+    {
+      "id": 4,
+      "question": "If the distance between two Cl atoms in $Cl_2$ molecule is 1.98Å, then the radius of Cl atom is ________",
+      "answer": "0.99Å",
+      "explanation": "The atomic radius is half the distance between two identical atoms in a diatomic molecule: $0.99\\text{Å} = \\frac{1.98\\text{Å}}{2}$."
+    },
+    {
+      "id": 5,
+      "question": "Among the given species $A^-$, $A^+$, and A, the smallest one in size is ________",
+      "answer": "$A^+$",
+      "explanation": "Cations ($A^+$) are smallest because they lose electrons while maintaining the same nuclear charge, causing stronger attraction of remaining electrons."
+    },
+    {
+      "id": 6,
+      "question": "The scientist who propounded the modern periodic law is ________",
+      "answer": "Henry Moseley",
+      "explanation": "Henry Moseley discovered that atomic number, not atomic mass, determines the properties of elements."
+    },
+    {
+      "id": 7,
+      "question": "Across the period, ionic radii ________ (increases,decreases)",
+      "answer": "decreases",
+      "explanation": "Ionic radii decrease across a period due to increasing nuclear charge and same shell of electrons."
+    },
+    {
+      "id": 8,
+      "question": "________ and ________ are called inner transition elements",
+      "answer": "lanthanides, actinides",
+      "explanation": "Lanthanides and actinides are called inner transition elements as they fill f-orbitals internally."
+    },
+    {
+      "id": 9,
+      "question": "The chief ore of Aluminium is ________",
+      "answer": "bauxite",
+      "explanation": "Bauxite ($Al_2O_3 \\cdot 2H_2O$) is the most important ore of aluminum."
+    },
+    {
+      "id": 10,
+      "question": "The chemical name of rust is ________",
+      "answer": "hydrated ferric oxide",
+      "explanation": "Rust is hydrated ferric oxide ($Fe_2O_3 \\cdot xH_2O$), formed when iron reacts with oxygen in presence of moisture."
+    }
+]

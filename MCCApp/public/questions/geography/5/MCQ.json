@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "The scientific study of different aspects of population is called _______.",
+    "options": [
+      { "option": "Demography", "isCorrect": true },
+      { "option": "Cartography", "isCorrect": false },
+      { "option": "Anthropology", "isCorrect": false },
+      { "option": "Epigraphy", "isCorrect": false }
+    ],
+    "explanation": "Demography is the scientific study of population characteristics, including size, growth, density, and distribution."
+  },
+  {
+    "id": 2,
+    "question": "______ transport provides door-to-door services.",
+    "options": [
+      { "option": "Roadways", "isCorrect": true },
+      { "option": "Railways", "isCorrect": false },
+      { "option": "Airways", "isCorrect": false },
+      { "option": "Waterways", "isCorrect": false }
+    ],
+    "explanation": "Roadways offer the flexibility of door-to-door transport, making them the most accessible mode of transportation."
+  },
+  {
+    "id": 3,
+    "question": "The length of Golden Quadrilateral superhighways in India is _______.",
+    "options": [
+      { "option": "5846 km", "isCorrect": true },
+      { "option": "5942 km", "isCorrect": false },
+      { "option": "5630 km", "isCorrect": false },
+      { "option": "5800 km", "isCorrect": false }
+    ],
+    "explanation": "The Golden Quadrilateral, India's highway network connecting major cities, spans approximately 5846 km."
+  },
+  {
+    "id": 4,
+    "question": "The National Remote Sensing Centre (NRSC) is located at _______.",
+    "options": [
+      { "option": "Hyderabad", "isCorrect": true },
+      { "option": "Bengaluru", "isCorrect": false },
+      { "option": "Delhi", "isCorrect": false },
+      { "option": "Chennai", "isCorrect": false }
+    ],
+    "explanation": "NRSC, responsible for satellite data management, is located in Hyderabad, Telangana."
+  },
+  {
+    "id": 5,
+    "question": "The transport useful in inaccessible areas is _______.",
+    "options": [
+      { "option": "Airways", "isCorrect": true },
+      { "option": "Roadways", "isCorrect": false },
+      { "option": "Railways", "isCorrect": false },
+      { "option": "Waterways", "isCorrect": false }
+    ],
+    "explanation": "Airways are crucial for providing connectivity to remote and inaccessible regions, including mountainous and island areas."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is associated with helicopter service?",
+    "options": [
+      { "option": "Pavan Hans", "isCorrect": true },
+      { "option": "Air India", "isCorrect": false },
+      { "option": "Indian Airlines", "isCorrect": false },
+      { "option": "Vayudoot", "isCorrect": false }
+    ],
+    "explanation": "Pavan Hans is India's government-owned helicopter service provider, mainly used for offshore operations and regional connectivity."
+  },
+  {
+    "id": 7,
+    "question": "The major import item of India is _______.",
+    "options": [
+      { "option": "Petroleum", "isCorrect": true },
+      { "option": "Cement", "isCorrect": false },
+      { "option": "Jewels", "isCorrect": false },
+      { "option": "Tea", "isCorrect": false }
+    ],
+    "explanation": "Petroleum is India's largest import commodity due to its high demand for fuel and industrial purposes."
+  }
+]

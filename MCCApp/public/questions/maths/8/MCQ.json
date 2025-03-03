@@ -1,0 +1,348 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following is not a measure of dispersion?",
+      "options": [
+        {
+          "option": "Range",
+          "isCorrect": false
+        },
+        {
+          "option": "Standard deviation",
+          "isCorrect": false
+        },
+        {
+          "option": "Arithmetic mean",
+          "isCorrect": true
+        },
+        {
+          "option": "Variance",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Arithmetic mean is a measure of central tendency, not dispersion. All others measure spread of data."
+    },
+    {
+      "id": 2,
+      "question": "The range of the data 8, 8, 8, 8, 8... 8 is",
+      "options": [
+        {
+          "option": "0",
+          "isCorrect": true
+        },
+        {
+          "option": "1",
+          "isCorrect": false
+        },
+        {
+          "option": "8",
+          "isCorrect": false
+        },
+        {
+          "option": "3",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Range = Maximum value - Minimum value = 8 - 8 = 0"
+    },
+    {
+      "id": 3,
+      "question": "The sum of all deviations of the data from its mean is",
+      "options": [
+        {
+          "option": "Always positive",
+          "isCorrect": false
+        },
+        {
+          "option": "always negative",
+          "isCorrect": false
+        },
+        {
+          "option": "zero",
+          "isCorrect": true
+        },
+        {
+          "option": "non-zero integer",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Sum of deviations from mean is always zero: $\\sum(x - \\bar{x}) = 0$"
+    },
+    {
+      "id": 4,
+      "question": "The mean of 100 observations is 40 and their standard deviation is 3. The sum of squares of all observations is",
+      "options": [
+        {
+          "option": "40000",
+          "isCorrect": false
+        },
+        {
+          "option": "160900",
+          "isCorrect": true
+        },
+        {
+          "option": "160000",
+          "isCorrect": false
+        },
+        {
+          "option": "30000",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using $\\sigma^2 = \\frac{\\sum x^2}{n} - (\\bar{x})^2$, $\\sum x^2 = n(\\sigma^2 + \\bar{x}^2) = 100(9 + 1600) = 160900$"
+    },
+    {
+      "id": 5,
+      "question": "Variance of first 20 natural numbers is",
+      "options": [
+        {
+          "option": "32.25",
+          "isCorrect": false
+        },
+        {
+          "option": "44.25",
+          "isCorrect": false
+        },
+        {
+          "option": "33.25",
+          "isCorrect": true
+        },
+        {
+          "option": "30",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using formula for variance of first n natural numbers: $\\frac{n^2-1}{12} = \\frac{399}{12} = 33.25$"
+    },
+    
+        {
+          "id": 6,
+          "question": "The standard deviation of a data is 3. If each value is multiplied by 5 then the new variance is",
+          "options": [
+            {
+              "option": "3",
+              "isCorrect": false
+            },
+            {
+              "option": "15",
+              "isCorrect": false
+            },
+            {
+              "option": "5",
+              "isCorrect": false
+            },
+            {
+              "option": "225",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "When data is multiplied by k, variance is multiplied by k². Here, new variance = $(3 × 5)^2 = 225$"
+        },
+        {
+          "id": 7,
+          "question": "If the standard deviation of x, y, z is p then the standard deviation of $3x + 5$, $3y + 5$, $3z + 5$ is",
+          "options": [
+            {
+              "option": "3p + 5",
+              "isCorrect": false
+            },
+            {
+              "option": "3p",
+              "isCorrect": true
+            },
+            {
+              "option": "p + 5",
+              "isCorrect": false
+            },
+            {
+              "option": "9p + 5",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Adding constant doesn't affect SD, and multiplying by k multiplies SD by |k|. So new SD = 3p"
+        },
+        {
+          "id": 8,
+          "question": "If the mean and coefficient of variation of a data are 4 and 87.5% then the standard deviation is",
+          "options": [
+            {
+              "option": "3.5",
+              "isCorrect": true
+            },
+            {
+              "option": "3",
+              "isCorrect": false
+            },
+            {
+              "option": "4.5",
+              "isCorrect": false
+            },
+            {
+              "option": "2.5",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "CV = $\\frac{SD}{Mean} × 100$, so SD = $\\frac{CV × Mean}{100} = \\frac{87.5 × 4}{100} = 3.5$"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is incorrect?",
+          "options": [
+            {
+              "option": "P(A) > 1",
+              "isCorrect": true
+            },
+            {
+              "option": "0 ≤ P(A) ≤ 1",
+              "isCorrect": false
+            },
+            {
+              "option": "P(ϕ) = 0",
+              "isCorrect": false
+            },
+            {
+              "option": "P(A) + P(A') = 1",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Probability can never be greater than 1, so P(A) > 1 is incorrect."
+        },
+        {
+          "id": 10,
+          "question": "The probability a red marble selected at random from a jar containing p red, q blue and r green marbles is",
+          "options": [
+            {
+              "option": "$\\frac{q}{p+q+r}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{p}{p+q+r}$",
+              "isCorrect": true
+            },
+            {
+              "option": "$\\frac{p+q}{p+q+r}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{p+r}{p+q+r}$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "P(red) = $\\frac{\\text{number of favorable outcomes}}{\\text{total outcomes}} = \\frac{p}{p+q+r}$"
+        },
+        {
+          "id": 11,
+          "question": "A page is selected at random from a book. The probability that the digit at units place of the page number chosen is less than 7 is",
+          "options": [
+            {
+              "option": "$\\frac{3}{10}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{7}{10}$",
+              "isCorrect": true
+            },
+            {
+              "option": "$\\frac{3}{9}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{7}{9}$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Favorable outcomes (0,1,2,3,4,5,6) = 7, Total possible digits (0-9) = 10, so P = $\\frac{7}{10}$"
+        },
+        {
+          "id": 12,
+          "question": "The probability of getting a job for a person is $\\frac{x}{3}$. If the probability of not getting the job is $\\frac{2}{3}$ then the value of x is",
+          "options": [
+            {
+              "option": "2",
+              "isCorrect": false
+            },
+            {
+              "option": "1",
+              "isCorrect": true
+            },
+            {
+              "option": "3",
+              "isCorrect": false
+            },
+            {
+              "option": "1.5",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Sum of probabilities = 1, so $\\frac{x}{3} + \\frac{2}{3} = 1$, therefore x = 1"
+        },
+        {
+          "id": 13,
+          "question": "Kamalam went to play a lucky draw contest. 135 tickets of the lucky draw were sold. If the probability of Kamalam winning is $\\frac{1}{9}$, then the number of tickets bought by Kamalam is",
+          "options": [
+            {
+              "option": "5",
+              "isCorrect": false
+            },
+            {
+              "option": "10",
+              "isCorrect": false
+            },
+            {
+              "option": "15",
+              "isCorrect": true
+            },
+            {
+              "option": "20",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "$\\frac{\\text{tickets bought}}{135} = \\frac{1}{9}$, so tickets bought = 15"
+        },
+        {
+          "id": 14,
+          "question": "If a letter is chosen at random from the English alphabets {a,b,...,z}, then the probability that the letter chosen precedes x",
+          "options": [
+            {
+              "option": "$\\frac{12}{13}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{1}{13}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{23}{26}$",
+              "isCorrect": true
+            },
+            {
+              "option": "$\\frac{3}{26}$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "23 letters precede 'x', total 26 letters, so P = $\\frac{23}{26}$"
+        },
+        {
+          "id": 15,
+          "question": "A purse contains 10 notes of ₹2000, 15 notes of ₹500, and 25 notes of ₹200. One note is drawn at random. What is the probability that the note is either a ₹500 note or ₹200 note?",
+          "options": [
+            {
+              "option": "$\\frac{1}{5}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{3}{10}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{2}{3}$",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{4}{5}$",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "P(500 or 200) = $\\frac{15+25}{50} = \\frac{40}{50} = \\frac{4}{5}$"
+        }
+    ]

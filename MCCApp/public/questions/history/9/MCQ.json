@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "Who was the first President of the Madras Mahajana Sabha?",
+    "options": [
+      { "option": "P. Rangaiah", "isCorrect": true },
+      { "option": "T.M. Nair", "isCorrect": false },
+      { "option": "G. Subramaniam", "isCorrect": false },
+      { "option": "G.A. Natesan", "isCorrect": false }
+    ],
+    "explanation": "P. Rangaiah was the first President of the Madras Mahajana Sabha, which was founded in 1884 to support Indian nationalism."
+  },
+  {
+    "id": 2,
+    "question": "Where was the third session of the Indian National Congress held?",
+    "options": [
+      { "option": "Mylapore", "isCorrect": true },
+      { "option": "Marina", "isCorrect": false },
+      { "option": "Fort St. George", "isCorrect": false },
+      { "option": "Thousand Lights", "isCorrect": false }
+    ],
+    "explanation": "The third session of the Indian National Congress was held in Mylapore, Madras, in 1887 under the presidency of Badruddin Tyabji."
+  },
+  {
+    "id": 3,
+    "question": "Who said 'Better bullock carts and freedom than a train de luxe with subjection'?",
+    "options": [
+      { "option": "M. Veeraraghavachar", "isCorrect": true },
+      { "option": "Annie Besant", "isCorrect": false },
+      { "option": "B.P. Wadia", "isCorrect": false },
+      { "option": "G.S. Arundale", "isCorrect": false }
+    ],
+    "explanation": "M. Veeraraghavachar, a nationalist leader, made this statement emphasizing the importance of self-rule over modern conveniences under colonial rule."
+  },
+  {
+    "id": 4,
+    "question": "Who among the following were Swarajists?",
+    "options": [
+      { "option": "S. Satyamurti", "isCorrect": true },
+      { "option": "Kasturirangar", "isCorrect": false },
+      { "option": "P. Subbarayan", "isCorrect": false },
+      { "option": "Periyar EVR", "isCorrect": false }
+    ],
+    "explanation": "S. Satyamurti was a prominent leader of the Swarajist Party, which aimed to oppose colonial rule by entering legislative councils."
+  },
+  {
+    "id": 5,
+    "question": "Who set up the satyagraha camp in Udyavanam near Madras?",
+    "options": [
+      { "option": "C. Rajaji", "isCorrect": true },
+      { "option": "K. Kamaraj", "isCorrect": false },
+      { "option": "K. Santhanam", "isCorrect": false },
+      { "option": "T. Prakasam", "isCorrect": false }
+    ],
+    "explanation": "C. Rajagopalachari (Rajaji) set up the satyagraha camp in Udyavanam as part of the Civil Disobedience Movement against British rule."
+  },
+  {
+    "id": 6,
+    "question": "Where was the anti-Hindi Conference held?",
+    "options": [
+      { "option": "Salem", "isCorrect": true },
+      { "option": "Erode", "isCorrect": false },
+      { "option": "Madras", "isCorrect": false },
+      { "option": "Madurai", "isCorrect": false }
+    ],
+    "explanation": "The anti-Hindi Conference was held in Salem in 1938 as a protest against the imposition of Hindi in Tamil-speaking regions."
+  }
+]

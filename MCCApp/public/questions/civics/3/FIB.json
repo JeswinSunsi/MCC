@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Governor of the state government surrenders his resignation to _______.",
+    "answer": "President",
+    "explanation": "As per Article 156 of the Indian Constitution, the Governor submits his resignation to the President of India."
+  },
+  {
+    "id": 2,
+    "question": "Members of the Legislative Assembly (MLAs) are elected by the _______.",
+    "answer": "People",
+    "explanation": "MLAs are directly elected by the people of the respective state through general elections."
+  },
+  {
+    "id": 3,
+    "question": "_______ acts as the chancellor of universities in the state.",
+    "answer": "Governor",
+    "explanation": "The Governor of the state acts as the Chancellor of universities and appoints Vice-Chancellors."
+  },
+  {
+    "id": 4,
+    "question": "The Chairman and Members of the State Public Service Commission can be removed only by the _______.",
+    "answer": "President",
+    "explanation": "As per Article 317 of the Indian Constitution, the President of India has the power to remove the Chairman and Members of the State Public Service Commission."
+  }
+]

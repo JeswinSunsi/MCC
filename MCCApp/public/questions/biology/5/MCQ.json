@@ -1,0 +1,186 @@
+[
+    {
+      "id": 1,
+      "question": "Gibberellins cause:",
+      "options": [
+        {
+          "option": "Elongation of dwarf plants",
+          "isCorrect": true
+        },
+        {
+          "option": "Shortening of genetically tall plants",
+          "isCorrect": false
+        },
+        {
+          "option": "Promotion of rooting",
+          "isCorrect": false
+        },
+        {
+          "option": "Yellowing of young leaves",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Gibberellins are plant hormones that primarily promote stem elongation, especially in dwarf plants, by stimulating cell division and elongation."
+    },
+    {
+      "id": 2,
+      "question": "The hormone which has positive effect on apical dominance is:",
+      "options": [
+        {
+          "option": "Auxin",
+          "isCorrect": true
+        },
+        {
+          "option": "Cytokinin",
+          "isCorrect": false
+        },
+        {
+          "option": "Gibberellin",
+          "isCorrect": false
+        },
+        {
+          "option": "Ethylene",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Auxin promotes apical dominance by suppressing lateral bud growth, ensuring the main stem grows taller than side branches."
+    },
+    {
+      "id": 3,
+      "question": "Which one of the following hormones is naturally not found in plants:",
+      "options": [
+        {
+          "option": "2, 4-D",
+          "isCorrect": true
+        },
+        {
+          "option": "GA3",
+          "isCorrect": false
+        },
+        {
+          "option": "Gibberellin",
+          "isCorrect": false
+        },
+        {
+          "option": "IAA",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "2,4-D is a synthetic auxin used as a herbicide and is not naturally produced by plants, while GA3, Gibberellin, and IAA are natural plant hormones."
+    },
+    {
+      "id": 4,
+      "question": "Avena coleoptile test was conducted by",
+      "options": [
+        {
+          "option": "F.W. Went",
+          "isCorrect": true
+        },
+        {
+          "option": "Darwin",
+          "isCorrect": false
+        },
+        {
+          "option": "N. Smit",
+          "isCorrect": false
+        },
+        {
+          "option": "Paal",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "F.W. Went conducted the Avena coleoptile test in 1928, which demonstrated the existence and role of auxin in plant growth responses."
+    },
+    {
+      "id": 5,
+      "question": "LH is secreted by",
+      "options": [
+        {
+          "option": "Anterior pituitary",
+          "isCorrect": true
+        },
+        {
+          "option": "Adrenal gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Thyroid gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Hypothalamus",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Luteinizing Hormone (LH) is secreted by the anterior pituitary gland and plays a crucial role in reproduction and sexual development."
+    },
+    {
+      "id": 6,
+      "question": "Identify the exocrine gland",
+      "options": [
+        {
+          "option": "Salivary gland",
+          "isCorrect": true
+        },
+        {
+          "option": "Pituitary gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Adrenal gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Thyroid gland",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The salivary gland is an exocrine gland because it secretes its products (saliva) through ducts directly into the oral cavity."
+    },
+    {
+      "id": 7,
+      "question": "Which organ acts as both exocrine gland as well as endocrine gland",
+      "options": [
+        {
+          "option": "Pancreas",
+          "isCorrect": true
+        },
+        {
+          "option": "Kidney",
+          "isCorrect": false
+        },
+        {
+          "option": "Liver",
+          "isCorrect": false
+        },
+        {
+          "option": "Lungs",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The pancreas functions as both an endocrine gland (secreting hormones like insulin into blood) and an exocrine gland (secreting digestive enzymes into the small intestine)."
+    },
+    {
+      "id": 8,
+      "question": "Which one is referred as \"Master Gland\"?",
+      "options": [
+        {
+          "option": "Pituitary gland",
+          "isCorrect": true
+        },
+        {
+          "option": "Pineal gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Thyroid gland",
+          "isCorrect": false
+        },
+        {
+          "option": "Adrenal gland",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The pituitary gland is called the master gland because it controls the function of many other endocrine glands through its hormones."
+    }
+]

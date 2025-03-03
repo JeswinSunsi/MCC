@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "_____ is the primary sector in India.",
+    "answer": "Agriculture",
+    "explanation": "The primary sector in India mainly consists of agriculture, along with forestry, fishing, and mining, as it involves the direct use of natural resources."
+  },
+  {
+    "id": 2,
+    "question": "GDP is the indicator of _____ economy.",
+    "answer": "a country's",
+    "explanation": "Gross Domestic Product (GDP) is a measure of a country's economic performance, representing the total value of goods and services produced within a nation in a specific time period."
+  },
+  {
+    "id": 3,
+    "question": "Secondary sector otherwise called as _____",
+    "answer": "Industrial sector",
+    "explanation": "The secondary sector, also known as the industrial sector, includes manufacturing and construction activities that transform raw materials into finished products."
+  }
+]

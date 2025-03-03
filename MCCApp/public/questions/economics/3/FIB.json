@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "________ is an important indicator of nutrition deficiency.",
+    "answer": "Malnutrition",
+    "explanation": "Malnutrition is a major indicator of nutrition deficiency, leading to health issues such as stunted growth, weakened immunity, and developmental delays."
+  },
+  {
+    "id": 2,
+    "question": "In the year ________, the National Food Security Act was passed by the Indian Parliament.",
+    "answer": "2013",
+    "explanation": "The National Food Security Act (NFSA) was passed in 2013 to provide subsidized food grains to approximately two-thirds of India's population."
+  },
+  {
+    "id": 3,
+    "question": "________ play an important role in the supply of quality goods at responsible rates to common people.",
+    "answer": "Consumer Cooperatives",
+    "explanation": "Consumer cooperatives help provide essential goods at fair prices, ensuring affordability and accessibility for the general public."
+  }
+]

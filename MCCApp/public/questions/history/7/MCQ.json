@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Which one of the following was launched by Haji Shariatullah in 1818 in East Bengal?",
+    "options": [
+      { "option": "Farazi Movement", "isCorrect": true },
+      { "option": "Wahhabi Rebellion", "isCorrect": false },
+      { "option": "Tribal uprising", "isCorrect": false },
+      { "option": "Kol Revolt", "isCorrect": false }
+    ],
+    "explanation": "The Farazi Movement was an Islamic revivalist movement started by Haji Shariatullah in Bengal to remove un-Islamic practices."
+  },
+  {
+    "id": 2,
+    "question": "Who declared that 'Land belongs to God' and collecting rent or tax on it was against divine law?",
+    "options": [
+      { "option": "Dudu Mian", "isCorrect": true },
+      { "option": "Titu Mir", "isCorrect": false },
+      { "option": "Sidhu", "isCorrect": false },
+      { "option": "Shariatullah", "isCorrect": false }
+    ],
+    "explanation": "Dudu Mian, the son of Haji Shariatullah, led the Farazi Movement and opposed taxation by landlords and the British."
+  },
+  {
+    "id": 3,
+    "question": "Who were driven out of their homeland during the process of creation of Zamins under Permanent Settlement?",
+    "options": [
+      { "option": "Santhals", "isCorrect": true },
+      { "option": "Titu Mir", "isCorrect": false },
+      { "option": "Munda", "isCorrect": false },
+      { "option": "Kol", "isCorrect": false }
+    ],
+    "explanation": "Santhals were displaced due to the Permanent Settlement Act, which led to exploitation by landlords and moneylenders."
+  },
+  {
+    "id": 4,
+    "question": "Find out the militant nationalist from the following.",
+    "options": [
+      { "option": "Bipin Chandra Pal", "isCorrect": true },
+      { "option": "Dadabhai Naoroji", "isCorrect": false },
+      { "option": "Justice Govind Ranade", "isCorrect": false },
+      { "option": "Romesh Chandra", "isCorrect": false }
+    ],
+    "explanation": "Bipin Chandra Pal was a key figure in the extremist wing of the Indian National Congress and promoted radical nationalism."
+  },
+  {
+    "id": 5,
+    "question": "When did the Partition of Bengal come into effect?",
+    "options": [
+      { "option": "16 October 1905", "isCorrect": true },
+      { "option": "19 June 1905", "isCorrect": false },
+      { "option": "18 July 1906", "isCorrect": false },
+      { "option": "19 August 1907", "isCorrect": false }
+    ],
+    "explanation": "The Partition of Bengal was implemented by the British on 16 October 1905, dividing Bengal into Hindu and Muslim-majority areas."
+  },
+  {
+    "id": 6,
+    "question": "What was the context in which the Chotanagpur Tenancy Act was passed?",
+    "options": [
+      { "option": "Munda Rebellion", "isCorrect": true },
+      { "option": "Kol Revolt", "isCorrect": false },
+      { "option": "Indigo Revolt", "isCorrect": false },
+      { "option": "Deccan Riots", "isCorrect": false }
+    ],
+    "explanation": "The Chotanagpur Tenancy Act was enacted in response to the Munda Rebellion to protect tribal land rights."
+  },
+  {
+    "id": 7,
+    "question": "Who set up the first Home Rule League in April 1916?",
+    "options": [
+      { "option": "Annie Besant", "isCorrect": true },
+      { "option": "Bipin Chandra Pal", "isCorrect": false },
+      { "option": "Lala Lajpat Rai", "isCorrect": false },
+      { "option": "Tilak", "isCorrect": false }
+    ],
+    "explanation": "Annie Besant founded the Home Rule League in 1916 to demand self-governance for India from British rule."
+  },
+  {
+    "id": 8,
+    "question": "Who drew the attention of the British to the suffering of Indigo cultivation through his play Nil Darpan?",
+    "options": [
+      { "option": "Dina Bandhu Mitra", "isCorrect": true },
+      { "option": "Romesh Chandra Dutt", "isCorrect": false },
+      { "option": "Dadabhai Naoroji", "isCorrect": false },
+      { "option": "Birsa Munda", "isCorrect": false }
+    ],
+    "explanation": "Dina Bandhu Mitra wrote 'Nil Darpan' in 1860, depicting the oppression of indigo farmers under British rule."
+  }
+]

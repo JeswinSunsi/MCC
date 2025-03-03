@@ -1,0 +1,37 @@
+[{
+  "id": 1,
+  "question": "_________ Bill cannot be introduced in the Parliament without the President’s approval.",
+  "answer": "Money Bill",
+  "explanation": "As per Article 110, a Money Bill cannot be introduced in the Lok Sabha without the prior recommendation of the President."
+},
+{
+  "id": 2,
+  "question": "__________ is the leader of the nation and chief spokesperson of the country.",
+  "answer": "The Prime Minister",
+  "explanation": "The Prime Minister is the head of the government and the chief spokesperson of the country."
+},
+{
+  "id": 3,
+  "question": "____________ is the Ex-officio Chairperson of the Rajya Sabha.",
+  "answer": "The Vice President",
+  "explanation": "As per Article 64, the Vice President of India is the Ex-officio Chairperson of the Rajya Sabha."
+},
+{
+  "id": 4,
+  "question": "________ has the right to speak and to take part in the proceedings of both Houses of the Parliament.",
+  "answer": "Attorney General",
+  "explanation": "As per Article 76, the Attorney General of India has the right to speak in both Houses of Parliament but does not have the right to vote."
+},
+{
+  "id": 5,
+  "question": "The Chief Justice and other judges of the Supreme Court hold the office up to the age of ________ years.",
+  "answer": "65",
+  "explanation": "According to Article 124, Supreme Court judges retire at the age of 65 years."
+},
+{
+  "id": 6,
+  "question": "____________ is the Guardian of the Constitution.",
+  "answer": "The Supreme Court",
+  "explanation": "The Supreme Court of India is considered the guardian of the Constitution as it has the power to interpret and protect it."
+}
+]

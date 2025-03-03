@@ -1,0 +1,255 @@
+[
+    {
+      "id": 1,
+      "question": "The plant which propagates with the help of its leaves is ___________.",
+      "options": [
+        {
+          "option": "Bryophyllum",
+          "isCorrect": true
+        },
+        {
+          "option": "Onion",
+          "isCorrect": false
+        },
+        {
+          "option": "Neem",
+          "isCorrect": false
+        },
+        {
+          "option": "Ginger",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Bryophyllum has the unique ability to reproduce vegetatively through its leaves, which develop plantlets along their margins that can grow into new plants."
+    },
+    {
+      "id": 2,
+      "question": "Asexual reproduction takes place through budding in ___________.",
+      "options": [
+        {
+          "option": "Yeast",
+          "isCorrect": true
+        },
+        {
+          "option": "Amoeba",
+          "isCorrect": false
+        },
+        {
+          "option": "Plasmodium",
+          "isCorrect": false
+        },
+        {
+          "option": "Bacteria",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Yeast reproduces asexually through budding, where a small bud grows from the parent cell and eventually separates to form a new individual."
+    },
+    {
+      "id": 3,
+      "question": "Syngamy results in the formation of _________.",
+      "options": [
+        {
+          "option": "Zygote",
+          "isCorrect": true
+        },
+        {
+          "option": "Zoospores",
+          "isCorrect": false
+        },
+        {
+          "option": "Conidia",
+          "isCorrect": false
+        },
+        {
+          "option": "Chlamydospores",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Syngamy is the fusion of male and female gametes to form a zygote, which is the first cell of a new organism."
+    },
+    {
+      "id": 4,
+      "question": "The essential parts of a flower are ___________.",
+      "options": [
+        {
+          "option": "Androecium and Gynoecium",
+          "isCorrect": true
+        },
+        {
+          "option": "Calyx and Corolla",
+          "isCorrect": false
+        },
+        {
+          "option": "Calyx and Androecium",
+          "isCorrect": false
+        },
+        {
+          "option": "Corolla and Gynoecium",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Androecium (male reproductive part) and Gynoecium (female reproductive part) are essential for reproduction and are thus considered the essential parts of a flower."
+    },
+    {
+      "id": 5,
+      "question": "Anemophilous flowers have __________.",
+      "options": [
+        {
+          "option": "Large feathery stigma",
+          "isCorrect": true
+        },
+        {
+          "option": "Sessile stigma",
+          "isCorrect": false
+        },
+        {
+          "option": "Small smooth stigma",
+          "isCorrect": false
+        },
+        {
+          "option": "Colored flower",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Wind-pollinated (anemophilous) flowers have large, feathery stigmas to effectively catch pollen grains carried by the wind."
+    },
+    {
+      "id": 6,
+      "question": "Male gametes in angiosperms are formed by the division of ___________.",
+      "options": [
+        {
+          "option": "Generative cell",
+          "isCorrect": true
+        },
+        {
+          "option": "Vegetative cell",
+          "isCorrect": false
+        },
+        {
+          "option": "Microspore mother cell",
+          "isCorrect": false
+        },
+        {
+          "option": "Microspore",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In angiosperms, the generative cell divides to form two male gametes (sperm cells) within the pollen grain or pollen tube."
+    },
+    {
+      "id": 7,
+      "question": "What is true of gametes?",
+      "options": [
+        {
+          "option": "They are formed from gonads",
+          "isCorrect": true
+        },
+        {
+          "option": "They are diploid",
+          "isCorrect": false
+        },
+        {
+          "option": "They give rise to gonads",
+          "isCorrect": false
+        },
+        {
+          "option": "They produce hormones",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Gametes are haploid reproductive cells that are produced in the gonads through the process of meiosis."
+    },
+    {
+      "id": 8,
+      "question": "A single highly coiled tube where sperms are stored, get concentrated and mature is known as",
+      "options": [
+        {
+          "option": "Epididymis",
+          "isCorrect": true
+        },
+        {
+          "option": "Vasa efferentia",
+          "isCorrect": false
+        },
+        {
+          "option": "Vas deferens",
+          "isCorrect": false
+        },
+        {
+          "option": "Seminiferous tubules",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The epididymis is a highly coiled tube where sperm cells are stored, concentrated, and undergo maturation before ejaculation."
+    },
+    {
+      "id": 9,
+      "question": "The large elongated cells that provide nutrition to developing sperms are",
+      "options": [
+        {
+          "option": "Sertoli cells",
+          "isCorrect": true
+        },
+        {
+          "option": "Primary germ cells",
+          "isCorrect": false
+        },
+        {
+          "option": "Leydig cells",
+          "isCorrect": false
+        },
+        {
+          "option": "Spermatogonia",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Sertoli cells are nurse cells that provide nutrition and support to developing sperm cells during spermatogenesis."
+    },
+    {
+      "id": 10,
+      "question": "Estrogen is secreted by",
+      "options": [
+        {
+          "option": "Graffian follicle",
+          "isCorrect": true
+        },
+        {
+          "option": "Anterior pituitary",
+          "isCorrect": false
+        },
+        {
+          "option": "Primary follicle",
+          "isCorrect": false
+        },
+        {
+          "option": "Corpus luteum",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Graafian follicle (mature ovarian follicle) secretes estrogen, which is responsible for the development of female secondary sexual characteristics."
+    },
+    {
+      "id": 11,
+      "question": "Which one of the following is an IUCD?",
+      "options": [
+        {
+          "option": "Copper – T",
+          "isCorrect": true
+        },
+        {
+          "option": "Oral pills",
+          "isCorrect": false
+        },
+        {
+          "option": "Diaphragm",
+          "isCorrect": false
+        },
+        {
+          "option": "Tubectomy",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Copper-T is an Intrauterine Contraceptive Device (IUCD) that is inserted into the uterus to prevent pregnancy by preventing implantation."
+    }
+]

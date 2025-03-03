@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "question": "The value of Avogadro number is __________",
+      "answer": "$6.023 \\times 10^{23}$",
+      "explanation": "Avogadro number represents the number of particles in one mole of a substance, equal to $6.023 \\times 10^{23}$ particles per mole."
+    },
+    {
+      "id": 2,
+      "question": "The temperature and heat are _________ quantities",
+      "answer": "scalar",
+      "explanation": "Both temperature and heat are scalar quantities as they have magnitude only and no direction."
+    },
+    {
+      "id": 3,
+      "question": "One calorie is the amount of heat energy required to raise the temperature of _______ of water through ______",
+      "answer": "1 gram, 1°C",
+      "explanation": "One calorie is defined as the heat energy needed to raise the temperature of 1 gram of water by 1 degree Celsius."
+    },
+    {
+      "id": 4,
+      "question": "According to Boyle's law, the shape of the graph between pressure and reciprocal of volume is ________________",
+      "answer": "straight line",
+      "explanation": "According to Boyle's law, $P \\propto \\frac{1}{V}$, so plotting P vs $\\frac{1}{V}$ gives a straight line passing through origin."
+    }
+]

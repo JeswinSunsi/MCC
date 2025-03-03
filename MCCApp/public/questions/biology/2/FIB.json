@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "The posterior sucker is formed by the fusion of the ___________ segments.",
+    "answer": "last seven",
+    "explanation": "In leeches, the posterior sucker is formed by the fusion of the last seven segments, creating a powerful adhesive organ that helps in attachment and locomotion."
+  },
+  {
+    "id": 2,
+    "question": "The existence of two sets of teeth in the life of an animal is called ______ dentition.",
+    "answer": "diphyodont",
+    "explanation": "Diphyodont dentition refers to the development of two successive sets of teeth - deciduous (baby) teeth and permanent teeth - which is characteristic of most mammals."
+  },
+  {
+    "id": 3,
+    "question": "The anterior end of leech has a lobe-like structure called _____________.",
+    "answer": "prostomium",
+    "explanation": "The prostomium is a sensory lobe at the anterior end of the leech that contains sensory organs and helps in detecting food and environmental conditions."
+  },
+  {
+    "id": 4,
+    "question": "The blood sucking habit of leech is known as _________.",
+    "answer": "sanguivorous",
+    "explanation": "Sanguivorous refers to organisms that feed on blood; leeches are classic examples of sanguivorous animals with specialized adaptations for blood feeding."
+  },
+  {
+    "id": 5,
+    "question": "___________ separate nitrogenous waste from the blood in rabbit.",
+    "answer": "kidneys",
+    "explanation": "The kidneys in rabbits filter blood to remove nitrogenous wastes and other toxins, maintaining homeostasis through the production of urine."
+  },
+  {
+    "id": 6,
+    "question": "_____________ spinal nerves are present in rabbit",
+    "answer": "37 pairs",
+    "explanation": "Rabbits have 37 pairs of spinal nerves that emerge from the spinal cord, controlling various body functions and transmitting sensory and motor signals throughout the body."
+  }
+]

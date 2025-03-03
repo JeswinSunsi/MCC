@@ -1,0 +1,186 @@
+[
+    {
+      "id": 1,
+      "question": "According to Mendel alleles have the following character",
+      "options": [
+        {
+          "option": "Pair of genes",
+          "isCorrect": true
+        },
+        {
+          "option": "Responsible for character",
+          "isCorrect": false
+        },
+        {
+          "option": "Production of gametes",
+          "isCorrect": false
+        },
+        {
+          "option": "Recessive factors",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mendel's concept of alleles describes them as pairs of alternative forms of genes that occupy the same locus on homologous chromosomes."
+    },
+    {
+      "id": 2,
+      "question": "9 : 3 : 3 : 1 ratio is due to",
+      "options": [
+        {
+          "option": "Independent assortment",
+          "isCorrect": true
+        },
+        {
+          "option": "Segregation",
+          "isCorrect": false
+        },
+        {
+          "option": "Crossing over",
+          "isCorrect": false
+        },
+        {
+          "option": "Recessiveness",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The 9:3:3:1 ratio appears in the F2 generation of a dihybrid cross due to Mendel's Law of Independent Assortment, where different gene pairs segregate independently."
+    },
+    {
+      "id": 3,
+      "question": "The region of the chromosome where the spindle fibres get attached during cell division",
+      "options": [
+        {
+          "option": "Centromere",
+          "isCorrect": true
+        },
+        {
+          "option": "Chromomere",
+          "isCorrect": false
+        },
+        {
+          "option": "Centrosome",
+          "isCorrect": false
+        },
+        {
+          "option": "Chromonema",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The centromere is a specialized region of the chromosome where spindle fibers attach during cell division to separate chromosomes to opposite poles."
+    },
+    {
+      "id": 4,
+      "question": "The centromere is found at the centre of the ________________ chromosome.",
+      "options": [
+        {
+          "option": "Metacentric",
+          "isCorrect": true
+        },
+        {
+          "option": "Telocentric",
+          "isCorrect": false
+        },
+        {
+          "option": "Sub-metacentric",
+          "isCorrect": false
+        },
+        {
+          "option": "Acrocentric",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In metacentric chromosomes, the centromere is located at the center, dividing the chromosome into two equal arms."
+    },
+    {
+      "id": 5,
+      "question": "The _____________ units form the backbone of the DNA.",
+      "options": [
+        {
+          "option": "Sugar phosphate",
+          "isCorrect": true
+        },
+        {
+          "option": "5 carbon sugar",
+          "isCorrect": false
+        },
+        {
+          "option": "Nitrogenous bases",
+          "isCorrect": false
+        },
+        {
+          "option": "Phosphate",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The DNA backbone is made up of alternating sugar and phosphate molecules, forming the sugar-phosphate backbone of the double helix."
+    },
+    {
+      "id": 6,
+      "question": "Okasaki fragments are joined together by ___________________.",
+      "options": [
+        {
+          "option": "DNA ligase",
+          "isCorrect": true
+        },
+        {
+          "option": "Helicase",
+          "isCorrect": false
+        },
+        {
+          "option": "DNA polymerase",
+          "isCorrect": false
+        },
+        {
+          "option": "RNA primer",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "DNA ligase is an enzyme that joins Okazaki fragments by forming phosphodiester bonds between them during DNA replication of the lagging strand."
+    },
+    {
+      "id": 7,
+      "question": "The number of chromosomes found in human beings are __________________.",
+      "options": [
+        {
+          "option": "22 pairs of autosomes and 1 pair of allosomes",
+          "isCorrect": true
+        },
+        {
+          "option": "22 autosomes and 1 allosome",
+          "isCorrect": false
+        },
+        {
+          "option": "46 autosomes",
+          "isCorrect": false
+        },
+        {
+          "option": "46 pairs autosomes and 1 pair of allosomes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Humans have 23 pairs of chromosomes: 22 pairs of autosomes (non-sex chromosomes) and 1 pair of allosomes (sex chromosomes)."
+    },
+    {
+      "id": 8,
+      "question": "The loss of one or more chromosome in a ploidy is called ___________.",
+      "options": [
+        {
+          "option": "Aneuploidy",
+          "isCorrect": true
+        },
+        {
+          "option": "Tetraploidy",
+          "isCorrect": false
+        },
+        {
+          "option": "Euploidy",
+          "isCorrect": false
+        },
+        {
+          "option": "polyploidy",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Aneuploidy refers to an abnormal number of chromosomes due to the loss or gain of one or more chromosomes, resulting in an unbalanced genome."
+    }
+]

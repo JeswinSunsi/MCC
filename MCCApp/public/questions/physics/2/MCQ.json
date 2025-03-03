@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "The refractive index of four substances A, B, C and D are 1.31, 1.43, 1.33, 2.4 respectively. The speed of light is maximum in",
+      "options": [
+        {
+          "option": "A",
+          "isCorrect": true
+        },
+        {
+          "option": "B",
+          "isCorrect": false
+        },
+        {
+          "option": "C",
+          "isCorrect": false
+        },
+        {
+          "option": "D",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Speed of light is inversely proportional to refractive index ($v = \\frac{c}{n}$). Substance A has the lowest refractive index (1.31), thus light travels fastest in it."
+    },
+    {
+      "id": 2,
+      "question": "Where should an object be placed so that a real and inverted image of same size is obtained by a convex lens",
+      "options": [
+        {
+          "option": "$f$",
+          "isCorrect": false
+        },
+        {
+          "option": "$2f$",
+          "isCorrect": true
+        },
+        {
+          "option": "infinity",
+          "isCorrect": false
+        },
+        {
+          "option": "between $f$ and $2f$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When object is placed at $2f$, its image forms at $2f$ on the other side, producing a real, inverted image of the same size (magnification = -1)."
+    },
+    {
+      "id": 3,
+      "question": "A small bulb is placed at the principal focus of a convex lens. When the bulb is switched on, the lens will produce",
+      "options": [
+        {
+          "option": "a convergent beam of light",
+          "isCorrect": false
+        },
+        {
+          "option": "a divergent beam of light",
+          "isCorrect": false
+        },
+        {
+          "option": "a parallel beam of light",
+          "isCorrect": true
+        },
+        {
+          "option": "a coloured beam of light",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When a light source is placed at the focus of a convex lens, all refracted rays emerge parallel to the principal axis, forming a parallel beam."
+    },
+    {
+      "id": 4,
+      "question": "Magnification of a convex lens is",
+      "options": [
+        {
+          "option": "Positive",
+          "isCorrect": false
+        },
+        {
+          "option": "negative",
+          "isCorrect": false
+        },
+        {
+          "option": "either positive or negative",
+          "isCorrect": true
+        },
+        {
+          "option": "zero",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Magnification can be positive (virtual, erect image) or negative (real, inverted image) depending on the object's position relative to the focal point."
+    },
+    {
+      "id": 5,
+      "question": "A convex lens forms a real, diminished point sized image at focus. Then the position of the object is at",
+      "options": [
+        {
+          "option": "focus",
+          "isCorrect": false
+        },
+        {
+          "option": "infinity",
+          "isCorrect": true
+        },
+        {
+          "option": "at $2f$",
+          "isCorrect": false
+        },
+        {
+          "option": "between $f$ and $2f$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When object is at infinity, its image forms at the focal point as a real, diminished point-sized image."
+    },
+    {
+      "id": 6,
+      "question": "Power of a lens is –4D, then its focal length is",
+      "options": [
+        {
+          "option": "4m",
+          "isCorrect": false
+        },
+        {
+          "option": "–40m",
+          "isCorrect": false
+        },
+        {
+          "option": "–0.25 m",
+          "isCorrect": true
+        },
+        {
+          "option": "–2.5 m",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Power (in diopters) = $\\frac{1}{f}$ (in meters). So, $f = \\frac{1}{P} = \\frac{1}{-4} = -0.25$ meters."
+    },
+    {
+      "id": 7,
+      "question": "In a myopic eye, the image of the object is formed",
+      "options": [
+        {
+          "option": "behind the retina",
+          "isCorrect": false
+        },
+        {
+          "option": "on the retina",
+          "isCorrect": false
+        },
+        {
+          "option": "in front of the retina",
+          "isCorrect": true
+        },
+        {
+          "option": "on the blind spot",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In myopia (near-sightedness), the image forms in front of the retina due to either elongated eyeball or too much refractive power of the eye lens."
+    },
+    {
+      "id": 8,
+      "question": "The eye defect 'presbyopia' can be corrected by",
+      "options": [
+        {
+          "option": "convex lens",
+          "isCorrect": false
+        },
+        {
+          "option": "concave lens",
+          "isCorrect": false
+        },
+        {
+          "option": "convex mirror",
+          "isCorrect": false
+        },
+        {
+          "option": "Bi focal lenses",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Presbyopia requires different focal lengths for near and far vision, hence bifocal lenses with both near and far vision corrections are used."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following lens would you prefer to use while reading small letters found in a dictionary?",
+      "options": [
+        {
+          "option": "A convex lens of focal length 5 cm",
+          "isCorrect": true
+        },
+        {
+          "option": "A concave lens of focal length 5 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "A convex lens of focal length 10 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "A concave lens of focal length 10 cm",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A convex lens with shorter focal length (5 cm) provides greater magnification ($m = 1 + \\frac{D}{f}$), making it ideal for reading small text."
+    },
+    {
+      "id": 10,
+      "question": "If $V_B$, $V_G$, $V_R$ be the velocity of blue, green and red light respectively in a glass prism, then which of the following statement gives the correct relation?",
+      "options": [
+        {
+          "option": "$V_B = V_G = V_R$",
+          "isCorrect": false
+        },
+        {
+          "option": "$V_B > V_G > V_R$",
+          "isCorrect": false
+        },
+        {
+          "option": "$V_B < V_G < V_R$",
+          "isCorrect": true
+        },
+        {
+          "option": "$V_B < V_G > V_R$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In a glass prism, blue light has highest refractive index and thus lowest velocity, while red light has lowest refractive index and highest velocity ($V_B < V_G < V_R$)."
+    }
+]

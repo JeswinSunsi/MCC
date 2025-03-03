@@ -1,0 +1,232 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following has the smallest mass?",
+      "options": [
+        {
+          "option": "$6.023 \\times 10^{23}$ atoms of He",
+          "isCorrect": false
+        },
+        {
+          "option": "1 atom of He",
+          "isCorrect": true
+        },
+        {
+          "option": "2 g of He",
+          "isCorrect": false
+        },
+        {
+          "option": "1 mole atoms of He",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "One atom of He has the smallest mass as it's just a single atom, while other options contain multiple atoms or moles of He."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a triatomic molecule?",
+      "options": [
+        {
+          "option": "Glucose",
+          "isCorrect": false
+        },
+        {
+          "option": "Helium",
+          "isCorrect": false
+        },
+        {
+          "option": "Carbon dioxide",
+          "isCorrect": true
+        },
+        {
+          "option": "Hydrogen",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Carbon dioxide ($CO_2$) is a triatomic molecule consisting of one carbon atom and two oxygen atoms."
+    },
+    {
+      "id": 3,
+      "question": "The volume occupied by 4.4 g of $CO_2$ at S.T.P",
+      "options": [
+        {
+          "option": "22.4 litre",
+          "isCorrect": false
+        },
+        {
+          "option": "2.24 litre",
+          "isCorrect": true
+        },
+        {
+          "option": "0.24 litre",
+          "isCorrect": false
+        },
+        {
+          "option": "0.1 litre",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "At STP, 44g (1 mole) of $CO_2$ occupies 22.4L, so 4.4g (0.1 mole) will occupy 2.24L."
+    },
+    {
+      "id": 4,
+      "question": "Mass of 1 mole of Nitrogen atom is",
+      "options": [
+        {
+          "option": "28 amu",
+          "isCorrect": false
+        },
+        {
+          "option": "14 amu",
+          "isCorrect": false
+        },
+        {
+          "option": "28 g",
+          "isCorrect": false
+        },
+        {
+          "option": "14 g",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "One mole of nitrogen atoms has a mass of 14g, as the atomic mass of nitrogen is 14 amu."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following represents 1 amu?",
+      "options": [
+        {
+          "option": "Mass of a C – 12 atom",
+          "isCorrect": false
+        },
+        {
+          "option": "Mass of a hydrogen atom",
+          "isCorrect": false
+        },
+        {
+          "option": "1/12th of the mass of a C – 12 atom",
+          "isCorrect": true
+        },
+        {
+          "option": "Mass of O – 16 atom",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "One atomic mass unit (amu) is defined as exactly 1/12th of the mass of a carbon-12 atom."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following statement is incorrect?",
+      "options": [
+        {
+          "option": "12 gram of C – 12 contains Avogadro's number of atoms",
+          "isCorrect": false
+        },
+        {
+          "option": "One mole of oxygen gas contains Avogadro's number of molecules",
+          "isCorrect": false
+        },
+        {
+          "option": "One mole of hydrogen gas contains Avogadro's number of atoms",
+          "isCorrect": true
+        },
+        {
+          "option": "One mole of electrons stands for $6.023 \\times 10^{23}$ electrons",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "One mole of hydrogen gas ($H_2$) contains Avogadro's number of molecules, not atoms (it would be twice the number of atoms)."
+    },
+    {
+      "id": 7,
+      "question": "The volume occupied by 1 mole of a diatomic gas at S.T.P is",
+      "options": [
+        {
+          "option": "11.2 litre",
+          "isCorrect": false
+        },
+        {
+          "option": "5.6 litre",
+          "isCorrect": false
+        },
+        {
+          "option": "22.4 litre",
+          "isCorrect": true
+        },
+        {
+          "option": "44.8 litre",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "At STP, one mole of any gas (whether monatomic, diatomic, or polyatomic) occupies 22.4 litres."
+    },
+    {
+      "id": 8,
+      "question": "In the nucleus of $_{20}Ca^{40}$, there are",
+      "options": [
+        {
+          "option": "20 protons and 40 neutrons",
+          "isCorrect": false
+        },
+        {
+          "option": "20 protons and 20 neutrons",
+          "isCorrect": true
+        },
+        {
+          "option": "20 protons and 40 electrons",
+          "isCorrect": false
+        },
+        {
+          "option": "40 protons and 20 electrons",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In $_{20}Ca^{40}$, atomic number (20) = number of protons, and mass number (40) - atomic number = number of neutrons (20)."
+    },
+    {
+      "id": 9,
+      "question": "The gram molecular mass of oxygen molecule is",
+      "options": [
+        {
+          "option": "16 g",
+          "isCorrect": false
+        },
+        {
+          "option": "18 g",
+          "isCorrect": false
+        },
+        {
+          "option": "32 g",
+          "isCorrect": true
+        },
+        {
+          "option": "17 g",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Molecular mass of $O_2$ is 32 amu (16 × 2), so gram molecular mass is 32g."
+    },
+    {
+      "id": 10,
+      "question": "1 mole of any substance contains ____ molecules",
+      "options": [
+        {
+          "option": "$6.023 \\times 10^{23}$",
+          "isCorrect": true
+        },
+        {
+          "option": "$6.023 \\times 10^{-23}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$3.0115 \\times 10^{23}$",
+          "isCorrect": false
+        },
+        {
+          "option": "$12.046 \\times 10^{23}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Avogadro's number ($6.023 \\times 10^{23}$) represents the number of particles in one mole of any substance."
+    }
+]

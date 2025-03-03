@@ -9,7 +9,7 @@
         <div class="quiz-results-label">QUIZ RESULTS</div>
         
         <div class="congrats-message">
-          Congratulations! You have scored
+          {{stars > 1? "Congratulations!" : "Uh Oh!"}} You have scored
         </div>
         
         <div class="score-percentage">{{figure}}%</div>
@@ -17,7 +17,6 @@
         <div class="stars-awarded">
           You have been awarded {{ stars }} {{stars > 1 ? 'stars' : 'star'}}
         </div>
-        
         <img src="../assets/3star.png" alt="3 Stars" class="stars" v-if="stars == 3">
         <img src="../assets/2star.png" alt="3 Stars" class="stars" v-if="stars == 2">
         <img src="../assets/1star.png" alt="3 Stars" class="stars" v-if="stars == 1">
@@ -30,12 +29,13 @@
   </template>
   
   <script setup>
-  import { ref} from "vue"
+  import {  ref} from "vue"
   import { useRoute } from 'vue-router';
   const route = useRoute();
 
   const figure = ref(route.params.figure)
   const stars = ref(route.params.stars)
+
   </script>
   
   <style scoped>
@@ -127,4 +127,18 @@
   color: #FFFFFF;
   }
   
+  .slide-up-enter-active,
+.slide-up-leave-active {
+  transition: transform 0.5s ease;
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  transform: translateY(200%);
+}
+
+.slide-up-enter-to,
+.slide-up-leave-from {
+  transform: translateY(0);
+}
   </style>

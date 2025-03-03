@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "____________ is a small Himalayan kingdom.",
+    "answer": "Bhutan",
+    "explanation": "Bhutan is a landlocked country in the Eastern Himalayas, bordered by China to the north and India to the south, east, and west."
+  },
+  {
+    "id": 2,
+    "question": "India’s gateway to South East Asia is ____________.",
+    "answer": "Myanmar",
+    "explanation": "Myanmar serves as India's gateway to Southeast Asia due to its geographical location, facilitating trade and connectivity between India and ASEAN countries."
+  },
+  {
+    "id": 3,
+    "question": "A strip of land ____________, belongs to India on West Bengal and Bangladesh border.",
+    "answer": "Chicken’s Neck (Siliguri Corridor)",
+    "explanation": "The Siliguri Corridor, also known as Chicken’s Neck, is a narrow strip of land that connects mainland India to the northeastern states, bordered by Nepal, Bhutan, and Bangladesh."
+  },
+  {
+    "id": 4,
+    "question": "____________ is known as the Land of thunderbolt.",
+    "answer": "Bhutan",
+    "explanation": "Bhutan is often called the 'Land of the Thunder Dragon' due to the frequent thunderstorms and the strong influence of the Drukpa lineage in Buddhism."
+  }
+]

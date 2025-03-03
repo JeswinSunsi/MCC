@@ -1,53 +1,68 @@
 [
-    {
-      "id": "1",
-      "question": "Which famous temple was built by Rajaraja Chola I?",
-      "options": [
-        {"option": "Brihadeeswarar Temple", "isCorrect": true},
-        {"option": "Shore Temple", "isCorrect": false},
-        {"option": "Meenakshi Temple", "isCorrect": false},
-        {"option": "Sun Temple", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "2",
-      "question": "Who was the first Mughal emperor of India?",
-      "options": [
-        {"option": "Akbar", "isCorrect": false},
-        {"option": "Babur", "isCorrect": true},
-        {"option": "Shah Jahan", "isCorrect": false},
-        {"option": "Aurangzeb", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "3",
-      "question": "Which battle marked the beginning of British rule in India?",
-      "options": [
-        {"option": "Battle of Plassey", "isCorrect": true},
-        {"option": "Battle of Panipat", "isCorrect": false},
-        {"option": "Battle of Buxar", "isCorrect": false},
-        {"option": "Battle of Haldighati", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "4",
-      "question": "Who was the founder of the Maurya Empire?",
-      "options": [
-        {"option": "Chandragupta Maurya", "isCorrect": true},
-        {"option": "Ashoka", "isCorrect": false},
-        {"option": "Bindusara", "isCorrect": false},
-        {"option": "Harsha", "isCorrect": false}
-      ]
-    },
-    {
-      "id": "5",
-      "question": "Which movement was launched by Mahatma Gandhi in 1942?",
-      "options": [
-        {"option": "Non-Cooperation Movement", "isCorrect": false},
-        {"option": "Civil Disobedience Movement", "isCorrect": false},
-        {"option": "Quit India Movement", "isCorrect": true},
-        {"option": "Swadeshi Movement", "isCorrect": false}
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "question": "What were the three major empires shattered by the end of the First World War?",
+    "options": [
+      { "option": "Germany, Austria-Hungary, and the Ottomans", "isCorrect": true },
+      { "option": "Germany, Austria-Hungary, and Russia", "isCorrect": false },
+      { "option": "Spain, Portugal, and Italy", "isCorrect": false },
+      { "option": "Germany, Austria-Hungary, and Italy", "isCorrect": false }
+    ],
+    "explanation": "The German, Austro-Hungarian, and Ottoman Empires collapsed due to military defeat and internal unrest following World War I."
+  },
+  {
+    "id": 2,
+    "question": "Which country emerged as the strongest in East Asia towards the close of the nineteenth century?",
+    "options": [
+      { "option": "Japan", "isCorrect": true },
+      { "option": "China", "isCorrect": false },
+      { "option": "Korea", "isCorrect": false },
+      { "option": "Mongolia", "isCorrect": false }
+    ],
+    "explanation": "Japan's victory in the First Sino-Japanese War (1894-1895) and the Russo-Japanese War (1904-1905) established it as the dominant power in East Asia."
+  },
+  {
+    "id": 3,
+    "question": "Who said 'Imperialism is the highest stage of capitalism'?",
+    "options": [
+      { "option": "Lenin", "isCorrect": true },
+      { "option": "Marx", "isCorrect": false },
+      { "option": "Sun Yat-sen", "isCorrect": false },
+      { "option": "Mao Tsetung", "isCorrect": false }
+    ],
+    "explanation": "Vladimir Lenin wrote 'Imperialism, the Highest Stage of Capitalism' in 1917, arguing that imperialism was a direct result of capitalist expansion."
+  },
+  {
+    "id": 4,
+    "question": "What is the Battle of Marne remembered for?",
+    "options": [
+      { "option": "trench warfare", "isCorrect": true },
+      { "option": "air warfare", "isCorrect": false },
+      { "option": "submarine warfare", "isCorrect": false },
+      { "option": "ship warfare", "isCorrect": false }
+    ],
+    "explanation": "The First Battle of the Marne (1914) is significant for halting the German advance into France and leading to the extensive use of trench warfare."
+  },
+  {
+    "id": 5,
+    "question": "To which country did the first Secretary-General of the League of Nations belong?",
+    "options": [
+      { "option": "Britain", "isCorrect": true },
+      { "option": "France", "isCorrect": false },
+      { "option": "Dutch", "isCorrect": false },
+      { "option": "USA", "isCorrect": false }
+    ],
+    "explanation": "Sir Eric Drummond, the first Secretary-General of the League of Nations, was from Britain and served from 1920 to 1933."
+  },
+  {
+    "id": 6,
+    "question": "Which country was expelled from the League of Nations for attacking Finland?",
+    "options": [
+      { "option": "Russia", "isCorrect": true },
+      { "option": "Germany", "isCorrect": false },
+      { "option": "Italy", "isCorrect": false },
+      { "option": "France", "isCorrect": false }
+    ],
+    "explanation": "The Soviet Union (Russia) was expelled from the League of Nations in 1939 after invading Finland during the Winter War."
+  }
+]

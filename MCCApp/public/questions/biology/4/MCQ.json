@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "question": "Bipolar neurons are found in",
+    "options": [
+      {
+        "option": "retina of eye",
+        "isCorrect": true
+      },
+      {
+        "option": "cerebral cortex",
+        "isCorrect": false
+      },
+      {
+        "option": "embryo",
+        "isCorrect": false
+      },
+      {
+        "option": "respiratory epithelium",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Bipolar neurons are primarily found in sensory organs like the retina of the eye, where they help in processing visual information by connecting photoreceptors to ganglion cells."
+  },
+  {
+    "id": 2,
+    "question": "Site for processing of vision, hearing, memory, speech, intelligence and thought is",
+    "options": [
+      {
+        "option": "brain",
+        "isCorrect": true
+      },
+      {
+        "option": "kidney",
+        "isCorrect": false
+      },
+      {
+        "option": "ear",
+        "isCorrect": false
+      },
+      {
+        "option": "lungs",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The brain, particularly the cerebral cortex, is responsible for processing all higher cognitive functions including vision, hearing, memory, speech, intelligence, and thought."
+  },
+  {
+    "id": 3,
+    "question": "In reflex action, the reflex arc is formed by",
+    "options": [
+      {
+        "option": "receptor, spinal cord, muscle",
+        "isCorrect": true
+      },
+      {
+        "option": "brain, spinal cord, muscle",
+        "isCorrect": false
+      },
+      {
+        "option": "muscle, receptor, brain",
+        "isCorrect": false
+      },
+      {
+        "option": "receptor, spinal cord, muscle",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A reflex arc consists of a receptor that detects stimulus, sensory neuron, spinal cord (processing center), motor neuron, and effector muscle, allowing for rapid automatic responses."
+  },
+  {
+    "id": 4,
+    "question": "Dendrites transmit impulse cell body and axon transmit impulse cell body.",
+    "options": [
+      {
+        "option": "towards, away from",
+        "isCorrect": true
+      },
+      {
+        "option": "away from, away from",
+        "isCorrect": false
+      },
+      {
+        "option": "towards,towards",
+        "isCorrect": false
+      },
+      {
+        "option": "away from, towards",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dendrites conduct impulses towards the cell body (afferent), while axons conduct impulses away from the cell body (efferent)."
+  },
+  {
+    "id": 5,
+    "question": "The outer most of the three cranial meninges is",
+    "options": [
+      {
+        "option": "duramater",
+        "isCorrect": true
+      },
+      {
+        "option": "arachnoid membrane",
+        "isCorrect": false
+      },
+      {
+        "option": "piamater",
+        "isCorrect": false
+      },
+      {
+        "option": "myelin sheath",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The dura mater is the outermost and toughest of the three meninges, providing protection to the brain and spinal cord."
+  },
+  {
+    "id": 6,
+    "question": "There are pairs of cranial nerves and pairs of spinal nerves.",
+    "options": [
+      {
+        "option": "12, 31",
+        "isCorrect": true
+      },
+      {
+        "option": "31, 12",
+        "isCorrect": false
+      },
+      {
+        "option": "12, 13",
+        "isCorrect": false
+      },
+      {
+        "option": "12, 21",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Humans have 12 pairs of cranial nerves emerging from the brain and 31 pairs of spinal nerves emerging from the spinal cord."
+  },
+  {
+    "id": 7,
+    "question": "The neurons which carries impulse from the central nervous system to the muscle fibre.",
+    "options": [
+      {
+        "option": "efferent neuron",
+        "isCorrect": true
+      },
+      {
+        "option": "afferent neurons",
+        "isCorrect": false
+      },
+      {
+        "option": "association neuron",
+        "isCorrect": false
+      },
+      {
+        "option": "unipolar neuron",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Efferent neurons (motor neurons) carry signals from the central nervous system to muscles or glands, controlling movement and secretion."
+  },
+  {
+    "id": 8,
+    "question": "Which nervous band connects the two cerebral hemispheres of brain?",
+    "options": [
+      {
+        "option": "corpus callosum",
+        "isCorrect": true
+      },
+      {
+        "option": "thalamus",
+        "isCorrect": false
+      },
+      {
+        "option": "hypothalamus",
+        "isCorrect": false
+      },
+      {
+        "option": "pons",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The corpus callosum is a thick band of nerve fibers that connects the left and right cerebral hemispheres, allowing communication between them."
+  },
+  {
+    "id": 9,
+    "question": "Node of Ranvier is found in",
+    "options": [
+      {
+        "option": "axons",
+        "isCorrect": true
+      },
+      {
+        "option": "muscles",
+        "isCorrect": false
+      },
+      {
+        "option": "dendrites",
+        "isCorrect": false
+      },
+      {
+        "option": "cyton",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nodes of Ranvier are gaps in the myelin sheath along axons that allow for saltatory conduction, increasing the speed of nerve impulse transmission."
+  },
+  {
+    "id": 10,
+    "question": "Vomiting centre is located in",
+    "options": [
+      {
+        "option": "medulla oblongata",
+        "isCorrect": true
+      },
+      {
+        "option": "stomach",
+        "isCorrect": false
+      },
+      {
+        "option": "cerebrum",
+        "isCorrect": false
+      },
+      {
+        "option": "hypothalamus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The vomiting center is located in the medulla oblongata, which controls various involuntary functions including vomiting reflex."
+  },
+  {
+    "id": 11,
+    "question": "Nerve cells do not possess",
+    "options": [
+      {
+        "option": "sarcolemma",
+        "isCorrect": true
+      },
+      {
+        "option": "neurilemma",
+        "isCorrect": false
+      },
+      {
+        "option": "axon",
+        "isCorrect": false
+      },
+      {
+        "option": "dendrites",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sarcolemma is the cell membrane of muscle cells, not nerve cells. Nerve cells have neurilemma (Schwann cell membrane) instead."
+  },
+  {
+    "id": 12,
+    "question": "A person who met with an accident lost control of body temperature, water balance, and hunger. Which of the following part of brain is supposed to be damaged?",
+    "options": [
+      {
+        "option": "hypothalamus",
+        "isCorrect": true
+      },
+      {
+        "option": "Medulla oblongata",
+        "isCorrect": false
+      },
+      {
+        "option": "cerebrum",
+        "isCorrect": false
+      },
+      {
+        "option": "pons",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The hypothalamus regulates homeostatic functions including body temperature, water balance, hunger, and thirst. Damage to this area affects these vital functions."
+  }
+]

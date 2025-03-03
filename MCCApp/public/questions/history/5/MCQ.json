@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "In which year was Sati abolished?",
+    "options": [
+      { "option": "1829", "isCorrect": true },
+      { "option": "1827", "isCorrect": false },
+      { "option": "1826", "isCorrect": false },
+      { "option": "1927", "isCorrect": false }
+    ],
+    "explanation": "Sati was abolished in 1829 by Governor-General Lord William Bentinck, with the efforts of social reformer Raja Rammohan Roy."
+  },
+  {
+    "id": 2,
+    "question": "What was the name of the Samaj founded by Dayanand Saraswati?",
+    "options": [
+      { "option": "Arya Samaj", "isCorrect": true },
+      { "option": "Brahmo Samaj", "isCorrect": false }
+    ],
+    "explanation": "Dayanand Saraswati founded Arya Samaj in 1875 to promote Vedic principles and oppose social evils."
+  },
+  {
+    "id": 3,
+    "question": "Whose campaign and work led to the enactment of Widow Remarriage Reform Act of 1856?",
+    "options": [
+      { "option": "Iswarchandra Vidyasagar", "isCorrect": true },
+      { "option": "Raja Rammohan Roy", "isCorrect": false },
+      { "option": "Annie Besant", "isCorrect": false },
+      { "option": "Jyotiba Phule", "isCorrect": false }
+    ],
+    "explanation": "Iswarchandra Vidyasagar played a key role in advocating for widow remarriage, leading to the Widow Remarriage Act of 1856."
+  },
+  {
+    "id": 4,
+    "question": "Whose voice was Rast Goftar?",
+    "options": [
+      { "option": "Parsi Movement", "isCorrect": true },
+      { "option": "Aligarh Movement", "isCorrect": false },
+      { "option": "Ramakrishna Mission", "isCorrect": false },
+      { "option": "Dravida Mahajana Sabha", "isCorrect": false }
+    ],
+    "explanation": "Rast Goftar was a newspaper started in 1851 to promote social reforms among the Parsi community."
+  },
+  {
+    "id": 5,
+    "question": "Who was the founder of Namdhari Movement?",
+    "options": [
+      { "option": "Baba Ramsingh", "isCorrect": true },
+      { "option": "Baba Dayal Das", "isCorrect": false },
+      { "option": "Gurunanak", "isCorrect": false },
+      { "option": "Jyotiba Phule", "isCorrect": false }
+    ],
+    "explanation": "Baba Ramsingh founded the Namdhari Movement in the mid-19th century to reform Sikh society and resist British rule."
+  },
+  {
+    "id": 6,
+    "question": "Who was the founder of Widow Remarriage Association?",
+    "options": [
+      { "option": "Mahadev Govind Ranade", "isCorrect": true },
+      { "option": "Devendranath Tagore", "isCorrect": false },
+      { "option": "Jyotiba Phule", "isCorrect": false },
+      { "option": "Ayyankali", "isCorrect": false }
+    ],
+    "explanation": "Mahadev Govind Ranade founded the Widow Remarriage Association in 1861 to promote widow remarriage in India."
+  },
+  {
+    "id": 7,
+    "question": "Who was the author of the book Satyarthaprakash?",
+    "options": [
+      { "option": "Dayananda Saraswathi", "isCorrect": true },
+      { "option": "Iyothee Thassar", "isCorrect": false },
+      { "option": "Annie Besant", "isCorrect": false },
+      { "option": "Narayana Guru", "isCorrect": false }
+    ],
+    "explanation": "Swami Dayananda Saraswati wrote 'Satyarth Prakash' in 1875, explaining his vision for social and religious reforms based on Vedic teachings."
+  }
+]

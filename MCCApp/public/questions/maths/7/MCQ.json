@@ -1,0 +1,348 @@
+[
+    {
+      "id": 1,
+      "question": "The curved surface area of a right circular cone of height 15 cm and base diameter 16 cm is",
+      "options": [
+        {
+          "option": "60π cm²",
+          "isCorrect": false
+        },
+        {
+          "option": "68π cm²",
+          "isCorrect": false
+        },
+        {
+          "option": "120π cm²",
+          "isCorrect": true
+        },
+        {
+          "option": "136π cm²",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "CSA = πrl where r = 8cm (radius), l = $\\sqrt{r^2 + h^2}$ = $\\sqrt{64 + 225}$ = 15cm, so CSA = π(8)(15) = 120π cm²"
+    },
+    {
+      "id": 2,
+      "question": "If two solid hemispheres of same base radius r units are joined together along their bases, then curved surface area of this new solid is",
+      "options": [
+        {
+          "option": "4πr² sq. units",
+          "isCorrect": true
+        },
+        {
+          "option": "6πr² sq. units",
+          "isCorrect": false
+        },
+        {
+          "option": "3πr² sq. units",
+          "isCorrect": false
+        },
+        {
+          "option": "8πr² sq. units",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Each hemisphere has CSA = 2πr², so total CSA = 4πr² sq. units"
+    },
+    {
+      "id": 3,
+      "question": "The height of a right circular cone whose radius is 5 cm and slant height is 13 cm will be",
+      "options": [
+        {
+          "option": "12 cm",
+          "isCorrect": true
+        },
+        {
+          "option": "10 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "13 cm",
+          "isCorrect": false
+        },
+        {
+          "option": "5 cm",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using Pythagorean theorem: h² = l² - r² = 13² - 5² = 144, so h = 12 cm"
+    },
+    {
+      "id": 4,
+      "question": "If the radius of the base of a right circular cylinder is halved keeping the same height, then the ratio of the volume of the cylinder thus obtained to the volume of original cylinder is",
+      "options": [
+        {
+          "option": "1:2",
+          "isCorrect": false
+        },
+        {
+          "option": "1:4",
+          "isCorrect": true
+        },
+        {
+          "option": "1:6",
+          "isCorrect": false
+        },
+        {
+          "option": "1:8",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Volume ∝ r², so halving radius reduces volume to $\\frac{1}{4}$ of original"
+    },
+    {
+      "id": 5,
+      "question": "The total surface area of a cylinder whose radius is $\\frac{1}{3}$ of its height is",
+      "options": [
+        {
+          "option": "$\\frac{9}{8}πh^2$ sq.units",
+          "isCorrect": false
+        },
+        {
+          "option": "24πh^2$ sq.units",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{8}{9}πh^2$ sq.units",
+          "isCorrect": false
+        },
+        {
+          "option": "$\\frac{56}{9}πh^2$ sq.units",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "If h is height, r = h/3. TSA = 2πr² + 2πrh = $\\frac{56}{9}πh^2$"
+    },
+    
+        {
+          "id": 6,
+          "question": "In a hollow cylinder, the sum of the external and internal radii is 14 cm and the width is 4 cm. If its height is 20 cm, the volume of the material in it is",
+          "options": [
+            {
+              "option": "5600π cm³",
+              "isCorrect": false
+            },
+            {
+              "option": "1120π cm³",
+              "isCorrect": true
+            },
+            {
+              "option": "56π cm³",
+              "isCorrect": false
+            },
+            {
+              "option": "3600π cm³",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "If R + r = 14 and R - r = 4, then R = 9, r = 5. Volume = πh(R² - r²) = 20π(81-25) = 1120π cm³"
+        },
+        {
+          "id": 7,
+          "question": "If the radius of the base of a cone is tripled and the height is doubled then the volume is",
+          "options": [
+            {
+              "option": "made 6 times",
+              "isCorrect": false
+            },
+            {
+              "option": "made 18 times",
+              "isCorrect": true
+            },
+            {
+              "option": "made 12 times",
+              "isCorrect": false
+            },
+            {
+              "option": "unchanged",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Volume = $\\frac{1}{3}πr²h$. New volume = $\\frac{1}{3}π(3r)²(2h) = 18(\\frac{1}{3}πr²h)$"
+        },
+        {
+          "id": 8,
+          "question": "The total surface area of a hemi-sphere is how much times the square of its radius",
+          "options": [
+            {
+              "option": "π",
+              "isCorrect": false
+            },
+            {
+              "option": "4π",
+              "isCorrect": false
+            },
+            {
+              "option": "3π",
+              "isCorrect": true
+            },
+            {
+              "option": "2π",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "TSA of hemisphere = CSA + base area = 2πr² + πr² = 3πr²"
+        },
+        {
+          "id": 9,
+          "question": "A solid sphere of radius x cm is melted and cast into a shape of a solid cone of same radius. The height of the cone is",
+          "options": [
+            {
+              "option": "3x cm",
+              "isCorrect": false
+            },
+            {
+              "option": "x cm",
+              "isCorrect": false
+            },
+            {
+              "option": "4x cm",
+              "isCorrect": true
+            },
+            {
+              "option": "2x cm",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Volume of sphere = Volume of cone, $\\frac{4}{3}πx³ = \\frac{1}{3}πx²h$, solving gives h = 4x"
+        },
+        {
+          "id": 10,
+          "question": "A frustum of a right circular cone is of height 16cm with radii of its ends as 8cm and 20cm. Then, the volume of the frustum is",
+          "options": [
+            {
+              "option": "3328π cm³",
+              "isCorrect": false
+            },
+            {
+              "option": "3228π cm³",
+              "isCorrect": false
+            },
+            {
+              "option": "3240π cm³",
+              "isCorrect": true
+            },
+            {
+              "option": "3340π cm³",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Volume = $\\frac{1}{3}πh(R² + r² + Rr)$ = $\\frac{1}{3}π(16)(400 + 64 + 160)$ = 3240π cm³"
+        },
+        {
+          "id": 11,
+          "question": "A shuttle cock used for playing badminton has the shape of the combination of",
+          "options": [
+            {
+              "option": "a cylinder and a sphere",
+              "isCorrect": false
+            },
+            {
+              "option": "a hemisphere and a cone",
+              "isCorrect": true
+            },
+            {
+              "option": "a sphere and a cone",
+              "isCorrect": false
+            },
+            {
+              "option": "frustum of a cone and a hemisphere",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A shuttlecock consists of a hemispherical cork base with a conical shape formed by feathers"
+        },
+        {
+          "id": 12,
+          "question": "A spherical ball of radius $r_1$ units is melted to make 8 new identical balls each of radius $r_2$ units. Then $r_1:r_2$ is",
+          "options": [
+            {
+              "option": "2:1",
+              "isCorrect": true
+            },
+            {
+              "option": "1:2",
+              "isCorrect": false
+            },
+            {
+              "option": "4:1",
+              "isCorrect": false
+            },
+            {
+              "option": "1:4",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "$\\frac{4}{3}πr_1³ = 8(\\frac{4}{3}πr_2³)$, solving gives $r_1 = 2r_2$"
+        },
+        {
+          "id": 13,
+          "question": "The volume (in cm³) of the greatest sphere that can be cut off from a cylindrical log of wood of base radius 1 cm and height 5 cm is",
+          "options": [
+            {
+              "option": "$\\frac{4}{3}π$",
+              "isCorrect": true
+            },
+            {
+              "option": "$\\frac{10}{3}π$",
+              "isCorrect": false
+            },
+            {
+              "option": "5π",
+              "isCorrect": false
+            },
+            {
+              "option": "$\\frac{20}{3}π$",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Maximum sphere radius = min(cylinder radius, height/2) = 1, so volume = $\\frac{4}{3}πr³ = \\frac{4}{3}π$"
+        },
+        {
+          "id": 14,
+          "question": "The height and radius of the cone of which the frustum is a part are $h_1$ units and $r_1$ units respectively. Height of the frustum is $h_2$ units and radius of the smaller base is $r_2$ units. If $h_2:h_1 = 1:2$ then $r_2:r_1$ is",
+          "options": [
+            {
+              "option": "1:3",
+              "isCorrect": false
+            },
+            {
+              "option": "1:2",
+              "isCorrect": true
+            },
+            {
+              "option": "2:1",
+              "isCorrect": false
+            },
+            {
+              "option": "3:1",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "By similar triangles, $\\frac{r_2}{r_1} = \\frac{h_2}{h_1} = \\frac{1}{2}$"
+        },
+        {
+          "id": 15,
+          "question": "The ratio of the volumes of a cylinder, a cone and a sphere, if each has the same diameter and same height is",
+          "options": [
+            {
+              "option": "1:2:3",
+              "isCorrect": false
+            },
+            {
+              "option": "2:1:3",
+              "isCorrect": false
+            },
+            {
+              "option": "1:3:2",
+              "isCorrect": false
+            },
+            {
+              "option": "3:1:2",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "If r = h, then volumes are πr³:$\\frac{1}{3}πr³$:$\\frac{4}{3}πr³$ = 3:1:2"
+        }
+    ]

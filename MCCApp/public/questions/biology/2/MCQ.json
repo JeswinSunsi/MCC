@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "question": "In leech locomotion is performed by",
+    "options": [
+      {
+        "option": "Contraction and relaxation of muscles",
+        "isCorrect": true
+      },
+      {
+        "option": "Anterior sucker",
+        "isCorrect": false
+      },
+      {
+        "option": "Parapodia",
+        "isCorrect": false
+      },
+      {
+        "option": "Setae",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Leeches move through a combination of muscle contractions and relaxations, using their anterior and posterior suckers in an inchworm-like motion called looping or vermiform movement."
+  },
+  {
+    "id": 2,
+    "question": "The segments of leech are known as",
+    "options": [
+      {
+        "option": "Metameres (somites)",
+        "isCorrect": true
+      },
+      {
+        "option": "Proglottids",
+        "isCorrect": false
+      },
+      {
+        "option": "Strobila",
+        "isCorrect": false
+      },
+      {
+        "option": "All the above",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The body segments of leeches are called metameres or somites, which is a characteristic feature of annelids showing segmental organization of body parts."
+  },
+  {
+    "id": 3,
+    "question": "Pharyngeal ganglion in leech is a part of",
+    "options": [
+      {
+        "option": "Nervous system",
+        "isCorrect": true
+      },
+      {
+        "option": "Excretory system",
+        "isCorrect": false
+      },
+      {
+        "option": "Reproductive system",
+        "isCorrect": false
+      },
+      {
+        "option": "Respiratory system",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The pharyngeal ganglion is part of the nervous system in leeches, forming part of the nerve ring around the pharynx and helping control feeding-related activities."
+  },
+  {
+    "id": 4,
+    "question": "The brain of leech lies above the",
+    "options": [
+      {
+        "option": "Pharynx",
+        "isCorrect": true
+      },
+      {
+        "option": "Mouth",
+        "isCorrect": false
+      },
+      {
+        "option": "Buccal Cavity",
+        "isCorrect": false
+      },
+      {
+        "option": "Crop",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The brain (suprapharyngeal ganglia) of the leech is located dorsally above the pharynx, serving as the main control center for sensory and motor functions."
+  },
+  {
+    "id": 5,
+    "question": "The body of leech has",
+    "options": [
+      {
+        "option": "33 segments",
+        "isCorrect": true
+      },
+      {
+        "option": "23 segments",
+        "isCorrect": false
+      },
+      {
+        "option": "38 segments",
+        "isCorrect": false
+      },
+      {
+        "option": "30 segments",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A leech's body consists of 33 segments, with some segments modified to form specialized structures like suckers at both ends."
+  },
+  {
+    "id": 6,
+    "question": "Mammals are ______________ animals.",
+    "options": [
+      {
+        "option": "Warm blooded",
+        "isCorrect": true
+      },
+      {
+        "option": "Cold blooded",
+        "isCorrect": false
+      },
+      {
+        "option": "Poikilothermic",
+        "isCorrect": false
+      },
+      {
+        "option": "All the above",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Mammals are warm-blooded (endothermic) animals, meaning they can maintain a constant body temperature regardless of their environment through internal physiological processes."
+  }
+]

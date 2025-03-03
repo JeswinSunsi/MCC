@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "question": "Economically important crop plants with superior quality are raised by_________.",
+      "answer": "hybridization",
+      "explanation": "Hybridization is a breeding method that combines desirable traits from different parent plants to create superior crop varieties with improved qualities."
+    },
+    {
+      "id": 2,
+      "question": "A protein rich wheat variety is ________.",
+      "answer": "Atlas 66",
+      "explanation": "Atlas 66 is a wheat variety known for its high protein content, developed through selective breeding to improve nutritional value."
+    },
+    {
+      "id": 3,
+      "question": "__________is the chemical used for doubling the chromosomes.",
+      "answer": "Colchicine",
+      "explanation": "Colchicine is a chemical that prevents spindle fiber formation during cell division, resulting in chromosome doubling and polyploidy."
+    },
+    {
+      "id": 4,
+      "question": "The scientific process which produces crop plants enriched with desirable nutrients is called __________.",
+      "answer": "biofortification",
+      "explanation": "Biofortification is the process of increasing the nutritional value of crops through conventional breeding or genetic engineering."
+    },
+    {
+      "id": 5,
+      "question": "Rice normally grows well in alluvial soil, but _________ is a rice variety produced by mutation breeding that grows well in saline soil.",
+      "answer": "CSR-1",
+      "explanation": "CSR-1 is a salt-tolerant rice variety developed through mutation breeding, allowing rice cultivation in saline soils."
+    },
+    {
+      "id": 6,
+      "question": "__________ technique made it possible to genetically engineer living organism.",
+      "answer": "recombinant DNA",
+      "explanation": "Recombinant DNA technology allows scientists to combine DNA from different sources, enabling genetic engineering of organisms."
+    },
+    {
+      "id": 7,
+      "question": "Restriction endonucleases cut the DNA molecule at specific positions known as __________.",
+      "answer": "recognition sequences",
+      "explanation": "Recognition sequences are specific DNA sequences where restriction enzymes bind and cut the DNA molecule."
+    },
+    {
+      "id": 8,
+      "question": "Similar DNA fingerprinting is obtained for __________.",
+      "answer": "identical twins",
+      "explanation": "Identical twins have the same DNA sequence as they develop from a single fertilized egg, resulting in identical DNA fingerprints."
+    },
+    {
+      "id": 9,
+      "question": "__________ cells are undifferentiated mass of cells.",
+      "answer": "callus",
+      "explanation": "Callus is an unorganized mass of undifferentiated cells that can be induced to form different plant tissues in tissue culture."
+    },
+    {
+      "id": 10,
+      "question": "In gene cloning the DNA of interest is integrated in a __________.",
+      "answer": "vector",
+      "explanation": "A vector is a DNA molecule (like plasmid) used to carry and transfer foreign DNA into a host cell during gene cloning."
+    }
+]
