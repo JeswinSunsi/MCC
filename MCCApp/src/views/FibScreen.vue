@@ -14,8 +14,8 @@
         <h4 style="font-size: 0.7rem; margin-bottom: 0.5rem;">Question {{qnNow + 1}}</h4>
         <h2 v-html="renderedQuestion"></h2>
       </div>
-      <div class="input-wrapper">
-        <input type="text" class="answerbox" @keyup.enter="answerQuestion('AAA')" v-model="answerContent" ref="inputRef">
+      <div class="input-wrapper" :class="{incorrectAnswerStyle: incorrectAnswer == 'true', correctAnswerStyle: incorrectAnswer == 'false', blankAnswerstyle: incorrectAnswer == 'blank'}">
+        <input type="text" class="answerbox" @keyup.enter="answerQuestion()" v-model="answerContent" ref="inputRef" >
       </div>
 
     </div>
@@ -23,8 +23,8 @@
       <button class="help-btn" @click="showExplanationData = !showExplanationData">
         <span class="help-icon">🔍</span> Help
       </button>
-      <button class="bookmark-btn">
-        <span class="bookmark-icon">🔖</span> Bookmark
+      <button class="bookmark-btn" @click="continueToNextQn()">
+        <span class="bookmark-icon">➡️</span> Skip
       </button>
 
     </div>
@@ -68,6 +68,7 @@ const loading = ref(true)
 const totalQns = ref(0)
 const answerContent = ref("")
 const inputRef = ref("")
+const incorrectAnswer = ref("blank")
 
 let answerData = {"correct": 0, "incorrect": 0}
 
@@ -96,15 +97,18 @@ const renderedQuestion = computed(() => {
   return renderLatex(quizData.value[qnNow.value].question)
 })
 
-function answerQuestion(correctAnswer) {
-  if (answerContent.value == correctAnswer) {
+function answerQuestion() {
+  if (answerContent.value == quizData.value[qnNow.value].answer) {
     answerData.correct = answerData.correct + 1
+    incorrectAnswer.value = "false";
   } else {
     answerData.incorrect = answerData.incorrect + 1
+    incorrectAnswer.value = "true";
     showExplanationData.value = true;
   }
   inputRef.value.blur()
   showResult.value = true;
+  console.log(incorrectAnswer.value)
 }
 
 const loadSubjectData = async () => {
@@ -124,7 +128,8 @@ const loadSubjectData = async () => {
 function continueToNextQn() {
   if (qnNow.value == (totalQns.value - 1)) {
     let stars = 0
-    const finalAnswerData = (answerData.correct / totalQns.value) * 100
+    let finalAnswerData = (answerData.correct / totalQns.value) * 100
+    finalAnswerData = Math.trunc(finalAnswerData)
     if (finalAnswerData < 40) {
       stars = 1
     } else if (finalAnswerData < 80) {
@@ -138,6 +143,8 @@ function continueToNextQn() {
     progress.value = progress.value + oneBarProgress
     showResult.value = false
     showExplanationData.value = null
+    answerContent.value = ""
+    incorrectAnswer.value = "blank";
   }
 }
 
@@ -145,6 +152,18 @@ loadSubjectData()
 </script>
 
 <style scoped>
+.incorrectAnswerStyle {
+  background-color: rgba(244, 67, 54, 0.1) !important;
+}
+
+.correctAnswerStyle {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+.blankAnswerStyle {
+  background-color: rgb(233, 233, 233) !important;
+}
+
 :deep(.katex) {
   font-size: 1.1em;
 }
@@ -168,6 +187,7 @@ loadSubjectData()
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
+  padding: 0rem 1rem;
 }
 
 .chapter-label {
@@ -247,7 +267,7 @@ loadSubjectData()
 }
 
 .bookmark-btn {
-  color: #ff4081;
+  color: #01A7ED;
 }
 
 .help-icon,
@@ -270,12 +290,12 @@ loadSubjectData()
 
 .slide-up-enter-active,
 .slide-up-leave-active {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .slide-up-enter-from,
 .slide-up-leave-to {
-  transform: translateY(100%);
+  transform: translateY(200%);
 }
 
 .slide-up-enter-to,
