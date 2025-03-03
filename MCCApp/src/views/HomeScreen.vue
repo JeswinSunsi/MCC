@@ -65,7 +65,7 @@ import quizCardImage from "../assets/quizcard.png"
 import quizCardImage2 from "../assets/quizcard2.png"
 import quizCardImage3 from "../assets/quizcard3.png"
 
-const images = [{ "id": 1, "url": quizCardImage, "route": "/mcq/maths/Numbers And Sequences/2" }, { "id": 1, "url": quizCardImage2, "route": "/mcq/maths/Numbers And Sequences/2" }, { "id": 3, "url": quizCardImage3, "route": "/mcq/maths/Numbers And Sequences/2" }]
+const images = [{ "id": 1, "url": quizCardImage2, "route": "/mcq/maths/Numbers And Sequences/2" }, { "id": 1, "url": quizCardImage3, "route": "/fib/chemistry/Carbon and its Compounds/5" }, { "id": 3, "url": quizCardImage, "route": "/fib/physics/Laws Of Motion/1" }]
 
 const selectedChapter = ref(null)
 
@@ -129,7 +129,11 @@ const Chapters = ref({
         "State Government",
         "India's Foreign Policy",
         "India's International Relations"
-    ]
+    ],
+    "Physics": ["Laws of Motion", "Optics", "Thermal Physics", "Electricity", "Acoustics", "Nuclear Physics"],
+    "Chemistry": ["Atoms and Molecules", "Periodic Classification of Elements", "Solutions", "Types of Chemical Reactions", "Carbon and its Compounds"],
+    "Biology": ["Plant Anatomy and Plant Physiology", "Structural Organisation of Animals", "Transportation in Plants and Circulation in Animals", "Nervous System", "Plant and Animal Hormones", "Reproduction in Plants and Animals", "Genetics", "Origin and Evolution of Life", "Breeding and Biotechnology", "Health and Diseases", "Environmental Management"]
+
 })
 
 
@@ -206,6 +210,7 @@ function changeSubject(subject) {
 }
 
 .chapters-list {
+    line-height: 1rem;
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;

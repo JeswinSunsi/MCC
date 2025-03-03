@@ -98,7 +98,7 @@ const renderedQuestion = computed(() => {
 })
 
 function answerQuestion() {
-  if (answerContent.value == quizData.value[qnNow.value].answer) {
+  if (answerContent.value.toLowerCase() == quizData.value[qnNow.value].answer.toLowerCase()) {
     answerData.correct = answerData.correct + 1
     incorrectAnswer.value = "false";
   } else {
@@ -119,6 +119,7 @@ const loadSubjectData = async () => {
     oneBarProgress = 100 / totalQns.value
   } catch (error) {
     console.error(`Error loading quiz data:`, error)
+    router.push('/error')
     quizData.value = []
   } finally {
     loading.value = false
