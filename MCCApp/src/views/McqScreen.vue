@@ -33,8 +33,8 @@
       <button class="help-btn" @click="showExplanationData = !showExplanationData">
         <span class="help-icon">🔍</span> Help
       </button>
-      <button class="bookmark-btn">
-        <span class="bookmark-icon">🔖</span> Bookmark
+      <button class="bookmark-btn" @click="continueToNextQn()">
+        <span class="bookmark-icon">➡️</span> Skip
       </button>
 
     </div>
@@ -130,8 +130,6 @@ const loadSubjectData = async () => {
     loading.value = false
   }
 }
-
-
 
 async function continueToNextQn() {
   if (qnNow.value == (totalQns.value - 1)) {
@@ -324,7 +322,7 @@ loadSubjectData()
 }
 
 .bookmark-btn {
-  color: #ff4081;
+  color: #01A7ED;
 }
 
 .help-icon,
