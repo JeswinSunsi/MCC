@@ -35,10 +35,17 @@
         </div>
         <h2 class="section-title">Chapters</h2>
         <div class="chapters-list">
-            <div class="chapter-item" v-for="(chapter, index) in Chapters[selectedSubject]" :key="index"
-                @click="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">
-                {{ chapter }}
-            </div>
+            <div class="chapter-item" 
+         v-for="(chapter, index) in Chapters[selectedSubject]" 
+         :key="index"
+         @click="toggleTypes(index)"
+    >
+        {{ chapter }}
+        <div class="type" v-if="selectedChapter === index">
+            <div class="mcq-type" @click.stop="$router.push(`/mcq/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">MCQ</div>
+            <div class="fib-type" @click.stop="$router.push(`/fib/${selectedSubject.toLowerCase()}/${chapter}/${index + 1}`)">FIB</div>
+        </div>
+    </div>
         </div>
 
         <div class="footer">
@@ -60,11 +67,17 @@ import quizCardImage3 from "../assets/quizcard3.png"
 
 const images = [{ "id": 1, "url": quizCardImage }, { "id": 1, "url": quizCardImage2 }, { "id": 3, "url": quizCardImage3 }]
 
+const selectedChapter = ref(null)
+
+const toggleTypes = (index) => {
+    selectedChapter.value = selectedChapter.value === index ? null : index
+}
+
 const config = {
     height: 196,
     itemsToShow: 1,
     gap: 5,
-    autoplay: 4000,
+    autoplay: 3000,
     wrapAround: true,
     pauseAutoplayOnHover: true,
 };
@@ -128,6 +141,19 @@ function changeSubject(subject) {
 </script>
 
 <style scoped>
+.type {
+    display: flex;
+    margin-top: 0.6rem;
+    font-weight: 700;
+}
+
+.mcq-type, .fib-type {
+    border: 1px solid #3F4EA4;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.2rem;
+    border-radius: 0.3rem;
+}
+
 .quiz-app {
     font-family: Poppins;
     max-width: 400px;
