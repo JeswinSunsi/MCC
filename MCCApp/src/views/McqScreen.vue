@@ -1,7 +1,7 @@
 <template>
   <div class="quiz-container" v-if="loading == false">
     <div class="header">
-      <div class="chapter-label">CHAPTER {{ chapter }}</div>
+      <div class="chapter-label" ref="topElement">CHAPTER {{ chapter }}</div>
       <div class="chapter-title">{{ chapterName }}</div>
     </div>
 
@@ -10,6 +10,7 @@
     </div>
     <div class="question-card">
       <div class="question">
+        <h4 style="font-size: 0.7rem; margin-bottom: 0.5rem;">Question {{qnNow + 1}}</h4>
         <h2 v-html="renderedQuestion"></h2>
       </div>
 
@@ -76,6 +77,8 @@ const quizData = ref(null)
 const loading = ref(true)
 const totalQns = ref(0)
 
+const topElement = ref("")
+
 let answerData = {"correct": 0, "incorrect": 0}
 
 const renderLatex = (text) => {
@@ -116,7 +119,7 @@ function selectOption(index, correctness) {
 
 const loadSubjectData = async () => {
   try {
-    const response = await fetch(`/questions/${subject}/${chapter}/mcq.json`)
+    const response = await fetch(`/questions/${subject}/${chapter}/MCQ.json`)
     quizData.value = await response.json()
     totalQns.value = quizData.value.length
     oneBarProgress = 100 / totalQns.value
@@ -128,10 +131,13 @@ const loadSubjectData = async () => {
   }
 }
 
-function continueToNextQn() {
+
+
+async function continueToNextQn() {
   if (qnNow.value == (totalQns.value - 1)) {
     let stars = 0
-    const finalAnswerData = (answerData.correct / totalQns.value) * 100
+    let finalAnswerData = (answerData.correct / totalQns.value) * 100
+    finalAnswerData = Math.trunc(finalAnswerData)
     if (finalAnswerData < 40) {
       stars = 1
     } else if (finalAnswerData < 80) {
@@ -141,6 +147,19 @@ function continueToNextQn() {
     }
     router.push(`/result/${finalAnswerData}/${stars}`)
   } else {
+    await new Promise((resolve) => {
+      window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+    
+    const checkIfScrollComplete = setInterval(() => {
+      if (window.scrollY === 0) {
+        clearInterval(checkIfScrollComplete)
+        resolve()
+      }
+    }, 100)
+  })
     qnNow.value++
     progress.value = progress.value + oneBarProgress
     showResult.value = false
@@ -176,6 +195,8 @@ loadSubjectData()
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
+  padding: 0rem 1rem;
+  line-height: 1.5rem;
 }
 
 .chapter-label {
