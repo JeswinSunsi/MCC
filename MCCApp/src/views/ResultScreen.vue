@@ -1,8 +1,6 @@
 <template>
     <div class="quiz-container">
       <div class="header">
-        <div class="chapter-label">CHAPTER 2</div>
-        <div class="chapter-title">The Chola Kingdoms</div>
       </div>
       
       <div class="results-card">
