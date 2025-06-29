@@ -9,12 +9,15 @@
     "preview": "vite preview --host"
   },
   "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/core": "^7.0.1",
     "katex": "^0.16.21",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vue3-carousel": "^0.14.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "^7.0.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "vite": "^6.2.0"
   }
